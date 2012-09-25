@@ -1,0 +1,15 @@
+可能会需要的Flask和扩展包
+Flask
+Flask-OAuth
+Flask-Cache
+Flask-SQLAlchemy
+Flask-Principal
+Flask-WTF
+Flask-Mail
+Flask-Script
+Flask-Babel
+Flask-Themes
+Flask-Uploads
+pygments
+markdown
+blinker
