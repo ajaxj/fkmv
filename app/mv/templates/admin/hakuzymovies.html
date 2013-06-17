@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<h2>Hakuzy Movie</h2>
+
+
+{% for mv in movies %}
+    <li><h2>{{ mv.title }}</h2>
+  {% else %}
+    <li><em>Unbelievable. No entries here so far</em>
+{% endfor %}
+
+
+</body>
+</html>
