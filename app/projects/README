@@ -3,6 +3,8 @@ http://www.sqlalchemy.org/
 
 http://pythonhosted.org/Flask-SQLAlchemy/
 
+统计分类数量 sql
+select category,count(title) as nums from mv_movie_hakuzy group by category
 
 批量抓取图片
 http://www.cnblogs.com/chenkun24/archive/2012/10/08/2715966.html

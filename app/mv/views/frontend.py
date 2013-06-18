@@ -16,4 +16,4 @@ def index():
     current_app.logger.error("this is error")
 
 
-    return render_template('layout.html')
+    return render_template('index.html')

@@ -84,8 +84,8 @@
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
-              <li class="nav-header">¹ÜÀí</li>
-              <li><a href="/admin/adminlist">管理员</a></li>
+              <li class="nav-header">管理</li>
+              <li><a href="{{ url_for('admin.hakuzymovies') }}">测试</a></li>
               <li><a href="/admin/initdata">初始数据</a></li>
               <li><a href="#">Link</a></li>
             </ul>
@@ -95,7 +95,7 @@
 
         <div class="span9">
           
-          <%- body %>
+          {% block body %}{% endblock %}
 
         </div><!--/span-->
       
