@@ -7,7 +7,7 @@ admin = Module(__name__)
 
 @admin.route("/")
 def index():
-    return render_template('admin/index.html')
+    return render_template('admin/layout.html')
 
 
 @admin.route('/hakuzymovies')

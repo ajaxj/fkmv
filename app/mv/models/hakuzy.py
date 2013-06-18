@@ -10,6 +10,7 @@ class HakuzyMovie(db.Model):
     title = db.Column(db.String(200))
     url = db.Column(db.String(200))
 
+
     def __init__(self, title, url):
         self.title = title
         self.url = url
