@@ -8,7 +8,7 @@
     <tr>
         <td>{{ cat.id }}</td>
         <td>{{ cat.name }}</td>
-        <td>管理</td>
+        <td><a href="{{ url_for('admin.hakuzymovies10',category=cat.name)}}">管理</a></td>
     </tr>
 
     {% endfor %}

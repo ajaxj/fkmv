@@ -36,6 +36,14 @@ class HakuzyMovieQuery(BaseQuery):
     def count_num(self):
         return self.count()
 
+
+    #通过分类查找最新十个
+    def get_limit10(self,category):
+        _mvs = self.filter(HakuzyMovie.category ==category).order_by("id desc").limit(10).all()
+        if _mvs is None:
+            abort(404)
+        return _mvs
+
     #通过标题查询
     def get_by_title(self,title):
         mv = self.filter(HakuzyMovie.title == title).first()

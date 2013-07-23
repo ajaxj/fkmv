@@ -46,6 +46,14 @@ def hakuzysearch():
 #         return render_template('admin/hakuzylist.html',hakuzylist=_hakuzylist)
 
 
+#取出十个
+@admin.route('/hakuzymovies10/<category>')
+def hakuzymovies10(category):
+    _mvs = HakuzyMovie.query.get_limit10(category)
+    print _mvs
+    return render_template('admin/hakuzymovies10.html',movies = _mvs)
+
+
 #取出最新十部
 @admin.route('/hakuzymovies')
 def hakuzymovies():

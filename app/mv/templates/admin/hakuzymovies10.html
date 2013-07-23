@@ -1,0 +1,14 @@
+{%  extends "admin/layout.html"  %}
+{% block body %}
+<table class="table">
+    <tr>
+        <td>id</td>
+{#        <td>title</td><td>url</td><td>img</td><td>lists</td><td>处理</td>#}
+    </tr>
+    {% for mv in movies %}
+        <tr>
+        <td>{{ mv.id }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}
