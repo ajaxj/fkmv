@@ -1,12 +1,24 @@
 # coding:utf-8
+from flask import abort
+from flask.ext.sqlalchemy import BaseQuery
 from app.mv.extensions import db
 
 __author__ = 'Administrator'
+
+#自定义分类Query
+class HakuzyMovieCategoryQuery(BaseQuery):
+    def countnum(self):
+        return self.count()
+
 
 
 #分类
 class HakuzyMovieCategory(db.Model):
     __tablename__ = "mv_movie_hakuzycat"
+
+    #绑定自定义QUERY
+    query_class = HakuzyMovieCategoryQuery
+
     id  = db.Column(db.Integer,primary_key=True)
     name = db.Column(db.String(45))
 
@@ -17,8 +29,28 @@ class HakuzyMovieCategory(db.Model):
         return '<Category %r>' % self.name
 
 
+#自定义 hakuzymovie query
+class HakuzyMovieQuery(BaseQuery):
+
+    #mv总数
+    def count_num(self):
+        return self.count()
+
+    #通过标题查询
+    def get_by_title(self,title):
+        mv = self.filter(HakuzyMovie.title == title).first()
+        if mv is None:
+            abort(404)
+        return mv
+
+
+
+
 class HakuzyMovie(db.Model):
     __tablename__ = "mv_movie_hakuzy"
+
+    query_class = HakuzyMovieQuery
+
     id = db.Column(db.Integer,primary_key=True)
     title = db.Column(db.String(200))
     url = db.Column(db.String(200))

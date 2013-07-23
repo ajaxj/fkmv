@@ -3,6 +3,8 @@ http://www.sqlalchemy.org/
 
 http://pythonhosted.org/Flask-SQLAlchemy/
 
+https://github.com/laoqiu/pypress
+
 统计分类数量 sql
 select category,count(title) as nums from mv_movie_hakuzy group by category
 
