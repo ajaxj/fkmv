@@ -3,7 +3,7 @@
 from BeautifulSoup import BeautifulSoup
 from flask import Module,Response,Request,json, render_template
 from app.mv.extensions import db
-from app.mv.models.hakuzy import HakuzyMovie
+from app.mv.models.hakuzy import HakuzyMovie,HakuzyMovieCategory
 
 admin = Module(__name__)
 
@@ -12,6 +12,15 @@ def index():
     return render_template('admin/index.html')
 
 
+
+#分类列表
+@admin.route('/hakuzycatlist')
+def hakuzycatlist():
+    _catelist = HakuzyMovieCategory.query.all()
+    return render_template('admin/hakuzycatlist.html',catelist = _catelist)
+
+
+#取出最新十部
 @admin.route('/hakuzymovies')
 def hakuzymovies():
     # movie = HakuzyMovie.query.first()

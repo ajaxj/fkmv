@@ -1,0 +1,17 @@
+{%  extends "admin/layout.html" %}
+{%  block body %}
+<table class="table">
+    <tr>
+        <td>编号</td><td>分类名称</td><td>管理</td>
+    </tr>
+    {%  for cat in catelist %}
+    <tr>
+        <td>{{ cat.id }}</td>
+        <td>{{ cat.name }}</td>
+        <td>管理</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+{% endblock %}
