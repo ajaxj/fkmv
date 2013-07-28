@@ -38,7 +38,7 @@ class HakuzyMovieQuery(BaseQuery):
 
 
     #通过分类查找最新十个
-    def get_limit10(self,category):
+    def get_limit10_desc(self,category):
         _mvs = self.filter(HakuzyMovie.category ==category).order_by("id desc").limit(10).all()
         if _mvs is None:
             abort(404)
@@ -67,6 +67,7 @@ class HakuzyMovie(db.Model):
     contents = db.Column(db.Text)
     lists = db.Column(db.Text)
     urltxt = db.Column(db.Text)
+    ck = db.Column(db.Integer)
 
 
 

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="" />
+    <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/views/admin.py" afterPath="$PROJECT_DIR$/app/mv/views/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/models/hakuzy.py" afterPath="$PROJECT_DIR$/app/mv/models/hakuzy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" afterPath="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/mysql.sql" afterPath="$PROJECT_DIR$/app/projects/mysql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374629467433" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374990884879" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371462796181" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371462311713" ignored="false" />
     <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374561803750" ignored="false" />
@@ -12,8 +18,8 @@
     <file path="/frontend.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371538924378" ignored="false" />
     <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371539082069" ignored="false" />
     <file path="/public.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371461615075" ignored="false" />
-    <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374566910098" ignored="false" />
-    <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374567660938" ignored="false" />
+    <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374939140226" ignored="false" />
+    <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374938818608" ignored="false" />
     <file path="/hakuzymovies.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371540598553" ignored="false" />
     <file path="/README" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371546003420" ignored="false" />
     <file path="/fetcher.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371525329695" ignored="false" />
@@ -25,7 +31,8 @@
     <file path="/hakuzycatlist.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374567116369" ignored="false" />
     <file path="/hakuzysearch.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374565944701" ignored="false" />
     <file path="/dyzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374566258266" ignored="false" />
-    <file path="/hakuzymovies10.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374566996792" ignored="false" />
+    <file path="/hakuzymovies10.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374939366446" ignored="false" />
+    <file path="/mysql.sql" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374991224621" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +51,56 @@
     <favorites_list name="fkmv" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="hakuzymovies10.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="14" selection-start="590" selection-end="590" vertical-scroll-proportion="-14.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/projects/mysql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="13" selection-start="1033" selection-end="1778" vertical-scroll-proportion="0.08958333">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hakuzy.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mv/models/hakuzy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="30" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mv/views/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -69,15 +125,15 @@
         <option value="$PROJECT_DIR$/app/mv/models/m3444.py" />
         <option value="$PROJECT_DIR$/app/mv/models/zhuzhu.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/projects/mysql.sql" />
         <option value="$PROJECT_DIR$/app/projects/README" />
         <option value="$PROJECT_DIR$/app/mv/templates/admin/layout.html" />
         <option value="$PROJECT_DIR$/app/mv/templates/admin/hakuzysearch.html" />
         <option value="$PROJECT_DIR$/app/mv/models/dyzy.py" />
-        <option value="$PROJECT_DIR$/app/mv/views/admin.py" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" />
         <option value="$PROJECT_DIR$/app/mv/templates/admin/hakuzycatlist.html" />
         <option value="$PROJECT_DIR$/app/mv/models/hakuzy.py" />
+        <option value="$PROJECT_DIR$/app/mv/views/admin.py" />
+        <option value="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" />
+        <option value="$PROJECT_DIR$/app/projects/mysql.sql" />
       </list>
     </option>
   </component>
@@ -113,6 +169,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,9 +202,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fkmv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,11 +521,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.6792453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848485" sideWeight="0.68096054" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29331046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3207547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31903946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,11 +601,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/mv/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mv/extensions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.56" />
@@ -493,45 +646,52 @@
         <state line="8" column="8" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.32" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="305" selection-end="305" vertical-scroll-proportion="0.63106793" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzycatlist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="73" selection-start="313" selection-end="313" vertical-scroll-proportion="0.61488676" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17992425" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/mv/models/hakuzy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="711" selection-end="717" vertical-scroll-proportion="0.0">
+        <state line="67" column="30" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mv/views/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="53" selection-start="1593" selection-end="1612" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="590" selection-end="590" vertical-scroll-proportion="-14.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/projects/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1033" selection-end="1778" vertical-scroll-proportion="0.08958333">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="741" selection-end="741" vertical-scroll-proportion="-7.9615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17992425">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
