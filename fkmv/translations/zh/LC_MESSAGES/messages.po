@@ -321,7 +321,7 @@ msgid "Read more..."
 msgstr "阅读全部..."
 
 #: pypress/templates/account/login.html:5 pypress/templates/errors/403.html:14
-msgid "Login to pypress"
+msgid "Login to pypress-master"
 msgstr "登录到pypress"
 
 #: pypress/templates/account/login.html:31
@@ -329,7 +329,7 @@ msgid "Not a member yet ? Sign up !"
 msgstr "没有帐户? 立即注册"
 
 #: pypress/templates/account/signup.html:6
-msgid "Sign up to pypress"
+msgid "Sign up to pypress-master"
 msgstr "注册pypress帐户"
 
 #: pypress/templates/blog/_archive.html:2 pypress/templates/blog/archive.html:7

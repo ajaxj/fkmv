@@ -1,9 +1,9 @@
 {
-    "application": "pypress", 
+    "application": "pypress-master",
     "identifier": "default", 
     "name": "default", 
     "author": "LaoQiu",
-    "description": "theme for pypress",
+    "description": "theme for pypress-master",
     "license": "MIT/X11",
     "doctype": "html5"
 }
