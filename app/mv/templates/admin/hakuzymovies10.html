@@ -16,7 +16,7 @@
         <td>{{ mv.category }}</td>
         <td>{{ mv.ck }}</td>
         <td>
-            <a href="">处理</a>
+            <a href="{{ url_for('admin.hakuzyUpToMov',id=mv.id)}}">处理</a>
             |<a href="http://www.hakuzy.com/{{ mv.url }}" target="_blank">url</a>
 
         </td>

@@ -31,6 +31,7 @@ class Mov(db.Model):
     content = db.Column(db.Text)
     img = db.Column(db.String(200))
     fromto = db.Column(db.String(20))
+    catestr = db.Column(db.String(45))
     category_id = db.Column(db.Integer,db.ForeignKey('movcat.id'))
     category = db.relationship('Movcat',backref=db.backref('movs',lazy='dynamic'))
 

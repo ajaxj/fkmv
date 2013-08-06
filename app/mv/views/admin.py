@@ -1,13 +1,17 @@
 # -*- coding:utf-8 -*-
+import urllib2
 
 from BeautifulSoup import BeautifulSoup
 from flask import Module,request,redirect,json, render_template,url_for,abort,flash,session
+import sys
 from app.mv.extensions import db
 from app.mv.models.hakuzy import HakuzyMovie,HakuzyMovieCategory
 from app.mv.models.yetwo import YetwoCategory,YetwoMovie
 from app.mv.models.mov import Movcat,Mov,Movdetail
 from app.mv.forms.yetwoform import YetwoCategoryForm
 from app.mv.forms.admin import AdminForm
+from app.mv.views.utils import Utils
+
 admin = Module(__name__)
 
 @admin.route("/")
@@ -43,6 +47,8 @@ def moviedetail():
     #TODO 补充根据MVID查找
     _moviedetail_list = Movdetail.query.all()
     return render_template('admin/moviedetail.html',moviedetail_list = _moviedetail_list)
+
+
 
 
 #初始数据
@@ -153,10 +159,34 @@ def hakuzymovies10(category):
     return render_template('admin/hakuzymovies10.html',movies = _mvs)
 
 
-# 更新数据到mov里面
-@admin.route('/hakuzymov')
-def hakuzy_update_mov():
-    pass
+# 读取详细url更新数据到发布mov里面
+@admin.route('/hakuzymov/<id>')
+def hakuzyUpToMov(id):
+    _mv = HakuzyMovie.query.get(id)
+    _url =  "http://www.hakuzy.com" + _mv.url
+    myutils = Utils()
+    list = myutils.fetchHakuzyDetail(_url)
+    #list = [_title,_banben,_arts,_dc,_category,_lang,_location,_pubdate,_status,_year,_content]
+    mv= Mov()
+    mv.title = list[0]
+    mv.banben = list[1]
+    mv.arts = list[2]
+    mv.dc = list[3]
+    mv.catestr = list[4]
+    mv.lang = list[5]
+    mv.location = list[6]
+    mv.pubdate = list[7]
+    mv.status = list[8]
+    mv.year = list[9]
+    mv.content = list[10]
+    mv.fromto = 'hakuzy'
+    db.session.add(mv)
+    db.session.commit()
+
+
+
+    return "http://www.hakuzy.com" + _mv.url
+
 
 
 
