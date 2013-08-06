@@ -1,0 +1,16 @@
+{% extends "admin/layout.html" %}
+{% block body %}
+    <table class="table table-bordered">
+        <tr>
+            <th>id</th><th>title</th><th>category</th><th>url</th>
+        </tr>
+        {%  for mv in mvs %}
+        <tr>
+            <td>{{ mv.id }}</td>
+            <td>{{ mv.title }}</td>
+            <td>{{ mv.category }}</td>
+            <td>{{ mv.url }}</td>
+        </tr>
+        {%  endfor %}
+    </table>
+{% endblock %}
