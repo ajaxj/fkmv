@@ -33,7 +33,7 @@ def index(page=1):
 
     page_url = lambda page: url_for("link.index",page=page)
 
-    return render_template("blog/links.html", 
+    return render_template("admin/links.html",
                             page_obj=page_obj,
                             page_url=page_url)
 
@@ -58,7 +58,7 @@ def add():
 
         return redirect(url_for('link.index'))
 
-    return render_template("blog/add_link.html", form=form)
+    return render_template("admin/add_link.html", form=form)
 
 
 @link.route("/<int:link_id>/pass/", methods=("POST",))

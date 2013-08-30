@@ -1,10 +1,10 @@
 #coding=utf8
 
 from flask import Blueprint, render_template
-from bak.weblog.blog.data_wrapper import DataWrapper
+from blog.data_wrapper import DataWrapper
 dw = DataWrapper()
 
-blog = Blueprint('admin',__name__,template_folder='templates')
+blog = Blueprint('blog',__name__,template_folder='templates')
 
 
 
@@ -27,7 +27,7 @@ def index(pid = 1):
 
 
 
-    return render_template('admin/index.html',cats=cats,
+    return render_template('blog/index.html',cats=cats,
         pid=pid,
         pagination=pagination[:10],
         last_page = pagination[-1],

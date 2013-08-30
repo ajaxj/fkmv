@@ -45,7 +45,7 @@ def submit():
 
         return redirect(post.url)
 
-    return render_template("blog/submit.html", form=form)
+    return render_template("admin/submit.html", form=form)
 
 
 @post.route("/<int:post_id>/", methods=("GET","POST"))
@@ -78,7 +78,7 @@ def edit(post_id):
         
         return redirect(post.url)
 
-    return render_template("blog/submit.html", form=form)
+    return render_template("admin/submit.html", form=form)
 
 
 @post.route("/<int:post_id>/delete/", methods=("GET","POST"))
@@ -138,7 +138,7 @@ def add_comment(post_id, parent_id=None):
 
         return redirect(comment.url)
     
-    return render_template("blog/add_comment.html",
+    return render_template("admin/add_comment.html",
                            parent=parent,
                            post=post,
                            form=form)

@@ -2,7 +2,7 @@
 #coding=utf-8
 
 """
-    forms: blog.py
+    forms: admin.py
     ~~~~~~~~~~~~~
 
     :license: BSD, see LICENSE for more details.

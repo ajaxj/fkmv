@@ -35,7 +35,7 @@ class PostFeed(AtomFeed):
 @feeds.route("/")
 @cached()
 def index():
-    feed = PostFeed("laoqiu blog - lastest",
+    feed = PostFeed("laoqiu admin - lastest",
                     feed_url=request.url,
                     url=request.url_root)
 
@@ -53,7 +53,7 @@ def tag(slug):
 
     tag = Tag.query.filter_by(slug=slug).first_or_404()
 
-    feed = PostFeed("laoqiu blog - %s"  % tag,
+    feed = PostFeed("laoqiu admin - %s"  % tag,
                     feed_url=request.url,
                     url=request.url_root)
 

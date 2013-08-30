@@ -4,7 +4,7 @@ from flask import render_template
 from bak.weblog.myapp import app
 from bak.weblog.blog.views import blog
 
-app.register_blueprint(blog,url_prefix="/blog")
+app.register_blueprint(blog,url_prefix="/admin")
 
 # -- Error Control --
 class ViewError(StandardError):
@@ -35,4 +35,4 @@ def error_500():
 @app.route('/')
 def index():
     return "home"
-    # return redirect(url_for('blog.index'))
+    # return redirect(url_for('admin.index'))
