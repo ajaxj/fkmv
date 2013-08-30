@@ -1,0 +1,1 @@
+#!/usr/bin/env pythonfrom .bak.fkmv.forms.account import LoginForm, SignupForm, RecoverPasswordForm, \            ChangePasswordForm, DeleteAccountForm, TwitterFormfrom .bak.fkmv.forms.blog import PostForm, CommentForm, LinkForm, TemplateForm

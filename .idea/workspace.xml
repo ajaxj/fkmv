@@ -2,57 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/demo/flaskr/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/pypress-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/__init__.py" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\README" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\manage.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\projects\README" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\config.cfg" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\extensions.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\blog.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\types.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\users.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\account.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\comment.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\feeds.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\frontend.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\link.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\post.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/app/mv/views/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/fkmv/forms/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/fkmv/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/fkmv/views/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/app/manage.py" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\fetcher.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\manage.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\config.cfg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\extensions.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\account.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\admin.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\yetwoform.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\Dyzy.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\hakuzy.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\m3444.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\models.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\mov.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\yetwo.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\zhuzhu.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\js\public.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember-data.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\handlebars-1.0.rc.3.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\bootstrap.icons.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\img\icon-cog-small.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbars.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\jquery-ui-1.10.1.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\jquery-ui-1.10.1.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\js\jquery-ui-1.10.1.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\js\jquery-ui-1.10.1.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\json2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\local_storage_adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\addyetwocategory.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\categorylist.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzycatlist.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzymovies.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzymovies10.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzysearch.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\layout.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\login.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\moviedetail.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\movielist.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\yetwocatlist.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\yetwomovies10.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\admin.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\frontend.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\projects\README" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\app\projects\mysql.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\config.cfg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\extensions.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\account.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\blog.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\validators.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\helpers.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\logs\debug.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\logs\error.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\models\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\models\users.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\permissions.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\signals.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\jquery-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\jquery.idTabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\public.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\account\login.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\account\signup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_archive.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_comment.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_links.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_postnow.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_search.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_tags.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\about.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\add_comment.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\add_link.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\archive.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\comment.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\links.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\list.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\people.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\search_result.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\submit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\tags.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\template_edit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\view.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\403.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\500.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_forms.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_page.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_post.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_twitter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\info.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\bg_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\comment.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\feed-14x14.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\highlight.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\templates\layout.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\translations\zh\LC_MESSAGES\messages.mo" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\translations\zh\LC_MESSAGES\messages.po" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\twitter.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\account.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\comment.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\feeds.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\frontend.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\link.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\post.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\admin.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\data_wrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\templates\blog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\views.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\config.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\data.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\myapp.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\image\404.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\image\500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\templates\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\templates\500.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fcgi.py" afterPath="$PROJECT_DIR$/bak/fcgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/manage.py" afterPath="$PROJECT_DIR$/bak/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\README.txt" afterPath="$PROJECT_DIR$/bak/demo/README.txt" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\flaskr.py" afterPath="$PROJECT_DIR$/bak/demo/flaskr/flaskr.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\flaskr_tests.py" afterPath="$PROJECT_DIR$/bak/demo/flaskr/flaskr_tests.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\requirements.txt" afterPath="$PROJECT_DIR$/bak/demo/flaskr/requirements.txt" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\templates\layout.html" afterPath="$PROJECT_DIR$/bak/demo/flaskr/templates/layout.html" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\templates\login.html" afterPath="$PROJECT_DIR$/bak/demo/flaskr/templates/login.html" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\demo\flaskr\templates\show_entries.html" afterPath="$PROJECT_DIR$/bak/demo/flaskr/templates/show_entries.html" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fcgi.py" afterPath="$PROJECT_DIR$/bak/fcgi.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\manage.py" afterPath="$PROJECT_DIR$/bak/manage.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\manage.py" afterPath="$PROJECT_DIR$/bak/pypress-master/manage.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\projects\README" afterPath="$PROJECT_DIR$/bak/pypress-master/projects/README" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\__init__.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/__init__.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\config.cfg" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/config.cfg" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\extensions.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/extensions.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\blog.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/models/blog.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\types.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/models/types.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\models\users.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/models/users.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\account.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/account.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\comment.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/comment.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\feeds.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/feeds.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\frontend.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/frontend.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\link.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/link.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\pypress-master\pypress\views\post.py" afterPath="$PROJECT_DIR$/bak/pypress-master/pypress/views/post.py" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\requirements.txt" afterPath="$PROJECT_DIR$/bak/requirements.txt" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\__init__.py" afterPath="$PROJECT_DIR$/bak/app/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\fetcher.py" afterPath="$PROJECT_DIR$/bak/app/fetcher.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\__init__.py" afterPath="$PROJECT_DIR$/bak/app/mv/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\config.cfg" afterPath="$PROJECT_DIR$/bak/app/mv/config.cfg" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\extensions.py" afterPath="$PROJECT_DIR$/bak/app/mv/extensions.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\__init__.py" afterPath="$PROJECT_DIR$/bak/app/mv/forms/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\account.py" afterPath="$PROJECT_DIR$/bak/app/mv/forms/account.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\admin.py" afterPath="$PROJECT_DIR$/bak/app/mv/forms/admin.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\forms\yetwoform.py" afterPath="$PROJECT_DIR$/bak/app/mv/forms/yetwoform.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\Dyzy.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/dyzy.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\__init__.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\hakuzy.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/hakuzy.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\m3444.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/m3444.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\models.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/models.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\mov.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/mov.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\yetwo.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/yetwo.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\models\zhuzhu.py" afterPath="$PROJECT_DIR$/bak/app/mv/models/zhuzhu.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/css/bootstrap-responsive.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\js\bootstrap.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\bootstrap\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/bootstrap/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\js\public.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/js/public.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\angular.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/angular.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\angular.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/angular.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember-data.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/ember-data.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/ember.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\ember.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/ember.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\handlebars-1.0.rc.3.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/handlebars-1.0.rc.3.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery-1.9.1.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\bootstrap.icons.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/bootstrap.icons.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\img\icon-cog-small.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/img/icon-cog-small.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbar.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/jquery.toolbar.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbar.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/jquery.toolbar.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_toolbar\jquery.toolbars.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_toolbar/jquery.toolbars.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\animated-overlay.gif" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/animated-overlay.gif" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\jquery-ui-1.10.1.custom.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/jquery-ui-1.10.1.custom.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\css\ui-lightness\jquery-ui-1.10.1.custom.min.css" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/css/ui-lightness/jquery-ui-1.10.1.custom.min.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\js\jquery-ui-1.10.1.custom.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/js/jquery-ui-1.10.1.custom.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\jquery_ui\js\jquery-ui-1.10.1.custom.min.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/jquery_ui/js/jquery-ui-1.10.1.custom.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\json2.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/json2.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\static\lib\local_storage_adapter.js" afterPath="$PROJECT_DIR$/bak/app/mv/static/lib/local_storage_adapter.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\addyetwocategory.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/addyetwocategory.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\categorylist.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/categorylist.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzycatlist.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/hakuzycatlist.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzymovies.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/hakuzymovies.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzymovies10.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/hakuzymovies10.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\hakuzysearch.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/hakuzysearch.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\index.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/index.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\layout.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/layout.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\login.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/login.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\moviedetail.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/moviedetail.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\movielist.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/movielist.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\yetwocatlist.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/yetwocatlist.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\admin\yetwomovies10.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/admin/yetwomovies10.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\templates\index.html" afterPath="$PROJECT_DIR$/bak/app/mv/templates/index.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\admin.py" afterPath="$PROJECT_DIR$/bak/app/mv/views/admin.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\frontend.py" afterPath="$PROJECT_DIR$/bak/app/mv/views/frontend.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\mv\views\utils.py" afterPath="$PROJECT_DIR$/bak/app/mv/views/utils.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\projects\README" afterPath="$PROJECT_DIR$/bak/app/projects/README" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app\projects\mysql.sql" afterPath="$PROJECT_DIR$/bak/app/projects/mysql.sql" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\__init__.py" afterPath="$PROJECT_DIR$/bak/fkmv/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\config.cfg" afterPath="$PROJECT_DIR$/bak/fkmv/config.cfg" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\extensions.py" afterPath="$PROJECT_DIR$/bak/fkmv/extensions.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\account.py" afterPath="$PROJECT_DIR$/bak/fkmv/forms/account.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\blog.py" afterPath="$PROJECT_DIR$/bak/fkmv/forms/blog.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\forms\validators.py" afterPath="$PROJECT_DIR$/bak/fkmv/forms/validators.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\helpers.py" afterPath="$PROJECT_DIR$/bak/fkmv/helpers.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\logs\debug.log" afterPath="$PROJECT_DIR$/projects/README" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\models\users.py" afterPath="$PROJECT_DIR$/bak/fkmv/models/users.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\permissions.py" afterPath="$PROJECT_DIR$/bak/fkmv/permissions.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\signals.py" afterPath="$PROJECT_DIR$/bak/fkmv/signals.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\favicon.ico" afterPath="$PROJECT_DIR$/bak/fkmv/static/favicon.ico" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\jquery-1.4.4.min.js" afterPath="$PROJECT_DIR$/bak/fkmv/static/js/jquery-1.4.4.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\jquery.idTabs.min.js" afterPath="$PROJECT_DIR$/bak/fkmv/static/js/jquery.idTabs.min.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\static\js\public.js" afterPath="$PROJECT_DIR$/bak/fkmv/static/js/public.js" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\account\login.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/account/login.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\account\signup.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/account/signup.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_archive.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_archive.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_comment.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_comment.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_links.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_links.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_postnow.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_postnow.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_search.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_search.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\_tags.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/_tags.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\about.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/about.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\add_comment.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/add_comment.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\add_link.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/add_link.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\archive.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/archive.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\comment.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/comment.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\links.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/links.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\list.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/list.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\people.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/people.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\search_result.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/search_result.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\submit.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/submit.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\tags.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/tags.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\template_edit.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/template_edit.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\blog\view.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/view.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\403.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/errors/403.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\404.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/errors/404.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\errors\500.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/errors/500.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_forms.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/macros/_forms.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_page.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/macros/_page.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_post.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/macros/_post.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\templates\macros\_twitter.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/macros/_twitter.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\info.json" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/info.json" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\bg_button.png" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/static/bg_button.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\comment.gif" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/static/comment.gif" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\feed-14x14.png" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/static/feed-14x14.png" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\highlight.css" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/static/highlight.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\static\style.css" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/static/style.css" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\themes\default\templates\layout.html" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/templates/layout.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\translations\zh\LC_MESSAGES\messages.mo" afterPath="$PROJECT_DIR$/bak/fkmv/translations/zh/LC_MESSAGES/messages.mo" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\translations\zh\LC_MESSAGES\messages.po" afterPath="$PROJECT_DIR$/bak/fkmv/translations/zh/LC_MESSAGES/messages.po" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\twitter.py" afterPath="$PROJECT_DIR$/bak/fkmv/twitter.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\account.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/account.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\comment.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/comment.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\feeds.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/feeds.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\frontend.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/frontend.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\link.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/link.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\fkmv\views\post.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/post.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\__init__.py" afterPath="$PROJECT_DIR$/bak/weblog/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\__init__.py" afterPath="$PROJECT_DIR$/bak/weblog/blog/__init__.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\admin.py" afterPath="$PROJECT_DIR$/bak/weblog/blog/admin.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\data_wrapper.py" afterPath="$PROJECT_DIR$/bak/weblog/blog/data_wrapper.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\templates\blog\index.html" afterPath="$PROJECT_DIR$/bak/weblog/blog/templates/blog/index.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\blog\views.py" afterPath="$PROJECT_DIR$/bak/weblog/blog/views.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\config.py" afterPath="$PROJECT_DIR$/bak/weblog/config.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\data.py" afterPath="$PROJECT_DIR$/bak/weblog/data.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\myapp.py" afterPath="$PROJECT_DIR$/bak/weblog/myapp.py" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\favicon.ico" afterPath="$PROJECT_DIR$/bak/weblog/static/favicon.ico" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\image\404.jpg" afterPath="$PROJECT_DIR$/bak/weblog/static/image/404.jpg" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\static\image\500.jpg" afterPath="$PROJECT_DIR$/bak/weblog/static/image/500.jpg" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\templates\404.html" afterPath="$PROJECT_DIR$/bak/weblog/templates/404.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\templates\500.html" afterPath="$PROJECT_DIR$/bak/weblog/templates/500.html" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\weblog\views.py" afterPath="$PROJECT_DIR$/bak/weblog/views.py" />
     </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377832501362" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377832875747" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375755387455" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336712584" ignored="false" />
     <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374561803750" ignored="false" />
@@ -63,7 +337,7 @@
     <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783011549" ignored="false" />
     <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374938818608" ignored="false" />
     <file path="/hakuzymovies.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371540598553" ignored="false" />
-    <file path="/README" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377832450420" ignored="false" />
+    <file path="/README" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833024130" ignored="false" />
     <file path="/fetcher.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371525329695" ignored="false" />
     <file path="$PROJECT_DIR$/../../../gitcafe/ajaxj2013/webapp/public/lib/ember.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371538414000" ignored="false" />
     <file path="/layout.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375777277349" ignored="false" />
@@ -106,6 +380,7 @@
     <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377764314599" ignored="false" />
     <file path="/data_wrapper.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377763782513" ignored="false" />
     <file path="/data.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762064893" ignored="false" />
+    <file path="/README.md" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833314080" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,47 +404,7 @@
     <favorites_list name="fkmv" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="-15.346154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bak/demo/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fcgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bak/fcgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bak/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -187,8 +422,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/weblog/blog/__init__.py" />
-        <option value="$PROJECT_DIR$/weblog/blog/admin.py" />
         <option value="$PROJECT_DIR$/weblog/myapp.py" />
         <option value="$PROJECT_DIR$/weblog/views.py" />
         <option value="$PROJECT_DIR$/weblog/templates/404.html" />
@@ -203,6 +436,8 @@
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/bak/README" />
+        <option value="$PROJECT_DIR$/projects/README" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -562,7 +797,11 @@
       <created>1377832504586</created>
       <updated>1377832504586</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="整理,把根目录让出来给项目">
+      <created>1377832879968</created>
+      <updated>1377832879968</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -676,32 +915,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weblog/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.07129456" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/res.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="61" selection-end="96" vertical-scroll-proportion="0.068100356" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblog/myapp.py">
+    <entry file="file://$PROJECT_DIR$/bak/weblog/myapp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="23" selection-start="378" selection-end="378" vertical-scroll-proportion="-12.92" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblog/blog/data_wrapper.py">
+    <entry file="file://$PROJECT_DIR$/bak/weblog/blog/data_wrapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3564728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblog/blog/templates/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/bak/weblog/blog/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="40" selection-start="211" selection-end="211" vertical-scroll-proportion="0.28301886" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblog/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/bak/weblog/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="30" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.56" />
       </provider>
@@ -760,19 +994,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bak/demo/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="-15.346154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/demo/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.39433962">
           <folding />
         </state>
       </provider>

@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 #coding=utf-8
 
-import uuid
-
-from flask import Flask, current_app
 #from flask.ext.script import Server, Shell, Manager, Command, prompt_bool
 from flask.ext.script import Manager,Server,Shell,prompt_bool
 
-from fkmv import create_app
-from fkmv.extensions import db
-from fkmv.models.users import User
+from bak.fkmv import create_app
+from bak.fkmv.extensions import db
+
 manager = Manager(create_app('config.cfg'))
 
 manager.add_command("runserver", Server('0.0.0.0',port=5000))

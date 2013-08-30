@@ -1,0 +1,1 @@
+#!/usr/bin/env pythonfrom bak.fkmv.views import frontend#from .post import post#from .account import account#from .comment import comment#from .link import link#from .feeds import feeds
