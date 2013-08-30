@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # coding: utf-8
 import uuid
-from flask.ext.script import Server,Shell,Manager,Command,prompt_bool
+from flask.ext.script import Server,Shell,Manager, prompt_bool
 from pypress import create_app
 from pypress.extensions import db
 from pypress.models.users import User,UserCode

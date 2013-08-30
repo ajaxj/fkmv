@@ -1,7 +1,8 @@
 import os
-import flaskr
 import unittest
 import tempfile
+
+from bak.demo.flaskr import flaskr
 
 
 class FlaskrTestCase(unittest.TestCase):
