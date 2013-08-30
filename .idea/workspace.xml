@@ -2,55 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/categories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/data_wrapper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/data_wrapper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/templates/blog/archive.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/forms/blog.py" afterPath="$PROJECT_DIR$/bak/fkmv/forms/blog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/views/feeds.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/feeds.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/themes/default/templates/layout.html" afterPath="$PROJECT_DIR$/bak/fkmv/themes/default/templates/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/views/link.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/link.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/templates/blog/list.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/views/post.py" afterPath="$PROJECT_DIR$/bak/fkmv/views/post.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/res.txt" afterPath="$PROJECT_DIR$/projects/res.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/templates/blog/tags.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/tags.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/fkmv/templates/blog/view.html" afterPath="$PROJECT_DIR$/bak/fkmv/templates/blog/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aiqing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dongzuo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/kehuan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/kongbu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/xiju.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.py" afterPath="$PROJECT_DIR$/models/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp.py" afterPath="$PROJECT_DIR$/myapp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/weblog/views.py" afterPath="$PROJECT_DIR$/bak/weblog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/weblog/blog/views.py" afterPath="$PROJECT_DIR$/bak/weblog/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\app.py" afterPath="$PROJECT_DIR$/admin/__init__.py" />
     </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377844450416" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377855034501" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375755387455" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336712584" ignored="false" />
     <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374561803750" ignored="false" />
     <file path="/a.dummy" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371460902285" ignored="false" />
     <file path="/frontend.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336783173" ignored="false" />
-    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377841350869" ignored="false" />
+    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854650077" ignored="false" />
     <file path="/public.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371461615075" ignored="false" />
     <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783011549" ignored="false" />
     <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374938818608" ignored="false" />
@@ -95,13 +66,18 @@
     <file path="/utils.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783254871" ignored="false" />
     <file path="/myapp.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377760578357" ignored="false" />
     <file path="/config.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762537998" ignored="false" />
-    <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845802119" ignored="false" />
+    <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854325247" ignored="false" />
     <file path="/data_wrapper.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845043687" ignored="false" />
     <file path="/data.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762064893" ignored="false" />
     <file path="/README.md" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833314080" ignored="false" />
     <file path="/app.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833551545" ignored="false" />
-    <file path="/model.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377839131844" ignored="false" />
+    <file path="/model.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377847192055" ignored="false" />
     <file path="/categories.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845654616" ignored="false" />
+    <file path="/aiqing.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854548592" ignored="false" />
+    <file path="/dongzuo.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854557854" ignored="false" />
+    <file path="/kehuan.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854567073" ignored="false" />
+    <file path="/kongbu.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854579950" ignored="false" />
+    <file path="/xiju.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854590219" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,33 +102,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="categories.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/admin/categories.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="55" selection-start="715" selection-end="715" vertical-scroll-proportion="-7.392857">
+            <state line="30" column="50" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views.py">
+        <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="17" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#14#58#0" expanded="true" />
-              </folding>
+            <state line="58" column="24" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/model.py">
+      <file leaf-file-name="myapp.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.78315413">
-              <folding>
-                <element signature="e#14#57#0" expanded="true" />
-              </folding>
+            <state line="18" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.61290324">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,14 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/__init__.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/admin/templates/index.html" />
-        <option value="$PROJECT_DIR$/data.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/myapp.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/projects/res.txt" />
         <option value="$PROJECT_DIR$/admin/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/layout.html" />
@@ -191,6 +155,14 @@
         <option value="$PROJECT_DIR$/admin/templates/admin/categories.html" />
         <option value="$PROJECT_DIR$/admin/views.py" />
         <option value="$PROJECT_DIR$/models/model.py" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/aiqing.html" />
+        <option value="$PROJECT_DIR$/templates/dongzuo.html" />
+        <option value="$PROJECT_DIR$/templates/kehuan.html" />
+        <option value="$PROJECT_DIR$/templates/kongbu.html" />
+        <option value="$PROJECT_DIR$/templates/xiju.html" />
+        <option value="$PROJECT_DIR$/myapp.py" />
       </list>
     </option>
   </component>
@@ -245,52 +217,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -298,14 +224,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -523,7 +449,11 @@
       <created>1377833351026</created>
       <updated>1377833351026</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="category admin 分页结合bootstrap">
+      <created>1377845882683</created>
+      <updated>1377845882683</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -554,7 +484,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.41367522" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16515152" sideWeight="0.41367522" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47684392" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -612,7 +542,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理,把根目录让出来给项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="category admin 分页结合bootstrap" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -632,86 +562,12 @@
     <MESSAGE value="添加pypress学习" />
     <MESSAGE value="添加了工具类用于解析hakuzy的详细页,建立了三个级联的正式表" />
     <MESSAGE value="整理,把根目录让出来给项目" />
+    <MESSAGE value="category admin 分页结合bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/app/mv/views/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.102517985">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/app/mv/templates/admin/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1679" selection-end="1679" vertical-scroll-proportion="1.6193181">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/app/mv/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="78" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="401" selection-end="616" vertical-scroll-proportion="0.6086142">
-          <folding>
-            <element signature="e#13#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/res.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="44" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.035849057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="275" selection-end="569" vertical-scroll-proportion="0.6056604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/data_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.20430107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/data_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="296" selection-end="296" vertical-scroll-proportion="0.6875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="28" selection-start="664" selection-end="757" vertical-scroll-proportion="0.79569894">
@@ -723,33 +579,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="171" selection-end="483" vertical-scroll-proportion="0.6415094">
+        <state line="26" column="6" selection-start="171" selection-end="483" vertical-scroll-proportion="0.6415094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bak/app/mv/views/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="16" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.4767025">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/admin/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="55" selection-start="715" selection-end="715" vertical-scroll-proportion="-7.392857">
+        <state line="29" column="55" selection-start="715" selection-end="715" vertical-scroll-proportion="0.44339624">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views.py">
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="17" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#14#58#0" expanded="true" />
-          </folding>
+        <state line="26" column="8" selection-start="275" selection-end="569" vertical-scroll-proportion="-12.464286">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.78315413">
+        <state line="22" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#14#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="100" selection-start="2841" selection-end="3045" vertical-scroll-proportion="0.6415094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="104" selection-start="29410" selection-end="29410" vertical-scroll-proportion="0.7794971">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongzuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="104" selection-start="29406" selection-end="29406" vertical-scroll-proportion="0.66924566">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="0" selection-start="29407" selection-end="29407" vertical-scroll-proportion="0.7427466">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kongbu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="104" selection-start="29406" selection-end="29406" vertical-scroll-proportion="0.63249516">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xiju.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="104" selection-start="29406" selection-end="29406" vertical-scroll-proportion="0.66924566">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="104" selection-start="29271" selection-end="29479" vertical-scroll-proportion="0.62475824">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#4;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#5;n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="50" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="24" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.61290324">
+          <folding />
         </state>
       </provider>
     </entry>

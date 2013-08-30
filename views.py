@@ -34,7 +34,30 @@ def error_500():
 
 
 
+#首页
 @app.route('/')
-def index():
-    return render_template("index.html")
+@app.route('/<category>')
+def index(category=''):
+    if category == '':
+        return render_template("index.html")
+    elif category == 'dongzuo':
+        return render_template('dongzuo.html')
+    elif category == 'xiju':
+        return render_template('xiju.html')
+    elif category == 'aiqing':
+        return render_template('aiqing.html')
+    elif category == 'kehuan':
+        return render_template('kehuan.html')
+    elif category == 'kongbu':
+        return render_template('kongbu.html')
+    else:
+        return render_template("index.html")
     # return redirect(url_for('admin.index'))
+
+
+#分类
+@app.route('/category/')
+def category():
+    return render_template("category.html")
+
+
