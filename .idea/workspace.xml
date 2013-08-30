@@ -2,27 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mv/views/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/README" afterPath="$PROJECT_DIR$/app/projects/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/views/admin.py" afterPath="$PROJECT_DIR$/app/mv/views/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" afterPath="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/models/mov.py" afterPath="$PROJECT_DIR$/app/mv/models/mov.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/image/404.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/static/image/404.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/image/500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/static/image/500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/templates/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/blog/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/blog/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/blog/data_wrapper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/blog/templates/blog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/myapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/res.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblog/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mv/views/utils.py" afterPath="$PROJECT_DIR$/app/mv/views/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\projects\github\ajaxj\fkmv\babel.cfg" afterPath="$PROJECT_DIR$/bak/babel.cfg" />
     </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375778114409" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377832369824" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375755387455" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336712584" ignored="false" />
     <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374561803750" ignored="false" />
     <file path="/a.dummy" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371460902285" ignored="false" />
     <file path="/frontend.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336783173" ignored="false" />
-    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371539082069" ignored="false" />
+    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377764421585" ignored="false" />
     <file path="/public.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371461615075" ignored="false" />
     <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783011549" ignored="false" />
     <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374938818608" ignored="false" />
     <file path="/hakuzymovies.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371540598553" ignored="false" />
-    <file path="/README" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375326207652" ignored="false" />
+    <file path="/README" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377832450420" ignored="false" />
     <file path="/fetcher.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371525329695" ignored="false" />
     <file path="$PROJECT_DIR$/../../../gitcafe/ajaxj2013/webapp/public/lib/ember.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371538414000" ignored="false" />
     <file path="/layout.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375777277349" ignored="false" />
@@ -59,7 +82,12 @@
     <file path="/categorylist.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375777452146" ignored="false" />
     <file path="/moviedetail.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375778017017" ignored="false" />
     <file path="/movielist.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375777907507" ignored="false" />
-    <file path="/utils.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375782481269" ignored="false" />
+    <file path="/utils.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783254871" ignored="false" />
+    <file path="/myapp.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377760578357" ignored="false" />
+    <file path="/config.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762537998" ignored="false" />
+    <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377764314599" ignored="false" />
+    <file path="/data_wrapper.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377763782513" ignored="false" />
+    <file path="/data.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762064893" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,60 +112,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hakuzymovies10.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="559" selection-end="581" vertical-scroll-proportion="-10.714286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hakuzymovies.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.821428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/mv/views/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="0" selection-start="4324" selection-end="4324" vertical-scroll-proportion="0.86629003">
-              <folding>
-                <element signature="e#23#37#0" expanded="true" />
-                <element signature="e#581#773#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mv/views/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="103" selection-start="2809" selection-end="2900" vertical-scroll-proportion="-7.6">
-              <folding>
-                <element signature="e#23#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/projects/README">
+        <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="59" selection-start="1359" selection-end="1367" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mov.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mv/models/mov.py">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="935" selection-end="935" vertical-scroll-proportion="-7.24">
+            <state line="21" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="-15.346154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bak/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,22 +160,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/mv/models/yetwo.py" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/yetwolist.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/yetwomovies10.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/yetwocatlist.html" />
-        <option value="$PROJECT_DIR$/app/mv/forms/admin.py" />
-        <option value="$PROJECT_DIR$/app/projects/mysql.sql" />
-        <option value="$PROJECT_DIR$/app/mv/config.cfg" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/layout.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/categorylist.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/movielist.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/moviedetail.html" />
-        <option value="$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html" />
-        <option value="$PROJECT_DIR$/app/projects/README" />
-        <option value="$PROJECT_DIR$/app/mv/views/utils.py" />
-        <option value="$PROJECT_DIR$/app/mv/models/mov.py" />
-        <option value="$PROJECT_DIR$/app/mv/views/admin.py" />
+        <option value="$PROJECT_DIR$/weblog/blog/__init__.py" />
+        <option value="$PROJECT_DIR$/weblog/blog/admin.py" />
+        <option value="$PROJECT_DIR$/weblog/myapp.py" />
+        <option value="$PROJECT_DIR$/weblog/views.py" />
+        <option value="$PROJECT_DIR$/weblog/templates/404.html" />
+        <option value="$PROJECT_DIR$/weblog/templates/500.html" />
+        <option value="$PROJECT_DIR$/weblog/__init__.py" />
+        <option value="$PROJECT_DIR$/weblog/config.py" />
+        <option value="$PROJECT_DIR$/weblog/data.py" />
+        <option value="$PROJECT_DIR$/weblog/blog/data_wrapper.py" />
+        <option value="$PROJECT_DIR$/weblog/blog/templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/weblog/blog/views.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/bak/README" />
       </list>
     </option>
   </component>
@@ -240,87 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="bak" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,14 +251,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -351,33 +270,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\github\ajaxj\fkmv\static" />
+      <recent name="D:\projects\github\ajaxj\fkmv\templates" />
+      <recent name="D:\projects\github\ajaxj\fkmv\weblog\static" />
       <recent name="D:\projects\github\ajaxj\fkmv\app\mv\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\github\ajaxj\fkmv\bak" />
       <recent name="D:\projects\github\ajaxj\fkmv\app" />
       <recent name="D:\projects\github\ajaxj\fkmv\app\mv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration default="false" name="fetcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fkmv" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\projects\github\ajaxj\fkmv\app\fetcher.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.myapp">
     <configuration default="false" name="flaskr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -416,27 +320,59 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in flaskr_tests" type="tests" factoryName="Unittests" temporary="true">
+    <configuration default="false" name="myapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/flaskr" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weblog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fkmv" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/flaskr/flaskr_tests.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weblog/myapp.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="data_wrapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weblog/blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fkmv" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weblog/blog/data_wrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fkmv" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weblog/data.py" />
+      <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -508,19 +444,20 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.fetcher" />
-      <item index="1" class="java.lang.String" itemvalue="Python.flaskr" />
-      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in flaskr_tests" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.flaskr" />
+      <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="2" class="java.lang.String" itemvalue="Python.myapp" />
+      <item index="3" class="java.lang.String" itemvalue="Python.data_wrapper" />
+      <item index="4" class="java.lang.String" itemvalue="Python.data" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.flaskr" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in flaskr_tests" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myapp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data_wrapper" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data" />
         <item index="3" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.flaskr" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +541,11 @@
       <created>1375778124597</created>
       <updated>1375778124597</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加了工具类用于解析hakuzy的详细页,建立了三个级联的正式表">
+      <created>1375783210563</created>
+      <updated>1375783210563</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -631,21 +572,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23484848" sideWeight="0.40308747" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.41196582" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47684392" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5969125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5880342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5811966" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57954544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -693,7 +634,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加pypress学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了工具类用于解析hakuzy的详细页,建立了三个级联的正式表" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -711,132 +652,106 @@
     <MESSAGE value="添加了 static 下面 bootstrap,js lib" />
     <MESSAGE value="开始mv" />
     <MESSAGE value="添加pypress学习" />
+    <MESSAGE value="添加了工具类用于解析hakuzy的详细页,建立了三个级联的正式表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/projects/mysql.sql">
+    <entry file="file://$PROJECT_DIR$/weblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="483" selection-end="483" vertical-scroll-proportion="0.07317073" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblog/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.07129456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/res.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="61" selection-end="96" vertical-scroll-proportion="0.068100356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblog/myapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="378" selection-end="378" vertical-scroll-proportion="-12.92" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblog/blog/data_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3564728" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblog/blog/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="211" selection-end="211" vertical-scroll-proportion="0.28301886" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblog/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.56" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="239" selection-end="239" vertical-scroll-proportion="0.4301887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03564728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.44583333">
+        <state line="21" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="-15.346154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/manage.py">
+    <entry file="file://$PROJECT_DIR$/bak/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/flaskr/flaskr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.4708097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/categorylist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="0" selection-end="371" vertical-scroll-proportion="-2.7142856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/movielist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="841" selection-end="841" vertical-scroll-proportion="-14.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/moviedetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3628049">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="75" selection-start="3621" selection-end="3621" vertical-scroll-proportion="-12.892858">
-          <folding>
-            <marker date="1375777277666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1375777277666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1375777277666" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/views/frontend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzycatlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="358" selection-end="381" vertical-scroll-proportion="-6.964286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/projects/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="59" selection-start="1359" selection-end="1367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.821428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/templates/admin/hakuzymovies10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="559" selection-end="581" vertical-scroll-proportion="-10.714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/models/mov.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="935" selection-end="935" vertical-scroll-proportion="-7.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/views/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="103" selection-start="2809" selection-end="2900" vertical-scroll-proportion="-7.6">
-          <folding>
-            <element signature="e#23#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mv/views/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="0" selection-start="4324" selection-end="4324" vertical-scroll-proportion="0.86629003">
-          <folding>
-            <element signature="e#23#37#0" expanded="true" />
-            <element signature="e#581#773#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

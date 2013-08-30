@@ -5,6 +5,8 @@ import sys
 
 __author__ = 'Administrator'
 
+
+#工具类
 class Utils:
 
     def fetchHakuzyDetail(self,url):
