@@ -13,6 +13,10 @@ admin = Blueprint('admin',__name__,template_folder='templates')
 def index():
     return render_template('admin/index.html')
 
+@admin.route('/qvodzimv')
+def qvodzimv():
+    return render_template('admin/qvodzimv.html')
+
 
 
 # 所有分类和分页
