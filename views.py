@@ -5,6 +5,9 @@ from myapp import app
 from blog.views import blog
 from admin.views import admin
 
+from models.data_wrapper import DataWrapper
+dw = DataWrapper()
+
 app.register_blueprint(blog,url_prefix="/blog")
 app.register_blueprint(admin,url_prefix="/admin")
 
@@ -41,15 +44,20 @@ def index(category=''):
     if category == '':
         return render_template("index.html")
     elif category == 'dongzuo':
-        return render_template('dongzuo.html')
+        _mvs = dw.getQvodziByCategory(category,12)
+        return render_template('dongzuo.html',mvs = _mvs)
     elif category == 'xiju':
-        return render_template('xiju.html')
+        _mvs = dw.getQvodziByCategory(category,12)
+        return render_template('xiju.html',mvs = _mvs)
     elif category == 'aiqing':
-        return render_template('aiqing.html')
+        _mvs = dw.getQvodziByCategory(category,12)
+        return render_template('aiqing.html',mvs = _mvs)
     elif category == 'kehuan':
-        return render_template('kehuan.html')
+        _mvs = dw.getQvodziByCategory(category,12)
+        return render_template('kehuan.html',mvs = _mvs)
     elif category == 'kongbu':
-        return render_template('kongbu.html')
+        _mvs = dw.getQvodziByCategory(category,12)
+        return render_template('kongbu.html',mvs = _mvs)
     else:
         return render_template("index.html")
     # return redirect(url_for('admin.index'))

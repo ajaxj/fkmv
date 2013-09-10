@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/db.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/admin/layout.html" afterPath="$PROJECT_DIR$/admin/templates/admin/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bak.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/qvodzimvedit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aiqing.html" afterPath="$PROJECT_DIR$/templates/aiqing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/data_wrapper.py" afterPath="$PROJECT_DIR$/models/data_wrapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/db.sql" afterPath="$PROJECT_DIR$/projects/db.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongzuo.html" afterPath="$PROJECT_DIR$/templates/dongzuo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kehuan.html" afterPath="$PROJECT_DIR$/templates/kehuan.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kongbu.html" afterPath="$PROJECT_DIR$/templates/kongbu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.py" afterPath="$PROJECT_DIR$/models/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" afterPath="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views.py" afterPath="$PROJECT_DIR$/admin/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/xiju.html" afterPath="$PROJECT_DIR$/templates/xiju.html" />
     </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378735800311" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378782807719" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375755387455" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336712584" ignored="false" />
-    <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374561803750" ignored="false" />
+    <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378789169864" ignored="false" />
     <file path="/a.dummy" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371460902285" ignored="false" />
     <file path="/frontend.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336783173" ignored="false" />
     <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854650077" ignored="false" />
@@ -62,19 +71,22 @@
     <file path="/utils.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783254871" ignored="false" />
     <file path="/myapp.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377760578357" ignored="false" />
     <file path="/config.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762537998" ignored="false" />
-    <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378720909033" ignored="false" />
-    <file path="/data_wrapper.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845043687" ignored="false" />
+    <file path="/views.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378785846796" ignored="false" />
+    <file path="/data_wrapper.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378785613076" ignored="false" />
     <file path="/data.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377762064893" ignored="false" />
     <file path="/README.md" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833314080" ignored="false" />
     <file path="/app.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377833551545" ignored="false" />
-    <file path="/model.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378720835712" ignored="false" />
+    <file path="/model.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378782863423" ignored="false" />
     <file path="/categories.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845654616" ignored="false" />
     <file path="/aiqing.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854548592" ignored="false" />
-    <file path="/dongzuo.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854557854" ignored="false" />
+    <file path="/dongzuo.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378789259467" ignored="false" />
     <file path="/kehuan.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854567073" ignored="false" />
     <file path="/kongbu.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854579950" ignored="false" />
     <file path="/xiju.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854590219" ignored="false" />
     <file path="/qvodmv.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378720446869" ignored="false" />
+    <file path="/qvodzimv.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378783841357" ignored="false" />
+    <file path="/qvodzimvedit.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378783835681" ignored="false" />
+    <file path="/db.sql" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378785898445" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,94 +111,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="qvodzimv.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/admin/qvodzimv.html">
+      <file leaf-file-name="dongzuo.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/dongzuo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="98" column="195" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.17988394">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aiqing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="0" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.071428575">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kehuan.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kongbu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/kongbu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiju.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/xiju.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="21" selection-start="3921" selection-end="3921" vertical-scroll-proportion="-12.142858">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views.py">
+        <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="42" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="59" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#13#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="234" column="11" selection-start="13043" selection-end="23264" vertical-scroll-proportion="-158.78572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/templates/admin/layout.html">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="50" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.037401576">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_wrapper.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/data_wrapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arts.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/arts.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="res.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/res.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/db.sql">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="34" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+            <state line="3" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,22 +218,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/admin/templates/admin/qvodmv.html" />
+        <option value="$PROJECT_DIR$/admin/templates/admin/layout.html" />
+        <option value="$PROJECT_DIR$/models/model.py" />
+        <option value="$PROJECT_DIR$/admin/templates/admin/qvodzimvedit.html" />
+        <option value="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" />
         <option value="$PROJECT_DIR$/models/data_wrapper.py" />
-        <option value="$PROJECT_DIR$/admin/templates/admin/categories.html" />
-        <option value="$PROJECT_DIR$/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/bak.txt" />
+        <option value="$PROJECT_DIR$/projects/db.sql" />
+        <option value="$PROJECT_DIR$/admin/views.py" />
         <option value="$PROJECT_DIR$/templates/aiqing.html" />
-        <option value="$PROJECT_DIR$/templates/dongzuo.html" />
         <option value="$PROJECT_DIR$/templates/kehuan.html" />
         <option value="$PROJECT_DIR$/templates/kongbu.html" />
         <option value="$PROJECT_DIR$/templates/xiju.html" />
-        <option value="$PROJECT_DIR$/myapp.py" />
-        <option value="$PROJECT_DIR$/admin/templates/admin/qvodmv.html" />
-        <option value="$PROJECT_DIR$/projects/db.sql" />
-        <option value="$PROJECT_DIR$/models/model.py" />
-        <option value="$PROJECT_DIR$/admin/views.py" />
-        <option value="$PROJECT_DIR$/admin/templates/admin/layout.html" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/dongzuo.html" />
       </list>
     </option>
   </component>
@@ -261,6 +269,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +298,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,7 +312,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +330,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,34 +348,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="3tv3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -370,11 +386,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\github\ajaxj\fkmv\static\image\3tv3\qvod" />
       <recent name="D:\projects\github\ajaxj\fkmv\admin\static" />
       <recent name="D:\projects\github\ajaxj\fkmv\admin" />
       <recent name="D:\projects\github\ajaxj\fkmv" />
       <recent name="D:\projects\github\ajaxj\fkmv\static\js" />
-      <recent name="D:\projects\github\ajaxj\fkmv\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\github\ajaxj\fkmv\static\js" />
@@ -588,7 +604,11 @@
       <created>1377855173755</created>
       <updated>1377855173755</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="首页设计">
+      <created>1378735828653</created>
+      <updated>1378735828653</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -619,7 +639,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23257576" sideWeight="0.42222223" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11212121" sideWeight="0.71794873" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47684392" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -704,57 +724,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="104" selection-start="29271" selection-end="29479" vertical-scroll-proportion="0.62475824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="24" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.62544805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="577" selection-end="577" vertical-scroll-proportion="-19.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="0" selection-end="1008" vertical-scroll-proportion="-19.678572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/data_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -762,37 +731,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/arts.txt">
+    <entry file="file://$PROJECT_DIR$/myapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="26" selection-start="194" selection-end="194" vertical-scroll-proportion="0.23835126">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/res.txt">
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin/qvodzimvedit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="6" column="41" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21509434">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/admin/qvodzimv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="6" column="29" selection-start="237" selection-end="237" vertical-scroll-proportion="0.22047244">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/bak.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.037401576">
+        <state line="290" column="7" selection-start="29499" selection-end="29499" vertical-scroll-proportion="0.95412844">
           <folding />
         </state>
       </provider>
@@ -802,8 +764,97 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="788" selection-end="846" vertical-scroll-proportion="-5.470588">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="602" selection-end="627" vertical-scroll-proportion="0.354717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.071428575">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kongbu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xiju.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="21" selection-start="3921" selection-end="3921" vertical-scroll-proportion="-12.142858">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#13#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="11" selection-start="13043" selection-end="23264" vertical-scroll-proportion="-158.78572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongzuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="195" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.17988394">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

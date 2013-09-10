@@ -15,7 +15,11 @@ def index():
 
 @admin.route('/qvodzimv')
 def qvodzimv():
-    return render_template('admin/qvodzimv.html')
+    category = "dongzuo"
+    mvs = dw.get_qvodzimvlimit10(category)
+    # for mv in mvs:
+    #     print mv.title
+    return render_template('admin/qvodzimv.html',mvs = mvs)
 
 
 

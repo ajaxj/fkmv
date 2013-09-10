@@ -3,9 +3,25 @@
 
 <ul class="breadcrumb">
     <li><a href="#">首页</a> <span class="divider">/</span></li>
-    <li><a href="#">Qvod</a> <span class="divider">/</span></li>
-    <li class="active">Qvod Movies</li>
+    <li><a href="#">Qvodzi</a> <span class="divider">/</span></li>
+    <li class="active">Qvodzi Movies</li>
 </ul>
+
+<table class="table table-bordered">
+    <tr>
+        <th>编号</th><th>Title</th><th>管理</th>
+    </tr>
+
+    {% for mv in mvs %}
+
+        <tr>
+        <td>{{ mv.id }}</td><td>{{ mv.title }}</td><td>管理</td>
+        </tr>
+
+
+    {% endfor %}
+
+</table>
 
 
 {%  endblock %}

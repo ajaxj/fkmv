@@ -19,3 +19,12 @@ CREATE TABLE  `ajaxj1`.`mv_qvodzi` (
   `oldcontent` text,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=23946 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='qvodzi';
+
+
+update mv_qvodzi set category = 'dongzuo' where tp = '动作片'
+
+update mv_qvodzi set category = 'aiqing' where tp = '爱情片'
+
+update mv_qvodzi set category = 'kehuan' where tp = '科幻片'
+
+update mv_qvodzi set category = 'kongbu' where tp = '恐怖片'

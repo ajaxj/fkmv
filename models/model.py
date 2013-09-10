@@ -21,6 +21,7 @@ class Category(db.Model):
         return self.name
 
 
+# qvodzi 模型
 class QvodziMovie(db.Model):
     __tablename__ = 'mv_qvodzi'
     id = db.Column(db.Integer,primary_key=True)
