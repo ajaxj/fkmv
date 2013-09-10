@@ -96,7 +96,7 @@
                 {% for mv in mvs[0:6] %}
                   <li class="span2">
                     <a class="thumbnail" href="#">
-                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="{{ url_for('static',filename='image/3tv3/qvod/0b88c115354fb7ea5a73cb25063633a9.jpg') }}">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="/static/image/3tv3/qvod/{{mv.img}}">
 
                     </a>
                 </li>
@@ -108,7 +108,7 @@
                 {% for mv in mvs[6:12] %}
                   <li class="span2">
                     <a class="thumbnail" href="#">
-                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="/static/image/3tv3/qvod/{{mv.img}}">
 
                     </a>
                 </li>

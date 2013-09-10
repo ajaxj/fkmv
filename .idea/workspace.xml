@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97507b04-84a6-426c-a871-b2c698dd1265" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bak.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/admin/qvodzimvedit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aiqing.html" afterPath="$PROJECT_DIR$/templates/aiqing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/data_wrapper.py" afterPath="$PROJECT_DIR$/models/data_wrapper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/db.sql" afterPath="$PROJECT_DIR$/projects/db.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongzuo.html" afterPath="$PROJECT_DIR$/templates/dongzuo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kehuan.html" afterPath="$PROJECT_DIR$/templates/kehuan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kongbu.html" afterPath="$PROJECT_DIR$/templates/kongbu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.py" afterPath="$PROJECT_DIR$/models/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" afterPath="$PROJECT_DIR$/admin/templates/admin/qvodzimv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views.py" afterPath="$PROJECT_DIR$/admin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/xiju.html" afterPath="$PROJECT_DIR$/templates/xiju.html" />
     </list>
     <ignored path="fkmv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378782807719" ignored="false" />
+    <file path="/Dummy.txt" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378789363693" ignored="false" />
     <file path="/config.cfg" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375755387455" ignored="false" />
     <file path="/__init__.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336712584" ignored="false" />
     <file path="/.gitignore" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378789169864" ignored="false" />
     <file path="/a.dummy" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371460902285" ignored="false" />
     <file path="/frontend.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375336783173" ignored="false" />
-    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854650077" ignored="false" />
+    <file path="/index.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378791768102" ignored="false" />
     <file path="/public.js" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1371461615075" ignored="false" />
     <file path="/admin.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1375783011549" ignored="false" />
     <file path="/hakuzy.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1374938818608" ignored="false" />
@@ -79,7 +67,7 @@
     <file path="/model.py" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378782863423" ignored="false" />
     <file path="/categories.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377845654616" ignored="false" />
     <file path="/aiqing.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854548592" ignored="false" />
-    <file path="/dongzuo.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378789259467" ignored="false" />
+    <file path="/dongzuo.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1378790506895" ignored="false" />
     <file path="/kehuan.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854567073" ignored="false" />
     <file path="/kongbu.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854579950" ignored="false" />
     <file path="/xiju.html" changelist="97507b04-84a6-426c-a871-b2c698dd1265" time="1377854590219" ignored="false" />
@@ -111,70 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dongzuo.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/dongzuo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="195" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.17988394">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aiqing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="0" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.071428575">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kehuan.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kongbu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/kongbu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xiju.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/xiju.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="21" selection-start="3921" selection-end="3921" vertical-scroll-proportion="-12.142858">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0">
+            <state line="54" column="6" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#13#46#0" expanded="true" />
               </folding>
@@ -182,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="11" selection-start="13043" selection-end="23264" vertical-scroll-proportion="-158.78572">
+            <state line="7" column="38" selection-start="280" selection-end="280" vertical-scroll-proportion="0.25825244">
               <folding />
             </state>
           </provider>
@@ -194,7 +122,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="3" column="23" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/templates/admin/qvodmv.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/layout.html" />
         <option value="$PROJECT_DIR$/models/model.py" />
         <option value="$PROJECT_DIR$/admin/templates/admin/qvodzimvedit.html" />
@@ -234,6 +161,7 @@
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/dongzuo.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -335,28 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fkmv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3tv3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,7 +514,11 @@
       <created>1378735828653</created>
       <updated>1378735828653</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="首页设计">
+      <created>1378789387692</created>
+      <updated>1378789387692</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -635,21 +545,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11212121" sideWeight="0.71794873" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23181818" sideWeight="0.7186964" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47684392" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2820513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2813036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -780,27 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#14#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.071428575">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,53 +698,61 @@
     <entry file="file://$PROJECT_DIR$/templates/kongbu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-17.571428">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/xiju.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="21" selection-start="3921" selection-end="3921" vertical-scroll-proportion="-12.142858">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="56" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#13#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="11" selection-start="13043" selection-end="23264" vertical-scroll-proportion="-158.78572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongzuo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="195" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.17988394">
+        <state line="114" column="26" selection-start="4012" selection-end="4012" vertical-scroll-proportion="-77.35714">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aiqing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="3590" selection-end="3590" vertical-scroll-proportion="-71.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kehuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-82.10714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="6" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#13#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="280" selection-end="280" vertical-scroll-proportion="0.25825244">
+          <folding />
         </state>
       </provider>
     </entry>
