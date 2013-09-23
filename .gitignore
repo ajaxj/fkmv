@@ -1,4 +1,4 @@
 *.pyc
 *.log
-
+.idea/*
 static/image/3tv3/qvod/
