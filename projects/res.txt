@@ -2,5 +2,7 @@ https://github.com/xiyoulaoyuanjia/flaskapp/tree/simpleBlog
 
 https://github.com/ghostrong/weblog
 
+Flask 官网
+http://flask.pocoo.org/
 
 http://www.bootcss.com/

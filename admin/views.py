@@ -1,6 +1,6 @@
 #coding=utf8
 
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request, redirect, session, url_for
 from models.data_wrapper import DataWrapper
 dw = DataWrapper()
 
@@ -11,7 +11,29 @@ admin = Blueprint('admin',__name__,template_folder='templates')
 
 @admin.route('/')
 def index():
-    return render_template('admin/index.html')
+    if 'logined' in session:
+        return render_template('admin/index.html')
+    else:
+        return render_template('admin/login.html')
+
+@admin.route("/login",methods=['GET','POST'])
+def login():
+    if request.method == 'POST':
+        _email = request.form['email']
+        _passwd =request.form['passwd']
+        if _email =='ajaxj@qq.com' and _passwd == '1234':
+            session['logined'] = True
+            return redirect("/admin/")
+        else:
+            return render_template('admin/login.html')
+    else:
+        return render_template('admin/login.html')
+
+@admin.route('/logout')
+def logout():
+    session.pop('logined',None)
+    return redirect(url_for('admin.login'))
+
 
 @admin.route('/qvodzimv')
 def qvodzimv():
