@@ -20,6 +20,31 @@ class Category(db.Model):
     def __unicode__(self):
         return self.name
 
+#hakuzy model
+class HakuzyMovie(db.Model):
+    __tablename__ = 'mv_movie_hakuzy'
+    id = db.Column(db.Integer,primary_key=True)
+    title = db.Column(db.String(200))
+    title1 = db.Column(db.String(45))
+    title2 = db.Column(db.String(45))
+    category = db.Column(db.String(200))
+    location = db.Column(db.String(45))
+    pubdate = db.Column(db.TIMESTAMP)
+    url = db.Column(db.String(200))
+    banben  = db.Column(db.String(50)) # 影片版本
+    img = db.Column(db.String(200))  #图片地址
+    arts = db.Column(db.String(100)) # 演员
+    dc = db.Column(db.String(100))
+    lang = db.Column(db.String(50))
+    status = db.Column(db.String(50)) #影片状态
+    year = db.Column(db.String(50)) #上映日期
+    content = db.Column(db.Text)
+    lists = db.Column(db.Text)
+    ck = db.Column(db.Integer)
+
+    def __unicode__(self):
+        return self.title
+
 
 # qvodzi 模型
 class QvodziMovie(db.Model):

@@ -1,0 +1,32 @@
+{%  extends "admin/layout.html" %}
+{%  block body %}
+
+<ul class="breadcrumb">
+    <li><a href="#">首页</a> <span class="divider">/</span></li>
+    <li><a href="#">Hakuzy.com</a> <span class="divider">/</span></li>
+    <li class="active">Hakuzy All</li>
+</ul>
+
+<table class="table table-bordered">
+    <tr>
+        <th>编号</th><th>Title</th><th>Title1</th><th>Title2</th><th>分类</th><th>管理</th>
+    </tr>
+
+    {% for mv in mvs %}
+
+        <tr>
+        <td>{{ mv.id }}</td>
+        <td><a href="http://www.hakuzy.com{{mv.url}}" target="_blank">{{ mv.title }}</a></td>
+        <td>{{ mv.title1}}</td>
+        <td>{{ mv.title2}}</td>
+        <td>{{ mv.category }}</td>
+        <td><a href="{{ url_for('admin.fetchhakuzy',id=mv.id)}}">fetch</a></td>
+        </tr>
+
+
+    {% endfor %}
+
+</table>
+
+
+{%  endblock %}

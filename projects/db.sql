@@ -1,3 +1,26 @@
+DROP TABLE IF EXISTS `ajaxj1`.`mv_movie_hakuzy`;
+CREATE TABLE  `ajaxj1`.`mv_movie_hakuzy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(200) DEFAULT NULL,
+  `url` varchar(200) DEFAULT NULL,
+  `category` varchar(200) DEFAULT NULL,
+  `title1` varchar(45) DEFAULT NULL,
+  `title2` varchar(45) DEFAULT NULL,
+  `pubdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `location` varchar(45) DEFAULT NULL,
+  `banben` varchar(45) DEFAULT NULL,
+  `arts` varchar(100) DEFAULT NULL,
+  `dc` varchar(100) DEFAULT NULL,
+  `lang` varchar(45) DEFAULT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `year` varchar(45) DEFAULT NULL,
+  `content` text,
+  `img` varchar(200) DEFAULT NULL,
+  `lists` text,
+  `ck` tinyint(3) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=49769 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
 DROP TABLE IF EXISTS `ajaxj1`.`mv_qvodzi`;
 CREATE TABLE  `ajaxj1`.`mv_qvodzi` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
