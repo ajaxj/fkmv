@@ -1,5 +1,5 @@
 #coding=utf8
-from model import Category,QvodziMovie,HakuzyMovie,db
+from model import Category,QvodziMovie,HakuzyMovie,Guestbook,db
 
 class DataWrapper(object):
     #查找全部的分类
@@ -34,4 +34,23 @@ class DataWrapper(object):
         return QvodziMovie.query.filter_by(category=category).limit(limit).all()
 
 
+# ****************  Guestbook *********************#
+    #添加留言
+    def insertGuestbook(self,guestbook):
+        db.session.add(guestbook)
+        db.session.commit()
 
+    #取得LIMIT的数量的留言
+    def getGuessbookLimit(self,limit):
+        return Guestbook.query.limit(limit).all()
+
+    #更新或者回复
+    def updateGuestbook(self,guestbook):
+        db.session.add(guestbook)
+        db.session.commit()
+
+    #删除留言通过ID
+    def delelteGuestbook(self,id):
+        guestbook = Guestbook.query.get(int(id))
+        db.session.delete(guestbook)
+        db.session.commit()

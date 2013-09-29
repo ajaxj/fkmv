@@ -1,5 +1,7 @@
 #coding=utf8
-from flask import render_template
+from flask import render_template,request, redirect
+import time
+from models.model import Guestbook
 
 from myapp import app
 from blog.views import blog
@@ -67,5 +69,29 @@ def index(category=''):
 @app.route('/category/')
 def category():
     return render_template("category.html")
+
+
+@app.route('/guestbook/')
+def guestbook():
+    guestbooks = dw.getGuessbookLimit(10)
+    return render_template('guestbook.html',guestbooks = guestbooks)
+
+
+@app.route('/addguestbook',methods = ['GET','POST'])
+def addguestgook():
+    if request.method == 'POST':
+        _username = request.form['username']
+        _email = request.form['email']
+        _content = request.form['content']
+        _created = time.strftime('%Y-%m-%d %H:%M:%S'),time.localtime(time.time())
+        guestbook = Guestbook()
+        guestbook.username = _username
+        guestbook.email = _email
+        guestbook.content = _content
+        #guestbook.created = _created
+        dw.insertGuestbook(guestbook)
+        return redirect('guestbook')
+    else:
+        return render_template('guestbook.html');
 
 

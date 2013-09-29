@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
     <title>留言求片 - 3tv3.com </title>
@@ -125,6 +125,38 @@
 {#      </div>#}
 
       <hr/>
+
+      <div class="row-fluid">
+          <form class="form-horizontal" method="post" action="/addguestbook">
+              <legend>求片/留言</legend>
+              <div class="control-group">
+                   <label class="control-label" for="username">网名</label>
+                    <div class="controls">
+                        <input type="text" id="username" name="username" placeholder="网名"/>
+                    </div>
+              </div>
+              <div class="control-group">
+                   <label class="control-label" for="email">邮箱</label>
+                    <div class="controls">
+                        <input type="text" id="email" name="email" placeholder="邮箱＠"/>
+                    </div>
+              </div>
+              <div class="control-group">
+                   <label class="control-label" for="content">留言</label>
+                    <div class="controls">
+                        <textarea rows="3" name="content" id="content"></textarea>
+                    </div>
+              </div>
+
+              <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn btn-success">留言</button>
+                      <button type="reset" class="btn btn-info">重写</button>
+                    </div>
+              </div>
+          </form>
+      </div>
+
 
 {#      <div class="row-fluid">#}
 {#            <ul class="thumbnails">#}
