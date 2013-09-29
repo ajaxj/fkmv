@@ -17,6 +17,31 @@ def index():
     else:
         return render_template('admin/login.html')
 
+@admin.route('/guestbook')
+def guestbook():
+    if 'logined' in session:
+        return render_template('admin/guestbook.html')
+    else:
+        return render_template('admin/login.html')
+
+#删除
+@admin.route('/delgbook')
+def delgbook():
+    if 'logined' in session:
+        return "pass"
+    else:
+        return render_template('admin/login.html')
+
+#回复
+@admin.route('/replygbook')
+def replygbook():
+    if 'logined' in session:
+        return 'pass'
+    else:
+        return render_template('admin/login.html')
+
+
+
 #hakuzy全列表
 @admin.route('/hakuzyall/')
 def hakuzyall():
@@ -26,6 +51,8 @@ def hakuzyall():
     else:
         return render_template('admin/login.html')
 
+
+#抓取并更新
 @admin.route('/fetchhakuzy/')
 def fetchhakuzy():
     if 'logined' in session:

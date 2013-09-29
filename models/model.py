@@ -71,6 +71,19 @@ class QvodziMovie(db.Model):
         return self.title
 
 
+#留言表
+class Guestbook(db.Model):
+    __tablename__ = 'guestbook'
+    id = db.Column(db.Integer,primary_key=True)
+    username = db.Column(db.String(45))
+    email = db.Column(db.String(45))
+    content = db.Column(db.Text)
+    reply = db.Column(db.Text)
+    created = db.Column(db.TIMESTAMP)
+
+    def __unicode__(self):
+        return self.message
+
 
 
 
