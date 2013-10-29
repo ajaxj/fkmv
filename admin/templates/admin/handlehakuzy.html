@@ -1,0 +1,112 @@
+{% extends "admin/layout.html" %}
+{% block body %}
+<ul class="breadcrumb">
+    <li><a href="#">首页</a> <span class="divider">/</span></li>
+    <li><a href="#">Hakuzy</a> <span class="divider">/</span></li>
+    <li class="active">修正数据</li>
+</ul>
+
+<form class="form-horizontal" method="post" action="">
+    <input type="hidden" id="id" name="id" value="{{ hakuzy.id }}">
+  <legend>修正数据</legend>
+    <div class="control-group">
+      <label class="control-label" for="title">片名</label>
+      <div class="controls">
+        <input type="text" id="title" name="title" value="{{ hakuzy.title }}">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="catecn">分类</label>
+      <div class="controls">
+        <input type="text" id="catecn" name="catecn" value="{{ hakuzy.catecn }}">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="banben">版本</label>
+      <div class="controls">
+        <input type="text" id="banben" name="banben">
+      </div>
+    </div>
+
+      <div class="control-group">
+      <label class="control-label" for="location">地区</label>
+      <div class="controls">
+        <input type="text" id="location" name="location" value="{{ hakuzy.location }}">
+      </div>
+    </div>
+
+      <div class="control-group">
+      <label class="control-label" for="arts">演员</label>
+      <div class="controls">
+        <input type="text" class="span6" id="arts" name="arts" value="{{ hakuzy.arts }}">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="dc">导演</label>
+      <div class="controls">
+        <input type="text" id="dc" name="dc" value="{{ hakuzy.dc }}">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="lang">语言</label>
+      <div class="controls">
+        <input type="text" id="lang" name="lang" value="{{ hakuzy.lang }}">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="year">出品年</label>
+      <div class="controls">
+        <input type="text" id="arts" name="year" value="{{ hakuzy.year }}">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label" for="state">状态</label>
+      <div class="controls">
+        <input type="text" id="state" name="state" value="{{ hakuzy.state }}">
+      </div>
+    </div>
+
+
+    <div class="control-group">
+      <label class="control-label" for="content">介绍</label>
+      <div class="controls">
+          <textarea id="content" name="content" rows="8" cols="80" class="span6">{{ hakuzy.content }}</textarea>
+      </div>
+    </div>
+
+
+    <div class="control-group">
+      <label class="control-label" for="lists">列表</label>
+      <div class="controls">
+          <textarea id="lists" name="lists" rows="8" cols="80" class="span6">{{ hakuzy.lists }}</textarea>
+      </div>
+    </div>
+
+
+ <div class="control-group">
+      <div class="controls">
+     <label class="radio">
+    <input type="radio" name="status" id="status" value="1" checked>
+    继续修正
+    </label>
+    <label class="radio">
+    <input type="radio" name="status" id="status" value="2">
+    修正成功
+    </label>
+    </div>
+</div>
+
+
+    <div class="control-group">
+    <div class="controls">
+    <button type="submit" class="btn">保存</button>
+    </div>
+    </div>
+</form>
+
+{%  endblock %}

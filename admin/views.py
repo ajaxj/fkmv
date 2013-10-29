@@ -44,10 +44,103 @@ def replygbook():
 
 #hakuzy全列表
 
+
+#通过分类名取得没有抓取的10条
 @admin.route('/hakuzylist/<string:catename>')
 def hakuzylist(catename='dongzuopian'):
     hakuzylist = dw.get_hakuzy_urllist_by_catename(catename)
     return render_template("admin/hakuzylist.html",hakuzylist=hakuzylist)
+
+#抓取并更新数据库
+@admin.route('/hakuzyurlfetch/')
+def hakuzyurlfetch():
+    _id = request.args.get('id','')
+    hakuzy = dw.get_hakuzy_by_id(_id)
+    url =  hakuzy.url
+    try:
+        res = urllib2.urlopen(url,timeout=50)
+        s = res.read()
+        soup = BeautifulSoup(s)
+        table_list = soup.findAll('table')
+        _img = table_list[4].find('img').get('src')
+        td_list = table_list[5].findAll('td')
+        _title = td_list[0].text.replace(u'影片名称：影片名称开始代码','').replace(u'影片名称结束代码','')
+        _banben = td_list[1].text.replace(u'影片版本：影片副标开始代码','').replace(u'影片副标结束代码','')
+        _arts = td_list[2].text.replace(u'影片演员：影片演员开始代码','').replace(u'影片演员结束代码','')
+        _dc = td_list[3].text.replace(u'影片导演：影片导演开始代码','').replace(u'影片导演结束代码','')
+        _category = td_list[4].text.replace(u'影片类型：影片类型开始代码','').replace(u'影片类型结束代码','')
+        _lang = td_list[5].text.replace(u'影片语言：影片语言开始代码','').replace(u'影片语言结束代码','')
+        _location = td_list[6].text.replace(u'影片地区：影片地区开始代码','').replace(u'影片地区结束代码','')
+        _pubdate = td_list[7].text.replace(u'更新时间：影片更新时间开始代码','').replace(u'影片更新时间结束代码','')
+        _status = td_list[8].text.replace(u'影片状态：','').replace(u'影片状态开始代码','').replace(u'影片状态结束代码','')
+        _year = td_list[9].text.replace(u'上映日期：上映日期开始代码','').replace(u'上映日期结束代码','')
+        _content = td_list[10].text.replace(u'影片介绍开始代码','').replace(u'影片介绍结束代码','')
+        _lists =  table_list[6]
+        hakuzy.title = _title
+        hakuzy.banben = _banben
+        hakuzy.arts = _arts
+        hakuzy.dc = _dc
+        hakuzy.catecn = _category
+        hakuzy.lang = _lang
+        hakuzy.location = _location
+        hakuzy.state = _status
+        hakuzy.year = _year
+        hakuzy.content = _content
+        hakuzy.lists = _lists
+        hakuzy.status = 1   #抓取成功了
+        hakuzy.img = _img
+        dw.update_hakuzy(hakuzy)
+    except Exception,e:
+        print e
+        return "err"
+    return "ok"
+
+
+#抓取成功的前20条通过分类名
+@admin.route('/hakuzyfetchlist/<string:catename>')
+def hakuzyfetchlist(catename='dongzuopian'):
+    hakuzylist  = dw.get_hakuzy_by_catename(catename)
+    return render_template("admin/hakuzyfetchlist.html",hakuzylist= hakuzylist)
+
+#修正数据
+@admin.route('/handlehakuzy/',methods=['GET','POST'])
+def handlehakuzy():
+    if request.method == 'POST':
+        _id = request.form['id']
+        hakuzy = dw.get_hakuzy_by_id(_id)
+        _title =  request.form['title']
+        _catecn = request.form['catecn']
+        _banben = request.form['banben']
+        _location = request.form['location']
+        _arts = request.form['arts']
+        _dc = request.form['dc']
+        _lang = request.form['lang']
+        _year = request.form['year']
+        _state = request.form['state']
+        _content = request.form['content']
+        _status = request.form['status']
+        hakuzy.title = _title
+        hakuzy.banben = _banben
+        hakuzy.arts = _arts
+        hakuzy.dc = _dc
+        hakuzy.catecn = _catecn
+        hakuzy.lang = _lang
+        hakuzy.location = _location
+        hakuzy.state = _state
+        hakuzy.year = _year
+        hakuzy.content = _content
+        #hakuzy.lists = _lists
+        hakuzy.status = _status
+        #hakuzy.img = _img
+        dw.update_hakuzy(hakuzy)
+        return redirect('admin/hakuzyfetchlist/dongzuopian')
+
+    else:
+        _id = request.args.get('id','')
+        hakuzy = dw.get_hakuzy_by_id(_id)
+        return render_template("admin/handlehakuzy.html",hakuzy = hakuzy)
+
+
 
 
 @admin.route('/hakuzyall/')
@@ -105,6 +198,8 @@ def fetchhakuzy():
             print e
     else:
         return render_template('admin/login.html')
+
+
 
 
 @admin.route("/adminlogin", methods=("GET","POST"))

@@ -1,11 +1,22 @@
 DROP TABLE IF EXISTS `ajaxj1`.`hakuzy`;
 CREATE TABLE  `ajaxj1`.`hakuzy` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `catename` varchar(45) DEFAULT NULL,
-  `url` varchar(200) DEFAULT NULL,
-  `status` tinyint(3) unsigned DEFAULT '0',
+  `catename` varchar(45) DEFAULT NULL COMMENT '分类英文',
+  `url` varchar(200) DEFAULT NULL COMMENT '远程地址',
+  `status` tinyint(3) unsigned DEFAULT '0' COMMENT '状态0初始1抓取补全',
+  `title` varchar(100) DEFAULT NULL COMMENT '片名',
+  `banben` varchar(45) DEFAULT NULL COMMENT '版本',
+  `arts` varchar(200) DEFAULT NULL COMMENT '演员',
+  `dc` varchar(100) DEFAULT NULL COMMENT '导演',
+  `lang` varchar(45) DEFAULT NULL COMMENT '语言',
+  `location` varchar(45) DEFAULT NULL COMMENT '地区',
+  `year` varchar(45) DEFAULT NULL COMMENT '出品年',
+  `state` varchar(45) DEFAULT NULL COMMENT '状态',
+  `catecn` varchar(45) DEFAULT NULL COMMENT '分类中文',
+  `content` text COMMENT '介绍',
+  `list` text COMMENT '地址列表',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=7466 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 
 

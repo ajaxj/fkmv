@@ -28,9 +28,21 @@ class Hakuzy(db.Model):
     catename = db.Column(db.String(45))
     url = db.Column(db.String(200))
     status = db.Column(db.Integer)
+    title = db.Column(db.String(100))
+    location = db.Column(db.String(45))
+    banben  = db.Column(db.String(50)) # 影片版本
+    img = db.Column(db.String(200))  #图片地址
+    arts = db.Column(db.String(200)) # 演员
+    dc = db.Column(db.String(100))
+    lang = db.Column(db.String(50))
+    year = db.Column(db.String(50)) #上映日期
+    state = db.Column(db.String(45))    #影片状态
+    catecn = db.Column(db.String(45))
+    content = db.Column(db.Text)
+    lists = db.Column(db.Text)
 
     def __unicode__(self):
-        return url
+        return self.title
 
 
 #hakuzy model

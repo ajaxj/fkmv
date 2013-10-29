@@ -55,11 +55,27 @@ def getAccessToMySQL(accessdb = None,catename = 'dongzuopian'):
 
 def main_run():
     # 火车头的数据库地址
-    # 动作片
-    AccessDB = "E:/LocoySpider/Data/LocoySpider/140/SpiderResult.mdb"
-    getAccessToMySQL(AccessDB,"dongzuopian")
-    #喜剧片
-
+    ## 动作片
+    #AccessDB = "E:/LocoySpider/Data/LocoySpider/140/SpiderResult.mdb"
+    #getAccessToMySQL(AccessDB,"dongzuopian")
+    ##喜剧片 141
+    #AccessDB = "E:/LocoySpider/Data/LocoySpider/141/SpiderResult.mdb"
+    #getAccessToMySQL(AccessDB,"xijupian")
+    ##战争片
+    #AccessDB = "E:/LocoySpider/Data/LocoySpider/142/SpiderResult.mdb"
+    #getAccessToMySQL(AccessDB,"zhanzhengpian")
+    ##科幻片 143
+    #AccessDB = "E:/LocoySpider/Data/LocoySpider/143/SpiderResult.mdb"
+    #getAccessToMySQL(AccessDB,"kehuanpian")
+    #爱情片 144
+    AccessDB = "E:/LocoySpider/Data/LocoySpider/144/SpiderResult.mdb"
+    getAccessToMySQL(AccessDB,"aiqingpian")
+    #恐怖片 145
+    AccessDB = "E:/LocoySpider/Data/LocoySpider/145/SpiderResult.mdb"
+    getAccessToMySQL(AccessDB,"kongbupian")
+    #剧情片 146
+    AccessDB = "E:/LocoySpider/Data/LocoySpider/146/SpiderResult.mdb"
+    getAccessToMySQL(AccessDB,"juqingpian")
 
 if __name__ == "__main__":
     main_run()

@@ -5,9 +5,21 @@ class DataWrapper(object):
 
 
 
-    #通过分类 取得hakuzy的 urllist 表,
+    #通过分类 取得没有抓取hakuzy的 urllist 表,10个一组
     def get_hakuzy_urllist_by_catename(self,catename):
-        return Hakuzy.query.filter_by(catename=catename).all()
+        return Hakuzy.query.filter_by(catename=catename,status = 0).limit(10).all()
+
+    #通过分类 取得抓取hakuzy的已经抓取
+    def get_hakuzy_by_catename(self,catename):
+        return Hakuzy.query.filter(Hakuzy.catename == catename,Hakuzy.status > 0).limit(20).all()
+
+    #通过ID取的hakuzy
+    def get_hakuzy_by_id(self,id):
+        return Hakuzy.query.get(int(id))
+
+    def update_hakuzy(self,hakuzy):
+        db.session.add(hakuzy)
+        print db.session.commit()
 
 
     #查找全部的分类

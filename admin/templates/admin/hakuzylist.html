@@ -3,7 +3,29 @@
 <ul class="breadcrumb">
     <li><a href="#">首页</a> <span class="divider">/</span></li>
     <li><a href="#">Hakuzy</a> <span class="divider">/</span></li>
-    <li class="active">Hakuzy 列表</li>
+    <li class="active">等待抓取列表</li>
+</ul>
+
+<ul class="nav nav-pills">
+<li><b>未抓取</b></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian') }}">动作片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='xijupian') }}">喜剧片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='zhanzhengpian') }}">战争片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='kehuanpian') }}">科幻片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='aiqingpian') }}">爱情片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='kongbupian') }}">恐怖片</a></li>
+<li><a href="{{ url_for('admin.hakuzylist',catename='juqingpian') }}">剧情片</a></li>
+</ul>
+
+<ul class="nav nav-pills">
+<li><b>已经抓取</b></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='dongzuopian') }}">动作片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='xijupian') }}">喜剧片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='zhanzhengpian') }}">战争片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='kehuanpian') }}">科幻片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='aiqingpian') }}">爱情片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='kongbupian') }}">恐怖片</a></li>
+<li><a href="{{ url_for('admin.hakuzyfetchlist',catename='juqingpian') }}">剧情片</a></li>
 </ul>
 
 <table class="table table-striped table-bordered">
@@ -16,7 +38,7 @@
          <td>{{ hakuzy.catename }}</td>
          <td>{{ hakuzy.url }}</td>
          <td>{{ hakuzy.status }}</td>
-         <td>抓取</td>
+         <td><a href="{{ url_for('admin.hakuzyurlfetch',id=hakuzy.id)}}">fetch</a></td>
     </tr>
     {% endfor %}
 </table>

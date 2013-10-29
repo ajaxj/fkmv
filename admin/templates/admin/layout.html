@@ -52,7 +52,7 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span2">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Qvod</li>
@@ -61,7 +61,8 @@
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li class="nav-header">hakyzy</li>
-              <li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian')}}">hakuzy list</a></li>
+              <li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian')}}">等待抓取</a></li>
+                <li><a href="{{ url_for('admin.hakuzyfetchlist',catename='dongzuopian')}}">已经抓取</a></li>
               <li><a href="/admin/categories">分类</a></li>
               <li><a href="{{ url_for('admin.hakuzyall')}}">HakuzyAll</a></li>
               <li><a href="#">Link</a></li>
@@ -75,7 +76,7 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        <div class="span10">
 
 
              {% block body %}{% endblock %}

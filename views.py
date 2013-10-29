@@ -47,19 +47,19 @@ def index(category=''):
         return render_template("index.html")
     elif category == 'dongzuo':
         _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('dongzuo.html',mvs = _mvs)
+        return render_template('dongzuopian.html',mvs = _mvs)
     elif category == 'xiju':
         _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('xiju.html',mvs = _mvs)
+        return render_template('xijupian.html',mvs = _mvs)
     elif category == 'aiqing':
         _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('aiqing.html',mvs = _mvs)
+        return render_template('aiqingpian.html',mvs = _mvs)
     elif category == 'kehuan':
         _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('kehuan.html',mvs = _mvs)
+        return render_template('kehuanpian.html',mvs = _mvs)
     elif category == 'kongbu':
         _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('kongbu.html',mvs = _mvs)
+        return render_template('kongbupian.html',mvs = _mvs)
     else:
         return render_template("index.html")
     # return redirect(url_for('admin.index'))
