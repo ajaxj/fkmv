@@ -1,3 +1,14 @@
+DROP TABLE IF EXISTS `ajaxj1`.`hakuzy`;
+CREATE TABLE  `ajaxj1`.`hakuzy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `catename` varchar(45) DEFAULT NULL,
+  `url` varchar(200) DEFAULT NULL,
+  `status` tinyint(3) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
+
+
 DROP TABLE IF EXISTS `ajaxj1`.`mv_movie_hakuzy`;
 CREATE TABLE  `ajaxj1`.`mv_movie_hakuzy` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

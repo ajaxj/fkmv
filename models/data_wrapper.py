@@ -1,7 +1,15 @@
 #coding=utf8
-from model import Category,QvodziMovie,HakuzyMovie,Guestbook,db
+from model import Category,QvodziMovie,HakuzyMovie,Guestbook,db,Hakuzy
 
 class DataWrapper(object):
+
+
+
+    #通过分类 取得hakuzy的 urllist 表,
+    def get_hakuzy_urllist_by_catename(self,catename):
+        return Hakuzy.query.filter_by(catename=catename).all()
+
+
     #查找全部的分类
     def get_all_category(self):
         return Category.query.all()

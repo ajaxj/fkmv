@@ -2,13 +2,13 @@
 import urllib2
 from BeautifulSoup import BeautifulSoup
 from flask import Blueprint, render_template, request, redirect, session, url_for
+from forms.account import LoginForm
 from models.data_wrapper import DataWrapper
 dw = DataWrapper()
 
+
+# 使用Blueprint 的方式指明模块,并且定义模板的地址
 admin = Blueprint('admin',__name__,template_folder='templates')
-
-
-
 
 @admin.route('/')
 def index():
@@ -43,6 +43,13 @@ def replygbook():
 
 
 #hakuzy全列表
+
+@admin.route('/hakuzylist/<string:catename>')
+def hakuzylist(catename='dongzuopian'):
+    hakuzylist = dw.get_hakuzy_urllist_by_catename(catename)
+    return render_template("admin/hakuzylist.html",hakuzylist=hakuzylist)
+
+
 @admin.route('/hakuzyall/')
 def hakuzyall():
     if 'logined' in session:
@@ -100,6 +107,10 @@ def fetchhakuzy():
         return render_template('admin/login.html')
 
 
+@admin.route("/adminlogin", methods=("GET","POST"))
+def adminlogin():
+    form = LoginForm()
+    return render_template('admin/adminlogin.html',form=form)
 
 
 @admin.route("/login",methods=['GET','POST'])
@@ -107,7 +118,7 @@ def login():
     if request.method == 'POST':
         _email = request.form['email']
         _passwd =request.form['passwd']
-        if _email =='ajaxj@qq.com' and _passwd == '1234':
+        if _email =='1' and _passwd == '1':
             session['logined'] = True
             return redirect("/admin/")
         else:

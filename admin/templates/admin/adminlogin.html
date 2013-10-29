@@ -1,0 +1,17 @@
+{%  extends "admin/layout.html" %}
+{%  block body %}
+<form method="POST" action="">
+    <table>
+        <tr>
+            <td>{{ form.login.label }} : {{ form.login(size=30) }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.password.label }}:{{ form.password (size=30)}}</td>
+        </tr>
+        <tr>
+            {{ form.submit }} {{ form.reset }}
+        </tr>
+    </table>
+
+</form>
+{% endblock %}

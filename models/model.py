@@ -20,6 +20,19 @@ class Category(db.Model):
     def __unicode__(self):
         return self.name
 
+
+# hakuzy的列表,放着远程要抓取的地址和分类
+class Hakuzy(db.Model):
+    __tablename__ = "hakuzy"
+    id = db.Column(db.Integer,primary_key=True)
+    catename = db.Column(db.String(45))
+    url = db.Column(db.String(200))
+    status = db.Column(db.Integer)
+
+    def __unicode__(self):
+        return url
+
+
 #hakuzy model
 class HakuzyMovie(db.Model):
     __tablename__ = 'mv_movie_hakuzy'
