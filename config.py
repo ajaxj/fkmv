@@ -7,8 +7,8 @@ FRAGMENT_PER_PAGE = 10
 MYSQL_HOST = 'localhost'
 MYSQL_PORT = '3306'
 #server
-MYSQL_USER = 'admin'
-MYSQL_PASS = '123456'
+MYSQL_USER = "admin"
+MYSQL_PASS = "123456"
 #local
 #MYSQL_USER = 'root'
 #MYSQL_PASS = ''
