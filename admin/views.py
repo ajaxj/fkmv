@@ -4,6 +4,7 @@ from BeautifulSoup import BeautifulSoup
 from flask import Blueprint, render_template, request, redirect, session, url_for
 from forms.account import LoginForm
 from models.data_wrapper import DataWrapper
+from models.model import Movie
 dw = DataWrapper()
 
 
@@ -16,6 +17,12 @@ def index():
         return render_template('admin/index.html')
     else:
         return render_template('admin/login.html')
+
+@admin.route('/movielist/<string:catename>')
+def movielist(catename='dongzuopian'):
+    movielist = dw.get_movielist_by_catename(catename)
+    return render_template('admin/movielist.html',movielist=movielist)
+
 
 @admin.route('/guestbook')
 def guestbook():
@@ -102,6 +109,30 @@ def hakuzyfetchlist(catename='dongzuopian'):
     hakuzylist  = dw.get_hakuzy_by_catename(catename)
     return render_template("admin/hakuzyfetchlist.html",hakuzylist= hakuzylist)
 
+@admin.route('/hakuzypush/')
+def hakuzypush():
+    _id = request.args.get('id','')
+    hakuzy = dw.get_hakuzy_by_id(int(_id))
+    mv = Movie()
+    mv.title = hakuzy.title
+    mv.banben = hakuzy.banben
+    mv.arts = hakuzy.arts
+    mv.catecn = hakuzy.catecn
+    mv.catename = hakuzy.catename
+    mv.content = hakuzy.content
+    mv.dc = hakuzy.dc
+    mv.lang = hakuzy.lang
+    mv.year = hakuzy.year
+    mv.img = hakuzy.img
+    mv.lists = hakuzy.lists
+    mv.location = hakuzy.location
+    dw.insert_movie(mv)
+    hakuzy.status = 3
+    dw.update_hakuzy(hakuzy)
+    return "ok"
+
+
+
 #修正数据
 @admin.route('/handlehakuzy/',methods=['GET','POST'])
 def handlehakuzy():
@@ -119,6 +150,7 @@ def handlehakuzy():
         _state = request.form['state']
         _content = request.form['content']
         _status = request.form['status']
+        _lists = request.form['lists']
         hakuzy.title = _title
         hakuzy.banben = _banben
         hakuzy.arts = _arts
@@ -129,7 +161,7 @@ def handlehakuzy():
         hakuzy.state = _state
         hakuzy.year = _year
         hakuzy.content = _content
-        #hakuzy.lists = _lists
+        hakuzy.lists = _lists
         hakuzy.status = _status
         #hakuzy.img = _img
         dw.update_hakuzy(hakuzy)

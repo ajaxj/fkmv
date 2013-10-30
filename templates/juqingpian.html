@@ -1,0 +1,57 @@
+{%  extends "layout.html" %}
+{% block body %}
+
+
+      <div class="masthead">
+        <h3 class="muted">3tv3</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li><a href="/">首页</a></li>
+                <li><a href="/dongzuopian">动作片</a></li>
+                <li><a href="/xijupian">喜剧片</a></li>
+                <li><a href="/aiqingpian">爱情片</a></li>
+                <li><a href="/kehuanpian">科幻片</a></li>
+                <li><a href="/kongbupian">恐怖片</a></li>
+                <li><a href="/zhanzhengpian">战争片</a></li>
+                <li class="active"><a href="/juqingpian">剧情片</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+
+      <hr/>
+
+      <div class="row-fluid">
+            <ul class="thumbnails">
+                {% for mv in mvs[0:6] %}
+                  <li class="span2">
+                    <a class="thumbnail" href="#">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="{{ mv.img }}">
+
+                    </a>
+                </li>
+              {% endfor %}
+            </ul>
+
+
+            <ul class="thumbnails">
+                {% for mv in mvs[6:12] %}
+                  <li class="span2">
+                    <a class="thumbnail" href="#">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 150px;" src="{{mv.img}}">
+
+                    </a>
+                </li>
+              {% endfor %}
+            </ul>
+
+
+      </div>
+
+      <hr/>
+
+{% endblock %}

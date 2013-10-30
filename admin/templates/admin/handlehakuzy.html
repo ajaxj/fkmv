@@ -1,5 +1,28 @@
 {% extends "admin/layout.html" %}
 {% block body %}
+<!-- editor -->
+<style>
+    form {
+        margin: 0;
+    }
+    textarea {
+        display: block;
+    }
+</style>
+<link rel="stylesheet" href="{{ url_for('static',filename='editor/themes/default/default.css') }}" />
+<script charset="utf-8" src="{{ url_for('static',filename='editor/kindeditor-min.js') }}"></script>
+<script charset="utf-8" src="{{ url_for('static',filename='editor/lang/zh_CN.js') }}"></script>
+<script>
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('textarea[name="lists"]', {
+            allowFileManager : true
+        });
+    });
+</script>
+
+
+
 <ul class="breadcrumb">
     <li><a href="#">首页</a> <span class="divider">/</span></li>
     <li><a href="#">Hakuzy</a> <span class="divider">/</span></li>
@@ -83,7 +106,14 @@
     <div class="control-group">
       <label class="control-label" for="lists">列表</label>
       <div class="controls">
-          <textarea id="lists" name="lists" rows="8" cols="80" class="span6">{{ hakuzy.lists }}</textarea>
+
+
+          <textarea name="lists" id="lists" rows="20" cols="100" class="span6">
+        {{ hakuzy.lists }}
+    </textarea>
+
+
+{#          <textarea id="lists" name="lists" rows="8" cols="80" class="span6">{{ hakuzy.lists }}</textarea>#}
       </div>
     </div>
 

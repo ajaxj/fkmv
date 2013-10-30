@@ -1,9 +1,21 @@
 #coding=utf8
-from model import Category,QvodziMovie,HakuzyMovie,Guestbook,db,Hakuzy
+from model import Category,QvodziMovie,HakuzyMovie,Guestbook,db,Hakuzy,Movie
 
 class DataWrapper(object):
 
+    #取出正式的电影列表通过分类英文名称
+    def get_movielist_by_catename(self,catename):
+        return Movie.query.filter_by(catename = catename).all()
 
+    #取出正式的电影列表,通过分类,并限定数量
+    def get_movielist_by_catename_limit(self,catename,limit):
+        return Movie.query.filter_by(catename=catename).order_by(Movie.id.desc()).limit(limit).all()
+
+
+    #插入movie
+    def insert_movie(self,movie):
+        db.session.add(movie)
+        db.session.commit()
 
     #通过分类 取得没有抓取hakuzy的 urllist 表,10个一组
     def get_hakuzy_urllist_by_catename(self,catename):
@@ -11,7 +23,7 @@ class DataWrapper(object):
 
     #通过分类 取得抓取hakuzy的已经抓取
     def get_hakuzy_by_catename(self,catename):
-        return Hakuzy.query.filter(Hakuzy.catename == catename,Hakuzy.status > 0).limit(20).all()
+        return Hakuzy.query.filter(Hakuzy.catename == catename,Hakuzy.status > 0,Hakuzy.status < 3).limit(20).all()
 
     #通过ID取的hakuzy
     def get_hakuzy_by_id(self,id):

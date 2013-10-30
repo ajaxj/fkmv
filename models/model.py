@@ -21,6 +21,31 @@ class Category(db.Model):
         return self.name
 
 
+#正式的movie
+class Movie(db.Model):
+    __tablename__ = 'mv_movie'
+    id = db.Column(db.Integer,primary_key=True)
+    catename = db.Column(db.String(45))
+    title = db.Column(db.String(100))
+    banben = db.Column(db.String(45))
+    arts = db.Column(db.String(200))
+    dc = db.Column(db.String(100))
+    lang = db.Column(db.String(45))
+    location = db.Column(db.String(45))
+    year = db.Column(db.String(45))
+    catecn = db.Column(db.String(45))
+    content  = db.Column(db.Text)
+    lists = db.Column(db.Text)
+    img = db.Column(db.String(100))
+
+    def __unicode__(self):
+        return self.title
+
+
+
+
+
+
 # hakuzy的列表,放着远程要抓取的地址和分类
 class Hakuzy(db.Model):
     __tablename__ = "hakuzy"

@@ -37,32 +37,59 @@ def error_404():
 def error_500():
     return render_template('500.html'), 500
 
-
-
 #首页
-@app.route('/')
-@app.route('/<category>')
+@app.route("/")
+@app.route("/<category>")
 def index(category=''):
-    if category == '':
+    if category == "":
         return render_template("index.html")
-    elif category == 'dongzuo':
-        _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('dongzuopian.html',mvs = _mvs)
-    elif category == 'xiju':
-        _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('xijupian.html',mvs = _mvs)
-    elif category == 'aiqing':
-        _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('aiqingpian.html',mvs = _mvs)
-    elif category == 'kehuan':
-        _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('kehuanpian.html',mvs = _mvs)
-    elif category == 'kongbu':
-        _mvs = dw.getQvodziByCategory(category,12)
-        return render_template('kongbupian.html',mvs = _mvs)
-    else:
-        return render_template("index.html")
-    # return redirect(url_for('admin.index'))
+    elif category == "dongzuopian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("dongzuopian.html",mvs= _mvs)
+    elif category == "xijupian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("xijupian.html",mvs= _mvs)
+    elif category == "zhanzhengpian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("zhanzhengpian.html",mvs= _mvs)
+    elif category == "kehuanpian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("kehuanpian.html",mvs = _mvs)
+    elif category == "aiqingpian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("aiqingpian.html",mvs = _mvs)
+    elif category == "kongbupian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("kongbupian.html",mvs = _mvs)
+    elif category == "juqingpian":
+        _mvs = dw.get_movielist_by_catename_limit(category,12)
+        return render_template("juqingpian.html",mvs = _mvs)
+
+
+##首页之前的备份
+#@app.route('/')
+#@app.route('/<category>')
+#def index(category=''):
+#    if category == '':
+#        return render_template("index.html")
+#    elif category == 'dongzuo':
+#        _mvs = dw.getQvodziByCategory(category,12)
+#        return render_template('dongzuopian.html',mvs = _mvs)
+#    elif category == 'xiju':
+#        _mvs = dw.getQvodziByCategory(category,12)
+#        return render_template('xijupian.html',mvs = _mvs)
+#    elif category == 'aiqing':
+#        _mvs = dw.getQvodziByCategory(category,12)
+#        return render_template('aiqingpian.html',mvs = _mvs)
+#    elif category == 'kehuan':
+#        _mvs = dw.getQvodziByCategory(category,12)
+#        return render_template('kehuanpian.html',mvs = _mvs)
+#    elif category == 'kongbu':
+#        _mvs = dw.getQvodziByCategory(category,12)
+#        return render_template('kongbupian.html',mvs = _mvs)
+#    else:
+#        return render_template("index.html")
+#    # return redirect(url_for('admin.index'))
 
 
 #分类

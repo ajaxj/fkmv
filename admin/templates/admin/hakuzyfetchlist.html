@@ -45,7 +45,7 @@
         <td>{{ hakuzy.year }}</td>
          <td>{{ hakuzy.state }}</td>
         <td>{{hakuzy.status}}</td>
-         <td><a href="{{ url_for('admin.handlehakuzy',id=hakuzy.id)}}">修正</a></td>
+         <td><a href="{{ url_for('admin.handlehakuzy',id=hakuzy.id)}}">修正</a>|<a href="{{ url_for('admin.hakuzypush',id=hakuzy.id)}}">推送</a></td>
     </tr>
     {% endfor %}
 </table>
