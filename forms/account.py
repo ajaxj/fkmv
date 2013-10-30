@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 
-from flask.ext.wtf import Form,TextField,PasswordField
+from flask.ext.wtf import Form
+
+from wtforms import TextField, BooleanField,PasswordField
 
 #管理登录
 class LoginForm(Form):
