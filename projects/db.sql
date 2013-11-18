@@ -1,4 +1,13 @@
 -- 3tv3
+DROP TABLE IF EXISTS `3tv3`.`suku_page`;
+CREATE TABLE  `3tv3`.`suku_page` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pagenum` int(10) unsigned DEFAULT NULL,
+  `category` varchar(45) DEFAULT NULL,
+  `status` tinyint(1) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='suku分类下面的页号';
+
 DROP TABLE IF EXISTS `3tv3`.`suku_temp`;
 CREATE TABLE  `3tv3`.`suku_temp` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -16,7 +25,7 @@ CREATE TABLE  `3tv3`.`suku_temp` (
   `img` varchar(100) DEFAULT NULL COMMENT '图片地址',
   `pubyear` varchar(45) DEFAULT NULL COMMENT '出品年',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='suku临时表';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='suku临时表';
 
 
 安德的游戏DVD中字
