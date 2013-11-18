@@ -12,3 +12,8 @@ class TestSuku(unittest.TestCase):
         url = self.app.url_dongzuo
         result = self.app.readUrlToHtml(url)
         self.assertNotEqual(None,result)
+
+    def testParseHtml(self):
+        html = self.app.readUrlToHtml(self.app.url_dongzuo)
+        result = self.app.parseHtml(html)
+        self.assertEqual(True,result)

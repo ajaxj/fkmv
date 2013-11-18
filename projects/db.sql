@@ -1,3 +1,41 @@
+-- 3tv3
+DROP TABLE IF EXISTS `3tv3`.`suku_temp`;
+CREATE TABLE  `3tv3`.`suku_temp` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cateen` varchar(45) DEFAULT NULL COMMENT '分类英文',
+  `catecn` varchar(45) DEFAULT NULL COMMENT '分类中文',
+  `url` varchar(200) DEFAULT NULL COMMENT '远程地址',
+  `title` varchar(100) DEFAULT NULL COMMENT '片名',
+  `banben` varchar(45) DEFAULT NULL COMMENT '版本',
+  `arts` varchar(200) DEFAULT NULL COMMENT '演员',
+  `location` varchar(45) DEFAULT NULL COMMENT '地区',
+  `pubdate` varchar(45) DEFAULT NULL COMMENT '发布时间',
+  `content` text COMMENT '介绍',
+  `list` text COMMENT '地址列表',
+  `status` tinyint(3) unsigned DEFAULT '0' COMMENT '状态0初始1抓取补全2修正',
+  `img` varchar(100) DEFAULT NULL COMMENT '图片地址',
+  `pubyear` varchar(45) DEFAULT NULL COMMENT '出品年',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='suku临时表';
+
+
+安德的游戏DVD中字
+
+主要演员：阿沙·巴特菲尔德 / 阿比盖尔·布蕾斯琳
+
+最新推荐 ：
+
+影视类别：动作片
+
+拍摄地区：欧美
+
+上映年份：2013
+
+更新时间：2013-11-16 16:40:42
+
+
+
+
 DROP TABLE IF EXISTS `ajaxj1`.`hakuzy`;
 CREATE TABLE  `ajaxj1`.`hakuzy` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
