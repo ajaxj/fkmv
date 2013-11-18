@@ -1,6 +1,9 @@
 这个目录主要放本地处理的火车头数据到MYSQL数据库内
 
 
+xj-Lenovo-Product:~/www/fkmv/winapp$ python suku.py
+
+*/2 * * * *  /usr/bin/python /home/ajaxj/www/fkmv/winapp/suku.py
 
 def fetchmovie_by_url_category(self,url,category):
 
