@@ -8,7 +8,7 @@ import re
 
 
 class Suku:
-    pwd = ""
+    pwd = "273511"
     url_dongzuo = "http://www.suku.cc/film17/index.html"
 
     #读取远程地址内容
@@ -48,7 +48,7 @@ class Suku:
 
     #插入列表页的MYSQL
     def insertListToDb(self,title,url,cateen,catecn):
-        conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+        conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
         sql = "SELECT * FROM suku_temp WHERE title = '%s'" %(title)
         cur = conn.cursor()
         cur.execute(sql)
@@ -69,7 +69,7 @@ class Suku:
     #主程序 category 代表分类
     def main_run(self,category):
         try:
-            conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
             sql = "SELECT * FROM suku_page WHERE status = 0 and category='%s'" %(category)
             cur = conn.cursor()
             cur.execute(sql)
@@ -94,7 +94,7 @@ class Suku:
 
     def upDetail(self):
         try:
-            conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
             sql = "SELECT * FROM suku_temp WHERE status = 0"
             cur = conn.cursor()
             cur.execute(sql)
@@ -116,7 +116,7 @@ class Suku:
                         html = html.decode('gbk')
                     except Exception,e:
                         #判断是否是码的问题,是的话变成status = 9
-                        conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+                        conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
                         sql = "update suku_temp set status=9 where id=%d" %(int(_id))
                         cur = conn.cursor()
                         cur.execute(sql)
@@ -135,7 +135,7 @@ class Suku:
 
                     if _banben[-1] == u"集" and _banben != u"全集":    #判断是否是连纽剧,是的话变成status = 2
                         try:
-                            conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+                            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
                             sql = "update suku_temp set status=2 where id=%d" %(int(_id))
                             cur = conn.cursor()
                             cur.execute(sql)
@@ -178,7 +178,7 @@ class Suku:
 
                         #更新
                         try:
-                            conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="3tv3",charset="utf8")
+                            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
                             sql = "update suku_temp set location='%s',pubdate='%s',arts='%s',pubyear='%s',content='%s',list='%s',img='%s',status=1 where id=%d" %(_location,_pubdate,_arts,_pubyear,_content,_list,_img,int(_id))
                             cur = conn.cursor()
                             cur.execute(sql)
