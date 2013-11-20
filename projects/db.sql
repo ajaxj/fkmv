@@ -30,6 +30,17 @@ CREATE TABLE  `3tv3`.`suku_mv` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='suku mv';
 
 
+
+DROP TABLE IF EXISTS `3tv3`.`suku_ls`;
+CREATE TABLE  `3tv3`.`suku_ls` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `mvid` int(10) unsigned DEFAULT NULL,
+  `txt` varchar(45) DEFAULT NULL,
+  `res` varchar(500) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 安德的游戏DVD中字
 
 主要演员：阿沙·巴特菲尔德 / 阿比盖尔·布蕾斯琳

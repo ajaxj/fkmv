@@ -118,34 +118,34 @@ class Suku:
             cur.execute(sql)
 
             #本地抓取的
-            #datalist = cur.fetchall()
-            #for data in datalist:
-            #    #TODO 这里有不同的抓取页面要改
-            #    url = "http://www.suku.cc/film17/index" + str(data[1]) +".html"
-            #    #url = "http://www.suku.cc/film18/index" + str(data[1]) +".html"
-            #    result = self.parseListHtml(url)
-            #    if result:
-            #        sql = "update suku_page set status=1 where id=%d" %(int(data[0]))
-            #        cur.execute(sql)
-            #        conn.commit()
-            #        print url
-            #        time.sleep(2)
-            #    else:
-            #        return False
-            #return True
+            datalist = cur.fetchall()
+            for data in datalist:
+                #TODO 这里有不同的抓取页面要改
+                url = "http://www.suku.cc/film17/index" + str(data[1]) +".html"
+                #url = "http://www.suku.cc/film18/index" + str(data[1]) +".html"
+                result = self.parseListHtml(url)
+                if result:
+                    sql = "update suku_page set status=1 where id=%d" %(int(data[0]))
+                    cur.execute(sql)
+                    conn.commit()
+                    print url
+                    time.sleep(2)
+                else:
+                    return False
+            return True
 
 
             #这是放在服务器上处理的
-            data = cur.fetchone()
-            if data == None:
-                return False
-            url = "http://www.suku.cc/film17/index" + str(data[1]) +".html"
-            result = self.parseListHtml(url)
-            if result:
-                sql = "update suku_page set status=1 where id=%d" %(int(data[0]))
-                cur.execute(sql)
-                conn.commit()
-                return True
+            #data = cur.fetchone()
+            #if data == None:
+            #    return False
+            #url = "http://www.suku.cc/film17/index" + str(data[1]) +".html"
+            #result = self.parseListHtml(url)
+            #if result:
+            #    sql = "update suku_page set status=1 where id=%d" %(int(data[0]))
+            #    cur.execute(sql)
+            #    conn.commit()
+            #    return True
         except Exception,e:
             print e
             return False
