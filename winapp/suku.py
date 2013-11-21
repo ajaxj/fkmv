@@ -160,6 +160,6 @@ class Suku:
 
 if __name__ == '__main__':
     app = Suku()
-    #app.initPages()        #初始化页号
-    app.main_run("dongzuopian")
+    app.initPages()        #初始化页号
+    #app.main_run("dongzuopian")
     #app.main_run("xijupian")

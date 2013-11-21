@@ -31,7 +31,7 @@ class Zhuzhu:
             return None
 
     #抓取解析列表页面,并入库
-    def paresListHtml(self,url):
+    def parseListHtml(self,url):
         _html = self.readUrlToHtml(url)
         if _html is not None:
             if re.search(r'gb2312',_html,re.I):
@@ -43,18 +43,22 @@ class Zhuzhu:
             for li in li_list:
                 a_list = li.findAll('a')
                 #TODO 不抓取图片和banben
-                #img = li.find('img')
-                #if img != None:
-                #    _img =  img.get('src')
+                img = li.find('img')
+                if img != None:
+                    _img =  img.get('src')
+                else:
+                    _img = ""
                 span = li.find('span')
-                #if span != None:
-                #    _banben = span.string
+                if span != None:
+                    _banben = span.string
+                else:
+                    _banben = ""
                 if len(a_list) > 0:
                     _title = a_list[1].string
                     _url = a_list[1].get('href')
                     _cateen = "dongzuopian"
                     _catecn = u"动作片"
-                    result = self.insertListToDb(_title,_url,_cateen,_cateen)
+                    result = self.insertListToDb(_title,_url,_cateen,_cateen,_banben,_img)
                     if result is False:
                         return False
             return True
@@ -63,15 +67,15 @@ class Zhuzhu:
 
 
 
-    # 插入列表页的MYSQL MV名,远程地址,分类英文,分类中文
-    def insertListToDb(self,title,url,cateen,catecn):
+    # 插入列表页的MYSQL MV名,远程地址,分类英文,分类中文,版本，图片
+    def insertListToDb(self,title,url,cateen,catecn,banben,img):
         try:
             conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
             sql = "SELECT * FROM zhuzhu_mv WHERE title = '%s'" %(title)
             cur = conn.cursor()
             cur.execute(sql)
             if cur.fetchone() == None:
-                sql = "INSERT INTO zhuzhu_mv(title,url,cateen,catecn) VALUES ('%s','%s','%s','%s')" %(title,url,cateen,catecn)
+                sql = "INSERT INTO zhuzhu_mv(title,url,cateen,catecn,banben,img) VALUES ('%s','%s','%s','%s','%s','%s')" %(title,url,cateen,catecn,banben,img)
                 cur.execute(sql)
                 conn.commit()
                 return True
@@ -101,30 +105,73 @@ class Zhuzhu:
             cur.close()
             conn.close()
 
-    # 2013 11 20 更新
+    # 2013 11 22 更新
     def initPages(self):
-        #动作片 215
-        self.addPagesByCategory("dongzuopian",215)
-        #喜剧片 201
-        self.addPagesByCategory("xijupian",201)
-        #爱情片 96
-        self.addPagesByCategory("aiqingpian",96)
-        #科幻片 53
-        self.addPagesByCategory("kehuanpian",53)
-        #恐怖片 123
-        self.addPagesByCategory("kongbupian",123)
-        #战争片
-        self.addPagesByCategory("zhanzhengpian",32)
-        #剧情片
-        self.addPagesByCategory("juqingpian",366)
+        #动作片 125    http://www.zhuzhu.cc/dz/index125.html
+        self.addPagesByCategory("dongzuopian",125)
+        #喜剧片 152 http://www.zhuzhu.cc/xj/index152.html
+        self.addPagesByCategory("xijupian",152)
+        #爱情片 96  http://www.zhuzhu.cc/aq/index74.html
+        self.addPagesByCategory("aiqingpian",74)
+        #科幻片 53 http://www.zhuzhu.cc/kh/index48.html
+        self.addPagesByCategory("kehuanpian",48)
+        #恐怖片 123 http://www.zhuzhu.cc/kb/index115.html
+        self.addPagesByCategory("kongbupian",115)
+        #战争片    http://www.zhuzhu.cc/war/index18.html
+        self.addPagesByCategory("zhanzhengpian",18)
+        #剧情片    http://www.zhuzhu.cc/jq/index272.html
+        self.addPagesByCategory("juqingpian",272)
 
+    #主程序 category 代表分类
+    def main_run(self,category):
+        try:
+            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
+            sql = "SELECT * FROM zhuzhu_page WHERE status = 0 and category='%s'" %(category)
+            cur = conn.cursor()
+            cur.execute(sql)
+
+            #本地抓取的
+            datalist = cur.fetchall()
+            for data in datalist:
+                #TODO 这里有不同的抓取页面要改
+                url = "http://www.zhuzhu.cc/dz/index" + str(data[1]) +".html"
+                #url = "http://www.suku.cc/film18/index" + str(data[1]) +".html"
+                result = self.parseListHtml(url)
+                if result:
+                    sql = "update zhuzhu_page set status=1 where id=%d" %(int(data[0]))
+                    cur.execute(sql)
+                    conn.commit()
+                    print url
+                    time.sleep(2)
+                else:
+                    return False
+            return True
+
+
+            #这是放在服务器上处理的
+            #data = cur.fetchone()
+            #if data == None:
+            #    return False
+            #url = "http://www.suku.cc/film17/index" + str(data[1]) +".html"
+            #result = self.parseListHtml(url)
+            #if result:
+            #    sql = "update suku_page set status=1 where id=%d" %(int(data[0]))
+            #    cur.execute(sql)
+            #    conn.commit()
+            #    return True
+        except Exception,e:
+            print e
+            return False
+        finally:
+            cur.close()
+            conn.close()
 
 
 
 if __name__ == "__main__":
     app = Zhuzhu()
-    url = "http://www.zhuzhu.cc/dz/"
-    print app.paresListHtml(url)
+    #app.initPages()        #初始化页号
+    app.main_run("dongzuopian")
 
 
 
