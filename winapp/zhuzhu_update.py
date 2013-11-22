@@ -6,7 +6,7 @@ import MySQLdb
 
 from BeautifulSoup import BeautifulSoup
 import re
-
+import time
 
 
 class ZhuzhuUpdate:
@@ -74,6 +74,7 @@ class ZhuzhuUpdate:
                     cur.execute(sql)
                     conn.commit()
                     print str(data[0]) + " " + data[3]
+                    time.sleep(2)
         except Exception,e:
             return False
         finally:

@@ -31,7 +31,7 @@ class Zhuzhu:
             return None
 
     #抓取解析列表页面,并入库
-    def parseListHtml(self,url):
+    def parseListHtml(self,url,category):
         _html = self.readUrlToHtml(url)
         if _html is not None:
             if re.search(r'gb2312',_html,re.I):
@@ -56,9 +56,29 @@ class Zhuzhu:
                 if len(a_list) > 0:
                     _title = a_list[1].string
                     _url = a_list[1].get('href')
-                    _cateen = "dongzuopian"
-                    _catecn = u"动作片"
-                    result = self.insertListToDb(_title,_url,_cateen,_cateen,_banben,_img)
+                    if category == 'dongzuopian':
+                        _cateen = "dongzuopian"
+                        _catecn = u"动作片"
+                    elif category == 'xijupian':
+                        _cateen = "xijupian"
+                        _catecn = u"喜剧片"
+                    elif category == 'aiqingpian':
+                        _cateen = "aiqingpian"
+                        _catecn = u"爱情片"
+                    elif category == 'kehuanpian':
+                        _cateen = "kehuanpian"
+                        _catecn = u"科幻片"
+                    elif category == 'kongbupian':
+                        _cateen = "kongbupian"
+                        _catecn = u"恐怖片"
+                    elif category == 'zhanzhengpian':
+                        _cateen = "zhanzhengpian"
+                        _catecn = u"战争片"
+                    elif category == 'juqingpian':
+                        _cateen = "juqingpian"
+                        _catecn = u"剧情片"
+
+                    result = self.insertListToDb(_title,_url,_cateen,_catecn,_banben,_img)
                     if result is False:
                         return False
             return True
@@ -134,9 +154,22 @@ class Zhuzhu:
             datalist = cur.fetchall()
             for data in datalist:
                 #TODO 这里有不同的抓取页面要改
-                url = "http://www.zhuzhu.cc/dz/index" + str(data[1]) +".html"
-                #url = "http://www.suku.cc/film18/index" + str(data[1]) +".html"
-                result = self.parseListHtml(url)
+                if category == 'dongzuopian':
+                    url = "http://www.zhuzhu.cc/dz/index" + str(data[1]) +".html"
+                elif category == 'xijupian':
+                    url = "http://www.zhuzhu.cc/xj/index" + str(data[1]) +".html"
+                elif category == 'aiqingpian':
+                    url = "http://www.zhuzhu.cc/aq/index" + str(data[1]) +".html"
+                elif category == 'kehuanpian':
+                    url = "http://www.zhuzhu.cc/kh/index" + str(data[1]) +".html"
+                elif category == 'kongbupian':
+                    url = "http://www.zhuzhu.cc/kb/index" + str(data[1]) +".html"
+                elif category == 'zhanzhengpian':
+                    url = "http://www.zhuzhu.cc/war/index" + str(data[1]) +".html"
+                elif category == 'juqingpian':
+                    url = "http://www.zhuzhu.cc/jq/index" + str(data[1]) +".html"
+
+                result = self.parseListHtml(url,category)
                 if result:
                     sql = "update zhuzhu_page set status=1 where id=%d" %(int(data[0]))
                     cur.execute(sql)
@@ -171,9 +204,13 @@ class Zhuzhu:
 if __name__ == "__main__":
     app = Zhuzhu()
     #app.initPages()        #初始化页号
-    app.main_run("dongzuopian")
-
-
+    #app.main_run("dongzuopian")
+    #app.main_run("xijupian")
+    #app.main_run("aiqingpian")
+    #app.main_run("kehuanpian")
+    #app.main_run("kongbupian")
+    #app.main_run("zhanzhengpian")
+    app.main_run("juqingpian")
 
 
 
