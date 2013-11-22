@@ -1,16 +1,16 @@
 #coding=utf8
 from flask import render_template,request, redirect
 import time
-from models.model import Guestbook
+#from models.model import Guestbook
 
 from myapp import app
-from blog.views import blog
-from admin.views import admin
+#from blog.views import blog
+#from admin.views import admin
 
 from models.data_wrapper import DataWrapper
 dw = DataWrapper()
 
-app.register_blueprint(blog,url_prefix="/blog")
+#app.register_blueprint(blog,url_prefix="/blog")
 app.register_blueprint(admin,url_prefix="/admin")
 
 # -- Error Control --
@@ -38,32 +38,32 @@ def error_500():
     return render_template('500.html'), 500
 
 #首页
-@app.route("/")
-@app.route("/<category>")
-def index(category=''):
-    if category == "":
-        return render_template("index.html")
-    elif category == "dongzuopian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("dongzuopian.html",mvs= _mvs)
-    elif category == "xijupian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("xijupian.html",mvs= _mvs)
-    elif category == "zhanzhengpian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("zhanzhengpian.html",mvs= _mvs)
-    elif category == "kehuanpian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("kehuanpian.html",mvs = _mvs)
-    elif category == "aiqingpian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("aiqingpian.html",mvs = _mvs)
-    elif category == "kongbupian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("kongbupian.html",mvs = _mvs)
-    elif category == "juqingpian":
-        _mvs = dw.get_movielist_by_catename_limit(category,12)
-        return render_template("juqingpian.html",mvs = _mvs)
+#@app.route("/")
+#@app.route("/<category>")
+#def index(category=''):
+#    if category == "":
+#        return render_template("index.html")
+#    elif category == "dongzuopian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("dongzuopian.html",mvs= _mvs)
+#    elif category == "xijupian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("xijupian.html",mvs= _mvs)
+#    elif category == "zhanzhengpian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("zhanzhengpian.html",mvs= _mvs)
+#    elif category == "kehuanpian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("kehuanpian.html",mvs = _mvs)
+#    elif category == "aiqingpian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("aiqingpian.html",mvs = _mvs)
+#    elif category == "kongbupian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("kongbupian.html",mvs = _mvs)
+#    elif category == "juqingpian":
+#        _mvs = dw.get_movielist_by_catename_limit(category,12)
+#        return render_template("juqingpian.html",mvs = _mvs)
 
 
 ##首页之前的备份
@@ -92,33 +92,33 @@ def index(category=''):
 #    # return redirect(url_for('admin.index'))
 
 
-#分类
-@app.route('/category/')
-def category():
-    return render_template("category.html")
-
-
-@app.route('/guestbook/')
-def guestbook():
-    guestbooks = dw.getGuessbookLimit(10)
-    return render_template('guestbook.html',guestbooks = guestbooks)
-
-
-@app.route('/addguestbook',methods = ['GET','POST'])
-def addguestgook():
-    if request.method == 'POST':
-        _username = request.form['username']
-        _email = request.form['email']
-        _content = request.form['content']
-        _created = time.strftime('%Y-%m-%d %H:%M:%S'),time.localtime(time.time())
-        guestbook = Guestbook()
-        guestbook.username = _username
-        guestbook.email = _email
-        guestbook.content = _content
-        #guestbook.created = _created
-        dw.insertGuestbook(guestbook)
-        return redirect('guestbook')
-    else:
-        return render_template('guestbook.html');
+##分类
+#@app.route('/category/')
+#def category():
+#    return render_template("category.html")
+#
+#
+#@app.route('/guestbook/')
+#def guestbook():
+#    guestbooks = dw.getGuessbookLimit(10)
+#    return render_template('guestbook.html',guestbooks = guestbooks)
+#
+#
+#@app.route('/addguestbook',methods = ['GET','POST'])
+#def addguestgook():
+#    if request.method == 'POST':
+#        _username = request.form['username']
+#        _email = request.form['email']
+#        _content = request.form['content']
+#        _created = time.strftime('%Y-%m-%d %H:%M:%S'),time.localtime(time.time())
+#        guestbook = Guestbook()
+#        guestbook.username = _username
+#        guestbook.email = _email
+#        guestbook.content = _content
+#        #guestbook.created = _created
+#        dw.insertGuestbook(guestbook)
+#        return redirect('guestbook')
+#    else:
+#        return render_template('guestbook.html');
 
 

@@ -74,7 +74,7 @@ class ZhuzhuUpdate:
                     cur.execute(sql)
                     conn.commit()
                     print str(data[0]) + " " + data[3]
-                    time.sleep(2)
+                    time.sleep(1)
         except Exception,e:
             return False
         finally:
@@ -90,4 +90,9 @@ class ZhuzhuUpdate:
 if __name__ == '__main__':
     app = ZhuzhuUpdate()
     #app.upDetail("dongzuopian")
-    app.upDetail("xijupian")
+    #app.upDetail("xijupian")
+    app.upDetail("aiqingpian")
+    app.upDetail("kehuanpian")
+    app.upDetail("kongbupian")
+    app.upDetail("zhanzhengpian")
+    app.upDetail("juqingpian")
