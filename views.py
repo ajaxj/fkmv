@@ -11,7 +11,7 @@ from models.data_wrapper import DataWrapper
 dw = DataWrapper()
 
 #app.register_blueprint(blog,url_prefix="/blog")
-app.register_blueprint(admin,url_prefix="/admin")
+#app.register_blueprint(admin,url_prefix="/admin")
 
 # -- Error Control --
 class ViewError(StandardError):
@@ -37,6 +37,100 @@ def error_404():
 def error_500():
     return render_template('500.html'), 500
 
+
+@app.route("/")
+@app.route("/<category>.html")
+def index(category=""):
+    if category == "":
+        _title = u"首页"
+        return render_template("index.html",title=_title)
+    elif category == "dongzuopian":
+        _title = u"战争片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("dongzuopian.html",mvs=_mvs,title=_title)
+    elif category == "xijupian":
+        _title = u"喜剧片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("xijupian.html",mvs= _mvs,title=_title)
+    elif category == "zhanzhengpian":
+        _title = u"战争片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("zhanzhengpian.html",mvs= _mvs,title=_title)
+    elif category == "kehuanpian":
+        _title = u"科幻片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("kehuanpian.html",mvs = _mvs,title=_title)
+    elif category == "aiqingpian":
+        _title = u"爱情片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("aiqingpian.html",mvs = _mvs,title=_title)
+    elif category == "kongbupian":
+        _title = u"恐怖片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("kongbupian.html",mvs = _mvs,title=_title)
+    elif category == "juqingpian":
+        _title = u"剧情片"
+        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        return render_template("juqingpian.html",mvs = _mvs,title=_title)
+    else:
+        _title = u"首页"
+        return render_template("index.html",title=_title)
+
+@app.route("/dongzuopian/<name>.html")
+def dongzuopian(name):
+    _mv = dw.get_movie_by_cateen_name("dongzuopian",name)
+    _title = _mv.title + " " +  u"动作片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title=_title,ls=_list)
+
+@app.route("/xijupian/<name>.html")
+def xijupian(name):
+    _mv = dw.get_movie_by_cateen_name("xijupian",name)
+    _title = _mv.title + " " +  u"喜剧片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+
+@app.route("/zhanzhengpian/<name>.html")
+def zhanzhengpian(name):
+    _mv = dw.get_movie_by_cateen_name("zhanzhengpian",name)
+    _title = _mv.title + " " +  u"战争片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+
+@app.route("/kehuanpian/<name>.html")
+def kehuanpian(name):
+    _mv = dw.get_movie_by_cateen_name("kehuanpian",name)
+    _title = _mv.title + " " +  u"科幻片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+
+@app.route("/aiqingpian/<name>.html")
+def aiqingpian(name):
+    _mv = dw.get_movie_by_cateen_name("aiqingpian",name)
+    _title = _mv.title + " " +  u"爱情片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+@app.route("/kongbupian/<name>.html")
+def kongbupian(name):
+    _mv = dw.get_movie_by_cateen_name("kongbupian",name)
+    _title = _mv.title + " " +  u"恐怖片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+@app.route("/juqingpian/<name>.html")
+def juqingpian(name):
+    _mv = dw.get_movie_by_cateen_name("juqingpian",name)
+    _title = _mv.title + " " +  u"剧情片"
+    _list = dw.get_list_by_id(_mv.id)
+    return render_template("detail.html",mv=_mv,title = _title,ls=_list)
+
+@app.route("/player")
+def player():
+    return render_template("player.html")
 #首页
 #@app.route("/")
 #@app.route("/<category>")

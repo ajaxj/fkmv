@@ -81,6 +81,34 @@ class ZhuzhuUpdate:
             cur.close()
             conn.close()
 
+    #一个临时的程式，把路径中的名字挖出来
+    def upDetail2(self,category):
+        try:
+            conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
+            sql = "SELECT id,url FROM zhuzhu_mv"
+            cur = conn.cursor()
+            cur.execute(sql)
+            datalist = cur.fetchall()
+            i = 0
+            for data in datalist:
+                _id = data[0]
+                _url = data[1]
+                _url_list = _url.split("/")
+                _name =  _url_list[2].replace(".html","")
+                sql = "UPDATE zhuzhu_mv set name='%s' where id = %d" %(_name,int(_id))
+                cur.execute(sql)
+                conn.commit()
+                i += 1
+                if i == 200:
+                    print "sleep"
+                    time.sleep(2)
+                    i = 0
+        except Exception,e:
+            print e
+        finally:
+            cur.close()
+            conn.close()
+
 
 
 
@@ -89,10 +117,11 @@ class ZhuzhuUpdate:
 
 if __name__ == '__main__':
     app = ZhuzhuUpdate()
+    app.upDetail2('dongzuopian')
     #app.upDetail("dongzuopian")
     #app.upDetail("xijupian")
-    app.upDetail("aiqingpian")
-    app.upDetail("kehuanpian")
-    app.upDetail("kongbupian")
-    app.upDetail("zhanzhengpian")
-    app.upDetail("juqingpian")
+    #app.upDetail("aiqingpian")
+    #app.upDetail("kehuanpian")
+    #app.upDetail("kongbupian")
+    #app.upDetail("zhanzhengpian")
+    #app.upDetail("juqingpian")

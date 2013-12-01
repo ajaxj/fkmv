@@ -39,6 +39,7 @@ CREATE TABLE  `3tv3`.`zhuzhu_page` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='zhuzhu分类下面的页号';
 
+
 DROP TABLE IF EXISTS `3tv3`.`zhuzhu_mv`;
 CREATE TABLE  `3tv3`.`zhuzhu_mv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -54,10 +55,12 @@ CREATE TABLE  `3tv3`.`zhuzhu_mv` (
   `content` text COMMENT '介绍',
   `list` text COMMENT '地址列表',
   `status` tinyint(3) unsigned DEFAULT '0' COMMENT '状态0初始1抓取补全2修正',
-  `img` varchar(100) DEFAULT NULL COMMENT '图片地址',
+  `img` varchar(255) DEFAULT NULL COMMENT '图片地址',
   `pubyear` varchar(45) DEFAULT NULL COMMENT '出品年',
+  `name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='zhuzhu mv';
+) ENGINE=InnoDB AUTO_INCREMENT=15963 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='zhuzhu mv';
+
 
 
 DROP TABLE IF EXISTS `3tv3`.`zhuzhu_ls`;
@@ -65,11 +68,10 @@ CREATE TABLE  `3tv3`.`zhuzhu_ls` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `mvid` int(10) unsigned DEFAULT NULL,
   `txt` varchar(45) DEFAULT NULL,
-  `res` text DEFAULT NULL,
+  `res` text,
   `url` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+) ENGINE=InnoDB AUTO_INCREMENT=6958 DEFAULT CHARSET=utf8;
 
 
 

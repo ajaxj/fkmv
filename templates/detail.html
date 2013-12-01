@@ -1,0 +1,75 @@
+{%  extends "layout.html" %}
+{% block body %}
+
+
+      <div class="masthead">
+        <h3 class="muted">3tv3</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li class="active"><a href="/">首页</a></li>
+                <li><a href="/dongzuopian.html">动作片</a></li>
+                <li><a href="/xijupian.html">喜剧片</a></li>
+                <li><a href="/aiqingpian.html">爱情片</a></li>
+                <li><a href="/kehuanpian.html">科幻片</a></li>
+                <li><a href="/kongbupian.html">恐怖片</a></li>
+                <li><a href="/zhanzhengpian.html">战争片</a></li>
+                <li><a href="/juqingpian.html">剧情片</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <hr/>
+
+      <div class="row-fluid">
+            <div class="span3">
+                    <a class="thumbnail" href="#" target="_blank">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}">
+                    </a>
+            </div>
+            <div class="span8">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>电影名称</td><td>{{ mv.title }}</td>
+                    </tr>
+                    <tr>
+                        <td>电影类型</td><td>{{ mv.catecn }}</td>
+                    </tr>
+                    <tr>
+                        <td>主要演员</td><td>{{ mv.arts }}</td>
+                    </tr>
+                    <tr>
+                        <td>语言</td><td>{{ mv.lang }}</td>
+                    </tr>
+                    <tr>
+                        <td>年份</td><td>{{ mv.pubyear }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="span10">
+                 <p class="row">
+                    {{ mv.content }}
+                </p>
+            </div>
+            <div class="span10">
+                <table class="table table-bordered">
+                    <tr>
+                        {% for m in ls %}
+                            <td><a href="/player/{{ m.id }}">{{ m }}</a></td>
+                        {% endfor %}
+                    </tr>
+                </table>
+            </div>
+
+      </div>
+
+      <hr/>
+
+
+
+
+
+{% endblock %}

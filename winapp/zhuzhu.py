@@ -199,10 +199,60 @@ class Zhuzhu:
             cur.close()
             conn.close()
 
+    #之前更新了大部分。现在更新前几页
+    def main_run2(self,category,pagenum):
+        for i in range(pagenum):
+            if category == "dongzuopian":
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/dz/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/dz/index" + str(i+1) +".html"
+            elif category == 'xijupian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/xj/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/xj/index" + str(i+1) +".html"
+            elif category == 'aiqingpian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/aq/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/aq/index" + str(i+1) +".html"
+            elif category == 'kehuanpian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/kh/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/kh/index" + str(i+1) +".html"
+            elif category == 'kongbupian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/kb/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/kb/index" + str(i+1) +".html"
+            elif category == 'zhanzhengpian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/war/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/war/index" + str(i+1) +".html"
+            elif category == 'juqingpian':
+                if i == 0:
+                    url = "http://www.zhuzhu.cc/jq/index.html"
+                else:
+                    url = "http://www.zhuzhu.cc/jq/index" + str(i+1) +".html"
 
+
+            result = self.parseListHtml(url,category)
+            print result
 
 if __name__ == "__main__":
     app = Zhuzhu()
+
+    app.main_run2("dongzuopian",10)
+    app.main_run2("xijupian",10)
+    app.main_run2("aiqingpian",10)
+    app.main_run2("kehuanpian",10)
+    app.main_run2("kongbupian",10)
+    app.main_run2("zhanzhengpian",10)
+    app.main_run2("juqingpian",10)
+
     #app.initPages()        #初始化页号
     #app.main_run("dongzuopian")
     #app.main_run("xijupian")
@@ -210,7 +260,7 @@ if __name__ == "__main__":
     #app.main_run("kehuanpian")
     #app.main_run("kongbupian")
     #app.main_run("zhanzhengpian")
-    app.main_run("juqingpian")
+    #app.main_run("juqingpian")
 
 
 

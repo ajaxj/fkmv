@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="stylesheet" type="text/css" href="common.css">
+<script src="common.js"></script>
+<script type="text/javascript">
+	var BDUrlBefore="www.zhuzhu.cc";
+	var BDUrlLast=""
+	//上面两行代码为便利功能，定义此功能可在bdhd://协议影片里加上你特定的内容，例如将你的网址添加在地址里面实现片名前带有你站网址的功能！默认定义为空,当定义&#12288;BDUrlBefore&#12288;此项时，此项所定义的内容将添加在片名前（如：bdhd://258153089|948E0EB38A2DFA1AF7D1B488E86AFFDD|[我是此项所定义的内容]还珠格格之燕儿翩翩飞02.HDTV.rmvb），而当定义此&#12288;BDUrlLast&#12288;项时，此项定义的内容将在片名后（如：bdhd://258153089|948E0EB38A2DFA1AF7D1B488E86AFFDD|还珠格格之燕儿翩翩飞02[我是此项所定义的内容].HDTV.rmvb），定义方式例子：var BDUrlLast="[bdhd.com]";
+	if(url.indexOf('bdhd://')==0){
+	  var BDUrlArray=url.split("|");
+	  var SplitUrlName=new Array();
+	  SplitUrlName[0]=BDUrlArray[2].substring(0,BDUrlArray[2].lastIndexOf("."));
+	  SplitUrlName[1]=BDUrlArray[2].substring(BDUrlArray[2].lastIndexOf("."),BDUrlArray[2].length)
+	  url=BDUrlArray[0]+'|'+BDUrlArray[1]+'|'+BDUrlBefore+SplitUrlName[0]+BDUrlLast+SplitUrlName[1]
+	}
+	if(nexturl.indexOf('bdhd://')==0){
+	  var BDUrlArray2=nexturl.split("|");
+	  var SplitUrlName2=new Array();
+	  SplitUrlName2[0]=BDUrlArray2[2].substring(0,BDUrlArray2[2].lastIndexOf("."));
+	  SplitUrlName2[1]=BDUrlArray2[2].substring(BDUrlArray2[2].lastIndexOf("."),BDUrlArray2[2].length)
+	  nexturl=BDUrlArray2[0]+'|'+BDUrlArray2[1]+'|'+BDUrlBefore+SplitUrlName2[0]+BDUrlLast+SplitUrlName2[1]
+	}
+	var BdPlayer = new Array();
+	BdPlayer['time'] = 8;//缓冲广告展示时间(如果设为0,则根据缓冲进度自动控制广告展示时间)
+	BdPlayer['buffer'] = 'http://www.zhuzhu.cc/js/baidugg.html';
+	BdPlayer['pause'] = 'http://www.zhuzhu.cc/js/baidugg.html';
+	BdPlayer['end'] = 'http://www.zhuzhu.cc/js/baidugg.html';
+	BdPlayer['download'] = 'http://dl.p2sp.baidu.com/BaiduPlayer/un2/BaiduPlayerNetSetup_51061038.exe';
+	BdPlayer['width'] = "100%";//播放器宽度(只能为数字)
+	BdPlayer['height'] = h;//播放器高度(只能为数字)
+	BdPlayer['showclient'] = 1;//是否显示拉起拖盘按钮(1为显示 0为隐藏)
+	BdPlayer['url'] = url;//当前播放任务播放地址
+	BdPlayer['nextcacheurl'] = nexturl;//下一集播放地址(没有请留空)
+	BdPlayer['lastwebpage'] = prehref;//上一集网页地址(没有请留空)
+	BdPlayer['nextwebpage'] = nexthref;//下一集网页地址(没有请留空)
+</script>
+</head>
+<body>
+<script charset="utf-8" src="http://player.baidu.com/lib/player.js" language="javascript"></script>
+<img width="0" height="0" src="http://php.player.baidu.com/player/tn.php?tn=51061038&amp;ver=2">
+<div id="BdInstall"></div>
+<div style="display: none;" id="obj_cont"></div>
+<div id="BdPlayer">
+    <div style="width:100%px;height:500px;overflow:hidden;position:relative">
+        <iframe width="100%" scrolling="no" height="437" frameborder="0" style="position: absolute; z-index: 2; top: 0px; left: 0px; display: block;" id="Bdbuffer" name="Bdbuffer" marginwidth="0" marginheight="0" src="http://www.zhuzhu.cc/js/baidugg.html">
+        </iframe>
+        <object width="100%" height="500" param_showstartclient="1" param_autoplay="1" param_oncomplete="onComplete" param_onplaybufferingend="onPlayBufferingEnd" param_onplaybufferingstart="onPlayBufferingStart" param_onfirstbufferingend="onFirstBufferingEnd" param_onfirstbufferingstart="onFirstBufferingStart" param_onpause="onPause" param_onplay="onPlay" param_nextwebpage="http://www.zhuzhu.cc/dz/teshushenfen-0-2.html" param_lastwebpage="http://www.zhuzhu.cc/dz/teshushenfen-0-0.html" param_nextcacheurl="ed2k://|file|特殊身份_BD1280高清中字.rmvb|1139880516|12B360EEA85E36A51F12DA3D149BFE61|/" param_url="bdhd://1262966004|65A4C02CB6946DFA749DE0DA63BAE7E8|www.zhuzhu.cc[特殊身份真[zhuzhu.cc].rmvb" progid="Xbdyy.PlayCtrl.1" type="application/player-activex" name="BaiduPlayer" id="BaiduPlayer"></object></div></div>
+<script charset="utf-8" src="http://php.player.baidu.com/player/player.php?url=bdhd%3A%2F%2F1262966004%7C65A4C02CB6946DFA749DE0DA63BAE7E8%7Cwww.zhuzhu.cc%5B%E7%89%B9%E6%AE%8A%E8%BA%AB%E4%BB%BD%E7%9C%9F%5Bzhuzhu.cc%5D.rmvb" language="javascript"></script>
+<script charset="utf-8" src="http://php.player.baidu.com/player/bdhd3.js?1310302" language="javascript"></script>
+<link type="text/css" href="http://player.baidu.com/lib/setupax/load2.css" rel="stylesheet">
+
+</body></html>
