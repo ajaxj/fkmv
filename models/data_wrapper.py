@@ -12,3 +12,6 @@ class DataWrapper(object):
 
     def get_list_by_id(self,id):
         return MovieList.query.filter_by(mvid = id).all()
+
+    def get_player_by_id(self,id):
+        return MovieList.query.get(int(id))

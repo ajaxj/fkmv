@@ -43,7 +43,14 @@ def error_500():
 def index(category=""):
     if category == "":
         _title = u"首页"
-        return render_template("index.html",title=_title)
+        _dzmvs = dw.get_movielist_by_cateen_limit('dongzuopian',12)
+        _xjmvs = dw.get_movielist_by_cateen_limit('xijupian',12)
+        _warmvs = dw.get_movielist_by_cateen_limit('zhanzhengpian',12)
+        _khmvs = dw.get_movielist_by_cateen_limit('kehuanpian',12)
+        _aqmvs = dw.get_movielist_by_cateen_limit('aiqingpian',12)
+        _kbmvs = dw.get_movielist_by_cateen_limit('kongbupian',12)
+        _jqmvs = dw.get_movielist_by_cateen_limit('juqingpian',12)
+        return render_template("index.html",title=_title,dzmvs=_dzmvs,xjmvs=_xjmvs,warmvs=_warmvs,khmvs=_khmvs,aqmvs=_aqmvs,kbmvs=_kbmvs,jqmvs=_jqmvs)
     elif category == "dongzuopian":
         _title = u"战争片"
         _mvs = dw.get_movielist_by_cateen_limit(category,12)
@@ -74,7 +81,14 @@ def index(category=""):
         return render_template("juqingpian.html",mvs = _mvs,title=_title)
     else:
         _title = u"首页"
-        return render_template("index.html",title=_title)
+        _dzmvs = dw.get_movielist_by_cateen_limit('dongzuopian',12)
+        _xjmvs = dw.get_movielist_by_cateen_limit('xijupian',12)
+        _warmvs = dw.get_movielist_by_cateen_limit('zhanzhengpian',12)
+        _khmvs = dw.get_movielist_by_cateen_limit('kehuanpian',12)
+        _aqmvs = dw.get_movielist_by_cateen_limit('aiqingpian',12)
+        _kbmvs = dw.get_movielist_by_cateen_limit('kongbupian',12)
+        _jqmvs = dw.get_movielist_by_cateen_limit('juqingpian',12)
+        return render_template("index.html",title=_title,dzmvs=_dzmvs,xjmvs=_xjmvs,warmvs=_warmvs,khmvs=_khmvs,aqmvs=_aqmvs,kbmav=_kbmvs,jqmvs=_jqmvs)
 
 @app.route("/dongzuopian/<name>.html")
 def dongzuopian(name):
@@ -128,9 +142,12 @@ def juqingpian(name):
     _list = dw.get_list_by_id(_mv.id)
     return render_template("detail.html",mv=_mv,title = _title,ls=_list)
 
-@app.route("/player")
-def player():
-    return render_template("player.html")
+@app.route("/player/<id>")
+def player(id):
+    _url = dw.get_player_by_id(id)
+    #print _url.res
+    #return _url.res
+    return render_template("player.html",res = _url.res)
 #首页
 #@app.route("/")
 #@app.route("/<category>")

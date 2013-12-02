@@ -30,7 +30,7 @@
                 {% for mv in mvs[0:6] %}
                   <li class="span2">
                     <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
-                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
                     </a>
                 </li>
               {% endfor %}

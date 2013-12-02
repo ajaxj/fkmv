@@ -1,15 +1,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 </head>
 <body>
-<script charset="utf-8" src="http://player.baidu.com/lib/player.js" language="javascript"></script>
-<img width="0" height="0" src="http://php.player.baidu.com/player/tn.php?tn=51061038&amp;ver=2">
-<div id="BdInstall"></div>
-<div style="display: none;" id="obj_cont"></div>
-<div id="BdPlayer">
-    <div style="width:100%;height:500px;overflow:hidden;position:relative">
-        <object width="100%" height="500" param_showstartclient="1" param_autoplay="1" param_oncomplete="onComplete" param_onplaybufferingend="onPlayBufferingEnd" param_onplaybufferingstart="onPlayBufferingStart" param_onfirstbufferingend="onFirstBufferingEnd" param_onfirstbufferingstart="onFirstBufferingStart" param_onpause="onPause" param_onplay="onPlay" param_nextwebpage="http://www.zhuzhu.cc/dz/teshushenfen-0-2.html" param_lastwebpage="http://www.zhuzhu.cc/dz/teshushenfen-0-0.html" param_nextcacheurl="ed2k://|file|特殊身份_BD1280高清中字.rmvb|1139880516|12B360EEA85E36A51F12DA3D149BFE61|/" param_url="bdhd://1262966004|65A4C02CB6946DFA749DE0DA63BAE7E8|www.zhuzhu.cc[特殊身份真[zhuzhu.cc].rmvb" progid="Xbdyy.PlayCtrl.1" type="application/player-activex" name="BaiduPlayer" id="BaiduPlayer"></object></div></div>
-<script charset="utf-8" src="http://php.player.baidu.com/player/player.php?url=bdhd%3A%2F%2F1262966004%7C65A4C02CB6946DFA749DE0DA63BAE7E8%7Cwww.zhuzhu.cc%5B%E7%89%B9%E6%AE%8A%E8%BA%AB%E4%BB%BD%E7%9C%9F%5Bzhuzhu.cc%5D.rmvb" language="javascript"></script>
-<script charset="utf-8" src="http://php.player.baidu.com/player/bdhd3.js?1310302" language="javascript"></script>
-<link type="text/css" href="http://player.baidu.com/lib/setupax/load2.css" rel="stylesheet">
+
+
+<script language="javascript">
+//var v =unescape('%u767E%u5EA6%u5F71%u97F3%24%24DVD%u56FD%u8BED%u7248%24bdhd%3A//358274111%7C2061AED1951CEF8ACD495E9E818846AE%7C%5B%u9E92%u9E9F%u638C%5D.1973.DVD%u56FD%u8BED%u4E2D%u5B57.rmvb%24bdhd')
+var v = unescape('{{ res }}')
+var v1 = v.split('$')[3];
+
+var BdPlayer = new Array();
+BdPlayer['time'] = 8;//缓冲广告展示时间(如果设为0,则根据缓冲进度自动控制广告展示时间)
+BdPlayer['buffer'] = 'http://player.baidu.com/lib/show.html?buffer';//贴片广告网页地址
+BdPlayer['pause'] = 'http://player.baidu.com/lib/show.html?pause';//暂停广告网页地址
+BdPlayer['end'] = 'http://player.baidu.com/lib/show.html?end';//影片播放完成后加载的广告
+BdPlayer['tn'] = '12345678';//播放器下载地址渠道号
+BdPlayer['width'] = 800;//播放器宽度(只能为数字)
+BdPlayer['height'] = 550;//播放器高度(只能为数字)
+BdPlayer['showclient'] = 1;//是否显示拉起拖盘按钮(1为显示 0为隐藏)
+BdPlayer['url'] = v1;//当前播放任务播放地址
+{#BdPlayer['nextcacheurl'] = 'bdhd://258153089|948E0EB38A2DFA1AF7D1B488E86AFFDD|还珠格格之燕儿翩翩飞02.HDTV.rmvb';//下一集播放地址(没有请留空)#}
+{#BdPlayer['lastwebpage'] = 'http://player.baidu.com/lib/eg.html?1';//上一集网页地址(没有请留空)#}
+{#BdPlayer['nextwebpage'] = 'http://player.baidu.com/lib/eg.html?2';//下一集网页地址(没有请留空)#}
+</script>
+<script language="javascript" src="http://php.player.baidu.com/bdplayer/player.js" charset="utf-8"></script>
 
 </body></html>

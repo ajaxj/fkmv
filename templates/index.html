@@ -55,152 +55,247 @@
 
       <hr/>
 
+
+
       <div class="row-fluid">
+            <p><a href="/dongzuopian.html">更多动作片>></a></p>
             <ul class="thumbnails">
+               {% for mv in dzmvs[0:6] %}
               <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-              <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-              <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-              <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-
-             <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-
-             <li class="span2">
-                <a class="thumbnail" href="#">
-                  <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                </a>
-              </li>
-
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
             </ul>
-          </div>
 
-
-      <hr/>
-
-
-      <div class="row-fluid">
-            <ul class="thumbnails">
+             <ul class="thumbnails">
+               {% for mv in dzmvs[6:12] %}
               <li class="span2">
                 <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
+                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
                      <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
+                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
                   </div>
                 </div>
              </li>
-              <li class="span2">
-                <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                     <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-             </li>
-              <li class="span2">
-                <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                     <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-             </li>
-              <li class="span2">
-                <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                     <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-             </li>
-              <li class="span2">
-                <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                     <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-             </li>
-              <li class="span2">
-                <div class="thumbnail">
-                    <img alt="200x200" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAC0CAYAAABytVLLAAACwklEQVR4nO3YMU7jUBRAUfa/FBduUmZP3kKmmisExPk4AX/NnOI05GOekN6N7bdt224A27bd3s4eAJiHIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQgAgCEEEAIghABAGIIAARBCCCAEQQJrQsyycj5x6decVMr5z57P8znwnCZL5alkc/u7dgI2dG5xlZ8lfMzLkEYTIjy7Usy21d16ev8+xc3535lfPwMwRhMoLAmQRhcvcWaV3X3Vv57yzp5XJ5+Ggw+g5h9G+PXJPfJwiT21ukVyzg3yDc+3zvd++dORoozicIE9tbro+PDM/coo+8+XeH8H8QhEk9+raeKQjeIfw7BGFCI8spCPwEQZjMkdvtkef2Z84c+ezozJxLECbz/tv6o72zI9fb++x6vX559sgsI/EQgzkJAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQBiCAAEQQgggBEEIAIAhBBACIIQAQByB9a+027mlWXwAAAAABJRU5ErkJggg==">
-                     <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-             </li>
-
-
+              {% endfor %}
             </ul>
           </div>
 
       <hr/>
 
-      <div class="row-fluid">
+     <div class="row-fluid">
+            <p><a href="/xijupian.html">更多喜剧片>></a></p>
             <ul class="thumbnails">
-              <li class="span4">
+               {% for mv in xjmvs[0:6] %}
+              <li class="span2">
                 <div class="thumbnail">
-                  <img alt="200x200" data-src="holder.js/300x200" style="width: 300px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADICAYAAABS39xVAAADZ0lEQVR4nO3YMXLCMBRAwdz/KByOKyRtZmLAwjb2U7bYCmE+hd5Y+rrf798ABV9nDwCwlmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYE3idrv9sdf60We/O+9eMxwxL9cgWBNY2pTPNurI+tFnvzvvXjMcMS/XIVgTEKxj5+U6BGsCWzf0o89Go7dl3tH/8cl5uQ7BmtC7G/fsAAgWrwjWRNZcNB8VgKXfHrn4vvIbIdchWJM6IwBb7o8EizUEa2JnHLGW3rDemfNT89IiWBM7605o7THw1XM+NS8dgjWBkePUlYK1dY1g/T+CNYHR+5+RkG2J3h53YEfPS4tgTWDrm9Sz9UesvVJgaRGsSfw+ho0ctdasX7N26fNH31l63qs59p6XJsECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyfgCjVkWTkzIm1AAAAABJRU5ErkJggg==">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
+                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
                   </div>
                 </div>
-              </li>
-              <li class="span4">
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in xjmvs[6:12] %}
+              <li class="span2">
                 <div class="thumbnail">
-                  <img alt="300x200" data-src="holder.js/300x200" style="width: 300px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADICAYAAABS39xVAAADZ0lEQVR4nO3YMXLCMBRAwdz/KByOKyRtZmLAwjb2U7bYCmE+hd5Y+rrf798ABV9nDwCwlmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYE3idrv9sdf60We/O+9eMxwxL9cgWBNY2pTPNurI+tFnvzvvXjMcMS/XIVgTEKxj5+U6BGsCWzf0o89Go7dl3tH/8cl5uQ7BmtC7G/fsAAgWrwjWRNZcNB8VgKXfHrn4vvIbIdchWJM6IwBb7o8EizUEa2JnHLGW3rDemfNT89IiWBM7605o7THw1XM+NS8dgjWBkePUlYK1dY1g/T+CNYHR+5+RkG2J3h53YEfPS4tgTWDrm9Sz9UesvVJgaRGsSfw+ho0ctdasX7N26fNH31l63qs59p6XJsECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyfgCjVkWTkzIm1AAAAABJRU5ErkJggg==">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
+                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
                   </div>
                 </div>
-              </li>
-              <li class="span4">
-                <div class="thumbnail">
-                  <img alt="300x200" data-src="holder.js/300x200" style="width: 300px; height: 200px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADICAYAAABS39xVAAADZ0lEQVR4nO3YMXLCMBRAwdz/KByOKyRtZmLAwjb2U7bYCmE+hd5Y+rrf798ABV9nDwCwlmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYE3idrv9sdf60We/O+9eMxwxL9cgWBNY2pTPNurI+tFnvzvvXjMcMS/XIVgTEKxj5+U6BGsCWzf0o89Go7dl3tH/8cl5uQ7BmtC7G/fsAAgWrwjWRNZcNB8VgKXfHrn4vvIbIdchWJM6IwBb7o8EizUEa2JnHLGW3rDemfNT89IiWBM7605o7THw1XM+NS8dgjWBkePUlYK1dY1g/T+CNYHR+5+RkG2J3h53YEfPS4tgTWDrm9Sz9UesvVJgaRGsSfw+ho0ctdasX7N26fNH31l63qs59p6XJsECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyfgCjVkWTkzIm1AAAAABJRU5ErkJggg==">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a></p>
-                  </div>
-                </div>
-              </li>
+             </li>
+              {% endfor %}
             </ul>
           </div>
-
       <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/zhanzhengpian.html">更多战争片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in warmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in warmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/kehuanpian.html">更多科幻片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in khmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in khmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+
+      <div class="row-fluid">
+            <p><a href="/aiqingpian.html">更多爱情片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in aqmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in aqmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/kongbupian.html">更多恐怖片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in kbmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in kbmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+      <div class="row-fluid">
+            <p><a href="/juqingpian.html">更多剧情片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in jqmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in jqmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}">
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
 
 {% endblock %}
