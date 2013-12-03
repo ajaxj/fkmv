@@ -53,31 +53,31 @@ def index(category=""):
         return render_template("index.html",title=_title,dzmvs=_dzmvs,xjmvs=_xjmvs,warmvs=_warmvs,khmvs=_khmvs,aqmvs=_aqmvs,kbmvs=_kbmvs,jqmvs=_jqmvs)
     elif category == "dongzuopian":
         _title = u"战争片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("dongzuopian.html",mvs=_mvs,title=_title)
     elif category == "xijupian":
         _title = u"喜剧片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("xijupian.html",mvs= _mvs,title=_title)
     elif category == "zhanzhengpian":
         _title = u"战争片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("zhanzhengpian.html",mvs= _mvs,title=_title)
     elif category == "kehuanpian":
         _title = u"科幻片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("kehuanpian.html",mvs = _mvs,title=_title)
     elif category == "aiqingpian":
         _title = u"爱情片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("aiqingpian.html",mvs = _mvs,title=_title)
     elif category == "kongbupian":
         _title = u"恐怖片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("kongbupian.html",mvs = _mvs,title=_title)
     elif category == "juqingpian":
         _title = u"剧情片"
-        _mvs = dw.get_movielist_by_cateen_limit(category,12)
+        _mvs = dw.get_movielist_by_cateen_limit(category,24)
         return render_template("juqingpian.html",mvs = _mvs,title=_title)
     else:
         _title = u"首页"
