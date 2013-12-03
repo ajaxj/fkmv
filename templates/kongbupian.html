@@ -30,8 +30,11 @@
                 {% for mv in mvs[0:6] %}
                   <li class="span2">
                     <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
-                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
                     </a>
+                   <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
                 </li>
               {% endfor %}
             </ul>
@@ -41,13 +44,40 @@
                 {% for mv in mvs[6:12] %}
                   <li class="span2">
                     <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
-                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
                     </a>
+                   <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
                 </li>
               {% endfor %}
             </ul>
 
+             <ul class="thumbnails">
+                {% for mv in mvs[12:18] %}
+                  <li class="span2">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                   <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
 
+             <ul class="thumbnails">
+                {% for mv in mvs[18:24] %}
+                  <li class="span2">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                      <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 150px; height: 180px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                   <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
       </div>
 
       <hr/>
