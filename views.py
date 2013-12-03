@@ -142,7 +142,7 @@ def juqingpian(name):
     _list = dw.get_list_by_id(_mv.id)
     return render_template("detail.html",mv=_mv,title = _title,ls=_list)
 
-@app.route("/player/<id>")
+@app.route("/player/<id>.html")
 def player(id):
     _url = dw.get_player_by_id(id)
     #print _url.res
