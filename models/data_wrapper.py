@@ -7,6 +7,14 @@ class DataWrapper(object):
         """取出电影通过分类和限定数量"""
         return Movie.query.filter_by(cateen=cateen).order_by(Movie.id.desc()).limit(limit).all()
 
+    def get_movielist_by_cateen_page(self,cateen,page,pagesize):
+        if page != 0:
+            page = page -1
+        offset = page * pagesize
+        _mvs =  Movie.query.filter_by(cateen=cateen).order_by(Movie.id.desc()).offset(offset).limit(pagesize).all()
+        _count = len( Movie.query.filter_by(cateen=cateen).all())
+        return _mvs,_count
+
     def get_movie_by_cateen_name(self,cateen,name):
         return Movie.query.filter_by(cateen=cateen,name=name).first()
 

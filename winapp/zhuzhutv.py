@@ -8,7 +8,7 @@ import MySQLdb
 import time
 
 
-class Zhuzhudm:
+class Zhuzhutv:
     pwd = ""
 
     #抓取远程URL转成HTML
@@ -59,8 +59,8 @@ class Zhuzhudm:
                 if len(a_list) > 0:
                     _title = a_list[1].string
                     _url = a_list[1].get('href')
-                    _cateen = "donghuapian"
-                    _catecn = u"动画片"
+                    _cateen = "korea"
+                    _catecn = u"韩国电视剧"
                     #print _title,_url,_cateen,_catecn,_banben,_img,_ji
                     result = self.insertListToDb(_title,_url,_cateen,_catecn,_banben,_img,_ji)
                     if result is False:
@@ -74,11 +74,11 @@ class Zhuzhudm:
     def insertListToDb(self,title,url,cateen,catecn,banben,img,li):
         try:
             conn = MySQLdb.connect(host="localhost",user="root",passwd=self.pwd,db="3tv3",charset="utf8")
-            sql = "SELECT * FROM zhuzhudh_mv WHERE title = '%s'" %(title)
+            sql = "SELECT * FROM zhuzhutv WHERE title = '%s'" %(title)
             cur = conn.cursor()
             cur.execute(sql)
             if cur.fetchone() == None:
-                sql = "INSERT INTO zhuzhudh_mv(title,url,cateen,catecn,banben,img,ji) VALUES ('%s','%s','%s','%s','%s','%s',%d)" %(title,url,cateen,catecn,banben,img,li)
+                sql = "INSERT INTO zhuzhutv(title,url,cateen,catecn,banben,img,ji) VALUES ('%s','%s','%s','%s','%s','%s',%d)" %(title,url,cateen,catecn,banben,img,li)
                 cur.execute(sql)
                 conn.commit()
                 return True
@@ -94,17 +94,17 @@ class Zhuzhudm:
 
     def main_run(self):
 
-        url = "http://www.zhuzhu.cc/dh/index.html"
+        url = "http://www.zhuzhu.cc/Korea/index.html"
         result = self.parseListHtml(url)
         print result
         #11 18,19,25,26
-        for i in range(2,163):
-            time.sleep(2)
-            url = "http://www.zhuzhu.cc/dh/index" + str(i) + ".html"
+        for i in range(2,22):
+            time.sleep(3)
+            url = "http://www.zhuzhu.cc/Korea/index" + str(i) + ".html"
             result = self.parseListHtml(url)
             print i,result
 
 
 if __name__ == "__main__":
-    app = Zhuzhudm()
+    app = Zhuzhutv()
     app.main_run()
