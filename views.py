@@ -5,13 +5,13 @@ import time
 
 from myapp import app
 #from blog.views import blog
-#from admin.views import admin
+from admin.views import admin
 
 from models.data_wrapper import DataWrapper
 dw = DataWrapper()
 
 #app.register_blueprint(blog,url_prefix="/blog")
-#app.register_blueprint(admin,url_prefix="/admin")
+app.register_blueprint(admin,url_prefix="/admin")
 
 # -- Error Control --
 class ViewError(StandardError):
