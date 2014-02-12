@@ -1,8 +1,0 @@
-#Flask
-#Flask-SQLAlchemy
-#Flask-WTF
-#Jinja2
-SQLAlchemy
-WTForms
-Werkzeug
-wsgiref
