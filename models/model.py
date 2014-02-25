@@ -46,6 +46,10 @@ class MovieList(db.Model):
         return self.txt
 
 
+# class Hakuzy(db.Model):
+    # __tablename__ = "hakuzy_mv"
+
+
 
 
 

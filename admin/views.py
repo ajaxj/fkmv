@@ -245,7 +245,7 @@ def login():
     if request.method == 'POST':
         _email = request.form['email']
         _passwd =request.form['passwd']
-        if _email =='1' and _passwd == '1':
+        if _email =='ajaxj@qq.com' and _passwd == '1':
             session['logined'] = True
             return redirect("/admin/")
         else:

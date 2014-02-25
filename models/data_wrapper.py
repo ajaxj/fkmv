@@ -15,3 +15,11 @@ class DataWrapper(object):
 
     def get_player_by_id(self,id):
         return MovieList.query.get(int(id))
+
+
+    #后台hakuzy
+
+    #通过分类,取得没有抓取的hakuzy的urllist 表,10个一组
+    def get_hakuzy_urllist_by_catename(self,catename):
+        return
+
