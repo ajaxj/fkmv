@@ -10,9 +10,12 @@
 
 
 from flask import Flask
+from flask.ext.login import LoginManager
 app = Flask(__name__)
 app.config.from_object('config')
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+login_manager = LoginManager()
+login_manager.init_app(app)
 from views import *
 
 if __name__ == '__main__':

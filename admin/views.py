@@ -4,19 +4,27 @@ from BeautifulSoup import BeautifulSoup
 from flask import Blueprint, render_template, request, redirect, session, url_for
 from forms.account import LoginForm
 from models.data_wrapper import DataWrapper
-from models.model import Movie
+from models.model import Movie,User
+from myapp import login_manager
+from flask.ext.login import login_required,login_user
 dw = DataWrapper()
 
 
 # 使用Blueprint 的方式指明模块,并且定义模板的地址
 admin = Blueprint('admin',__name__,template_folder='templates')
 
+@login_manager.user_loader
+def load_user(id):
+    return User.query.get(int(id))
+
 @admin.route('/')
+@login_required
 def index():
-    if 'logined' in session:
-        return render_template('admin/index.html')
-    else:
-        return render_template('admin/login.html')
+    return render_template('admin/index.html')
+    # if 'logined' in session:
+    #     return render_template('admin/index.html')
+    # else:
+    #     return render_template('admin/login.html')
 
 @admin.route('/movielist/<string:catename>')
 def movielist(catename='dongzuopian'):
@@ -242,16 +250,23 @@ def adminlogin():
 
 @admin.route("/login",methods=['GET','POST'])
 def login():
-    if request.method == 'POST':
-        _email = request.form['email']
-        _passwd =request.form['passwd']
-        if _email =='ajaxj@qq.com' and _passwd == '1':
-            session['logined'] = True
-            return redirect("/admin/")
-        else:
-            return render_template('admin/login.html')
-    else:
-        return render_template('admin/login.html')
+    form = LoginForm()
+    if form.validate_on_submit():
+        # login and validate the user...
+        login_user(None)
+        # flash("Logged in successfully.")
+        return redirect( url_for("index"))
+     return render_template('admin/adminlogin.html',form=form)
+    # if request.method == 'POST':
+    #     _email = request.form['email']
+    #     _passwd =request.form['passwd']
+    #     if _email =='ajaxj@qq.com' and _passwd == '1':
+    #         session['logined'] = True
+    #         return redirect("/admin/")
+    #     else:
+    #         return render_template('admin/login.html')
+    # else:
+    #     return render_template('admin/login.html')
 
 @admin.route('/logout')
 def logout():
