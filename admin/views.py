@@ -14,7 +14,7 @@ admin = Blueprint('admin',__name__,template_folder='templates')
 @admin.route('/')
 def index():
     if 'logined' in session:
-        return render_template('admin/index.html')
+        return render_template('admin/index.html.bak')
     else:
         return render_template('admin/login.html')
 

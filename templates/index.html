@@ -1,301 +1,1906 @@
-{% extends "layout.html" %}
-{% block body %}
-      <div class="masthead">
-        <h3 class="muted">3tv3</h3>
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container">
-              <ul class="nav">
-                <li class="active"><a href="/">首页</a></li>
-                <li><a href="/dongzuopian.html">动作片</a></li>
-                <li><a href="/xijupian.html">喜剧片</a></li>
-                <li><a href="/aiqingpian.html">爱情片</a></li>
-                <li><a href="/kehuanpian.html">科幻片</a></li>
-                <li><a href="/kongbupian.html">恐怖片</a></li>
-                <li><a href="/zhanzhengpian.html">战争片</a></li>
-                <li><a href="/juqingpian.html">剧情片</a></li>
-              </ul>
-            </div>
-          </div>
-        </div><!-- /.navbar -->
-      </div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>快播◆快播电影和百度影音电影网在线观看,电影天堂 - 3tv3</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content=IE=EmulateIE7 http-equiv=X-UA-Compatible>
+<META name=keywords content=快播,快播电影,电影网,百度影音,电影天堂>
+<META name=description 
+content=快播电影网(www.3tv3.com)为大家提供百度影音在线观看,快播电影下载,发布最新电视剧,好看的百度影音电视剧为宗旨的快播锅边鱼-是电影迷的网上电影天堂>
+<LINK rel=stylesheet href="{{ url_for('static',filename='home/css/style.css')}}">
 
-      <!-- Jumbotron -->
-{#      <div class="jumbotron">#}
-{#        <h1>Marketing stuff!</h1>#}
-{#        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>#}
-{#        <a class="btn btn-large btn-success" href="#">Get started today</a>#}
-{#      </div>#}
-
-
-
-      <!-- Example row of columns -->
-{#      <div class="row-fluid">#}
-{#        <div class="span3">#}
-{#          <h2>Heading</h2>#}
-{#          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>#}
-{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
-{#        </div>#}
-{#        <div class="span3">#}
-{#          <h2>Heading</h2>#}
-{#          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>#}
-{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
-{#       </div>#}
-{#        <div class="span3">#}
-{#          <h2>Heading</h2>#}
-{#          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>#}
-{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
-{#        </div>#}
-{#        <div class="span3">#}
-{#          <h2>Heading</h2>#}
-{#          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>#}
-{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
-{#        </div>#}
-{#      </div>#}
-
-      <hr/>
+<SCRIPT type=text/javascript src="{{ url_for('static',filename='home/js/tabs.js')}}"></SCRIPT>
+<META name=GENERATOR content="MSHTML 9.00.8112.16540"></HEAD>
+<BODY>
+<DIV id=wrap>
+<DIV class=wrap>
+<DIV class="header mb6"><A class="fl logo" title=百度影音 
+href="http://www.guobianyu.com/"><IMG alt=锅边鱼 
+src="{{ url_for('static',filename='home/images/logo.gif')}}"></A> <SPAN
+class=newtool><A 
+onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.guobianyu.com');" 
+href="http://www.guobianyu.com/#">设置首页</A>|<A 
+onclick="javascript:window.external.AddFavorite('http://www.guobianyu.com', '锅边鱼');" 
+href="http://www.guobianyu.com/#">收藏本站</A></SPAN> 
+<DIV class="fr banner"><!--headright-->
+<DIV class=headright>
+<DIV class=txtnote>
+<P 
+style="WIDTH: 515px; DISPLAY: block; FLOAT: left">如果你觉得本站不错的话，请行举手之劳推荐给你的朋友，或在博客/空间里做上锅边鱼的链接</P>
+</DIV>
+<FORM method=post action=/search.asp><SPAN></SPAN><INPUT class=intext 
+onfocus="this.value='';this.focus()" name=searchword value=输入影视名称或主演名称> <INPUT class=ss value="搜 索" type=submit>
+<!--历史记录页面开始-->
+<DIV class=menu2><A id=Tab_top_0 class=history onmouseover=showTop(0); 
+onmouseout=hideTop(); href="javascript:void(0);">历史观看记录</A> 
+<DIV style="DISPLAY: none" id=List_top_0 class=widget-record 
+onmouseover=showTop(0); onmouseout=hideTop();>
+<DIV class=list>
+<UL id=playhistory class=item>
+  <LI>您的观看历史为空 </LI></UL>
 
 
+<DIV class=info><SPAN class=count><A title=清空观看记录 onclick=javascript:_GC() 
+href="javascript:void(0)" target=_self>清空观看记录</A></SPAN> <SPAN class=close><A 
+class=red title=关闭 onclick=hideTop(); href="javascript:void(0)" 
+target=_self>关闭</A></SPAN> </DIV></DIV></DIV></DIV><!--历史记录页面结束--></FORM>
+<P><STRONG>热门：</STRONG><A 
+href="http://www.guobianyu.com/Korea/laizixingxingdeni.html" 
+target=_blank>来自星星的你</A> <A href="http://www.guobianyu.com/xj/dazhangfuDVD.html" 
+target=_blank>大丈夫</A> <A 
+href="http://www.guobianyu.com/gc/xiangcunaiqingyuanwuqu.html" 
+target=_blank>乡村爱情圆舞曲</A> <A 
+href="http://www.guobianyu.com/gc/mohuanshouji2shaguilai.html" 
+target=_blank>魔幻手机2傻妞归来</A> <A 
+href="http://www.guobianyu.com/gc/fengshenyingxiongbang.html" 
+target=_blank>封神英雄榜</A> <A href="http://www.guobianyu.com/gc/qizidemimi.html" 
+target=_blank>妻子的秘密 </A><A 
+href="http://www.guobianyu.com/gc/laobingdianshiju.html" 
+target=_blank>老兵</A></P></DIV><!--/headright--></DIV></DIV><!--/Header-->
+<DIV class="nav mb6">
+<P><A class=this href="http://www.guobianyu.com/" target=_self>首页</A><A 
+href="http://www.guobianyu.com/Korea/" target=_self>韩国电视剧</A><A 
+href="http://www.guobianyu.com/taiwan/" target=_self>台湾电视剧</A><A 
+href="http://www.guobianyu.com/gc/" target=_self>国产电视剧</A><A 
+href="http://www.guobianyu.com/om/" target=_self>欧美电视剧</A><A 
+href="http://www.guobianyu.com/gt/" target=_self>香港电视剧</A><A 
+href="http://www.guobianyu.com/rh/" target=_self>日本电视剧</A><A 
+href="http://www.guobianyu.com/singapore/" target=_self>东南亚剧集</A><A 
+href="http://www.guobianyu.com/zy/" target=_self>综艺娱乐</A><A 
+href="http://www.guobianyu.com/dh/" target=_self>经典动漫</A><A 
+href="http://www.guobianyu.com/ty/" target=_self>娱乐八卦</A> <A 
+href="http://www.guobianyu.com/topic/index.html" target=_blank>明星专辑</A></P>
+<P class=tow><A href="http://www.guobianyu.com/dz/" target=_self>动作片</A><A 
+href="http://www.guobianyu.com/jq/" target=_self>剧情片</A><A 
+href="http://www.guobianyu.com/xj/" target=_self>喜剧片</A><A 
+href="http://www.guobianyu.com/kb/" target=_self>恐怖片</A><A 
+href="http://www.guobianyu.com/aq/" target=_self>爱情片</A><A 
+href="http://www.guobianyu.com/war/" target=_self>战争片</A><A 
+href="http://www.guobianyu.com/yyjd/" target=_self>纪录片</A><A 
+href="http://www.guobianyu.com/kh/" target=_self>科幻片</A><A 
+href="http://www.guobianyu.com/weidianying/" target=_blank>微电影</A> <A 
+href="http://www.guobianyu.com/hot.html" target=_blank>排行榜</A> <A 
+href="http://www.guobianyu.com/allmovie.html" target=_blank>全部电影</A> <A 
+href="http://www.guobianyu.com/html/index.html" target=_blank>剧情介绍</A> <A 
+href="http://www.guobianyu.com/live/index.html" target=_blank>电视直播</A><A 
+href="http://www.guobianyu.com/" target=_blank>给我留言</A> </P></DIV><!--/Nav-->
+<!-- 通栏广告位 -->
+<!--
+<DIV class=ad760>
+</DIV>
+-->
+<DIV class="tools border1 mb6">
+<DIV class="notice fl"><FONT>专辑推荐:</FONT> <A 
+href="http://www.guobianyu.com/topiclist/sangshipian.html" target=_blank><FONT 
+color=red>丧尸电影</FONT></A> <A 
+href="http://www.guobianyu.com/topiclist/xiaoqingxin.html" 
+target=_blank>小清新电影</A> <A href="http://www.guobianyu.com/topiclist/6ygyzn.html" 
+target=_blank>2013年06月观影指</A> <A href="http://www.guobianyu.com/movie/2013.html" 
+target=_blank><FONT color=red>2013最新电影</A> <A 
+href="http://www.guobianyu.com/tv/2013.html" target=_blank><FONT 
+color=red>2013最新电视剧</A> </DIV>
+<DIV class=fr><A class=red href="http://www.guobianyu.com/new.html">最新100</A>|<A 
+href="http://www.guobianyu.com/baiduyy.html">快播下载</A>|<A 
+href="http://www.guobianyu.com/live/index.html">湖南卫视直播</A></DIV></DIV><!--/Tools-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>今日电影推荐<SPAN class=more>今日更新<STRONG class=red>102</STRONG>部</SPAN></H3>
+<UL class=pic_list>
+  <LI><A class=pic href="http://www.guobianyu.com/gc/laobingdianshiju.html"><IMG 
+  alt=老兵(电视剧) 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/gc/laobingdianshiju.html">老兵(电视剧)</A></STRONG><SPAN>第38集</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html"><IMG 
+  alt=北京爱情故事电影版 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html">北京爱情故事电影版</A></STRONG><SPAN>BD</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/gc/jiangnansidacaizi.html"><IMG alt=江南四大才子 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/gc/jiangnansidacaizi.html">江南四大才子</A></STRONG><SPAN>第19集</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/xj/babaqunaerdianying.html"><IMG alt=爸爸去哪儿(电影) 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/xj/babaqunaerdianying.html">爸爸去哪儿(电影)</A></STRONG><SPAN>BD</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/om/xingshizouroudisiji.html"><IMG alt=行尸走肉第四季 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/om/xingshizouroudisiji.html">行尸走肉第四季</A></STRONG><SPAN>第13集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/jq/aomenfengyun.html"><IMG 
+  alt=澳门风云 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/jq/aomenfengyun.html">澳门风云</A></STRONG><SPAN>HD1280高清</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/xj/dazhangfuDVD.html"><IMG 
+  alt=大丈夫 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/xj/dazhangfuDVD.html">大丈夫</A></STRONG><SPAN>第48集DVD大结局</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/Korea/laizixingxingdeni.html"><IMG alt=来自星星的你 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/Korea/laizixingxingdeni.html">来自星星的你</A></STRONG><SPAN>花絮</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/xj/liufuxishi.html"><IMG 
+  alt=六福喜事 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/xj/liufuxishi.html">六福喜事</A></STRONG><SPAN>BD</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/kb/bangjia.html"><IMG 
+  alt=绑架/喋血新世纪 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/kb/bangjia.html">绑架/喋血新世纪</A></STRONG><SPAN>BD国语</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/dz/danaotiangong2011.html"><IMG alt=西游记之大闹天宫 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dz/danaotiangong2011.html">西游记之大闹天宫</A></STRONG><SPAN>HD1280清晰</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/aq/qianrengonglue.html"><IMG 
+  alt=前任攻略 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/aq/qianrengonglue.html">前任攻略</A></STRONG><SPAN>HD1280清晰</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dz/xinjixiezhanjing.html"><IMG 
+  alt=新机械战警 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dz/xinjixiezhanjing.html">新机械战警</A></STRONG><SPAN>DVDscr版</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/jq/xiaiyepu3.html"><IMG 
+  alt=喜爱夜蒲3 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/jq/xiaiyepu3.html">喜爱夜蒲3</A></STRONG><SPAN>BD1280高清粤语</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/jq/sirendingzhi.html"><IMG 
+  alt=私人订制 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/jq/sirendingzhi.html">私人订制</A></STRONG><SPAN>BD</SPAN> 
+  </LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>
+<DIV class=tab><SPAN id=tab1 class=this 
+onmousemove="setTab('tab','stab',1,6)">全部</SPAN><SPAN id=tab2 
+onmousemove="setTab('tab','stab',2,6)">电影</SPAN><SPAN id=tab3 
+onmousemove="setTab('tab','stab',3,6)">电视剧</SPAN><SPAN id=tab4 
+onmousemove="setTab('tab','stab',4,6)">动漫</SPAN><SPAN id=tab5 
+onmousemove="setTab('tab','stab',5,6)">综艺</SPAN><SPAN id=tab6 
+onmousemove="setTab('tab','stab',6,6)">纪录</SPAN></DIV></H3>
+<UL id=stab1>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/singapore/juxingdemimi.html">巨星的秘密 
+  第08集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/tongzhuodeni.html">同桌的你 
+  预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/hongyanlijian.html">红颜利箭 
+  第02集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/jq/tongniandezuihouyigexiatian.html">童年的最后一个夏天 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/war/hongsexingdongduirexuekuang.html">红色行动队热血狂飙 
+  DVD版</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/singapore/lifangti.html">立方体 
+  第01集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/shaonannaibadisanji.html">少男奶爸第三季 
+  第08集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/laobingdianshiju.html">老兵(电视剧) 
+  第38集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/fanchengniandai.html">返城年代 
+  第36集DVD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/bangjiaweijidiyiji.html">绑架危机第一季 
+  第01集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/modengjiatingdiwuji.html">摩登家庭第五季 
+  第17集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/fanzuixinlidijiuji.html">犯罪心理第九季 
+  第18集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/shunvzhendiwuji.html">熟女镇第五季 
+  第10集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/rh/zhanliwaisouchaguan.html">战力外搜查官 
+  第09集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/wozhuwodeshou.html">握住我的手 
+  第114集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html">北京爱情故事电影版 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/zhishuyuwodeni.html">只属于我的你 
+  第39集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/mojushaonvdierji.html">魔具少女第二季 
+  第9集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/rh/duoxiekuandai.html">多谢款待 
+  第133集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/mieshidierji.html">灭世第二季 
+  第16集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/singapore/aishenzhiyingguoyuban.html">爱神之影国语版 
+  第22集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/jiejiadaodisanji.html">杰茜驾到第三季 
+  第19集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wohewodechuanqinainai.html">我和我的传奇奶奶 
+  第38集预告片</A></H2><SPAN>03-13</SPAN> </LI></UL>
+<UL id=stab2 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/tongzhuodeni.html">同桌的你 
+  预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/jq/tongniandezuihouyigexiatian.html">童年的最后一个夏天 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/war/hongsexingdongduirexuekuang.html">红色行动队热血狂飙 
+  DVD版</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html">北京爱情故事电影版 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/songzixiansheng.html">送子先生/百万精先生 
+  DVD中英双字</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/tuanyuan.html">团圆 
+  BD1280高清</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/sanriweiqing.html">三日危情 
+  第03集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/huanxiangzhiai.html">幻想之爱/心跳/想像中的爱情 
+  20140311</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/yeguanmenyuwangzhihua.html">夜关门：欲望之花 
+  HD1280高清</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/kb/duandaojihua.html">端岛计划 
+  HD版</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/pingxi.html">屏息 
+  BD1024超清</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/weizhisiwangHD.html">未知死亡 
+  BD1280高清</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/Specialist2.html">Specialist 2 
+  DVD版</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/babaqunaerdianying.html">爸爸去哪儿(电影) 
+  BD</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/heibangzhuijiling.html">黑帮追缉令 
+  DVD版</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/shalaningyuanpaobu.html">莎拉宁愿跑步 
+  BD1280高清</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/kh/jiangshiguilai.html">僵尸归来 
+  DVD版</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/jihuanan.html">计划男 
+  HD1024高清</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/shendeliwu14tian.html">神的礼物-14天 
+  第4集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/war/hongsexingdongduizhimingzhuiji.html">红色行动队致命追击 
+  DVD版</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/war/hongsexingdongduizhiwei.html">红色行动队之围 
+  DVD版</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yinghannaiba.html">硬汉奶爸 
+  预告片</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/baibianairen.html">百变爱人 
+  预告片</A></H2><SPAN>03-11</SPAN> </LI></UL>
+<UL id=stab3 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/singapore/juxingdemimi.html">巨星的秘密 
+  第08集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/hongyanlijian.html">红颜利箭 
+  第02集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/singapore/lifangti.html">立方体 
+  第01集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/shaonannaibadisanji.html">少男奶爸第三季 
+  第08集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/laobingdianshiju.html">老兵(电视剧) 
+  第38集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/fanchengniandai.html">返城年代 
+  第36集DVD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/bangjiaweijidiyiji.html">绑架危机第一季 
+  第01集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/modengjiatingdiwuji.html">摩登家庭第五季 
+  第17集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/fanzuixinlidijiuji.html">犯罪心理第九季 
+  第18集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/shunvzhendiwuji.html">熟女镇第五季 
+  第10集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/rh/zhanliwaisouchaguan.html">战力外搜查官 
+  第09集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/wozhuwodeshou.html">握住我的手 
+  第114集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/zhishuyuwodeni.html">只属于我的你 
+  第39集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/rh/duoxiekuandai.html">多谢款待 
+  第133集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/mieshidierji.html">灭世第二季 
+  第16集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/singapore/aishenzhiyingguoyuban.html">爱神之影国语版 
+  第22集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/jiejiadaodisanji.html">杰茜驾到第三季 
+  第19集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wohewodechuanqinainai.html">我和我的传奇奶奶 
+  第38集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/jiangnansidacaizi.html">江南四大才子 
+  第19集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wodeerzishiqi.html">我的儿子是奇葩 
+  第22集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/woershiduoqi.html">我儿是朵奇葩 
+  第22集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/duobaoweiqing.html">夺宝危情 
+  第32集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/qinianbuyangdianshiju.html">七年不痒(电视剧) 
+  第11集</A></H2><SPAN>03-13</SPAN> </LI></UL>
+<UL id=stab4 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/mojushaonvdierji.html">魔具少女第二季 
+  第9集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/jiejielailiao.html">姐姐来了 
+  第10集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/zhongerbingyeyaolianaidierji.html">中二病也要恋爱第二季 
+  第10集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/daohelianzhige.html">稻荷恋之歌 
+  第09集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/xingjimanbudiyiji.html">星际漫步第一季 
+  第8集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/hu.html">浜虎 
+  第10集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/wusedeqiongkunshenghuodierji.html">乌瑟的穷困生活第二季 
+  第10集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/quanzhilieren2011.html">全职猎人2011 
+  第120集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/mohuantuoluo.html">魔幻陀螺 
+  第04集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/dongjinganya.html">东京暗鸦 
+  第22集</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/liudayingxiong.html">六大英雄 
+  预告片</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/duolaAmeng3Djuchangban.html">哆啦A梦3D剧场版 
+  预告片</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/yaopiguchong.html">咬屁股虫/咬屁屁虫第二季 
+  第22集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/xiangeimoufeixingyuandeliange.html">献给某飞行员的恋歌 
+  第10集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shuxingtonghaohui.html">属性同好会 
+  第10集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/suzhainan.html">飙速宅男 
+  第22集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/jiqirenshaonvZ.html">机器人少女Z 
+  第07-09话</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/suoniziSONIANI.html">索尼子SONIANI 
+  第10集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/gaodaBuildFighters.html">高达Build 
+  Fighters 第22集</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bianmoshishengzhi.html">辩魔士圣知 
+  第09集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/BUDDYCOMPLEX.html">BUDDY COMPLEX 
+  第10集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/tiancaimajiangshaonvdisanji.html">天才麻将少女第三季 
+  第09集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shenzhimitidisanji.html">神之谜题第三季 
+  第23集</A></H2><SPAN>03-10</SPAN> </LI></UL>
+<UL id=stab5 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/yizhoudeouxiang.html">一周的偶像 
+  20140226</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/junqingjiema.html">军情解码 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/youbaotiantiandu.html">有报天天读 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/wulinfeng.html">武林风 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/laoliangguanshijie.html">老梁观世界 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/feichangliaode.html">非常了得 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/quanxingquanyi.html">全星全益 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/zhibogangaotai.html">直播港澳台 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/aiwodema.html">爱呦我的妈 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/SSxiaoyanzhiye.html">SS小燕之夜 
+  20140312SHE合体啦</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/wanquanyule.html">完全娱乐 
+  20140311</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/yuledafengbao.html">娱乐大风暴 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/junqingguanchashi.html">军情观察室 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/womenyuehuiba.html">我们约会吧 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/zongbianjishijian.html">总编辑时间 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/sanrenxing.html">锵锵三人行 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/shishikaijiang.html">时事开讲 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/daxueshengliaomei.html">大学生了没 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/aiqingbaoweizhan.html">爱情保卫战 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/guoguangbangbangmang.html">国光帮帮忙 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/meishidasantong.html">美食大三通 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/nvrenwozuida.html">女人我最大 
+  20140311</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/WTOjiemeihui.html">WTO姐妹会 
+  20140312</A></H2><SPAN>03-13</SPAN> </LI></UL>
+<UL id=stab6 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/chuguobabainian.html">楚国八百年 
+  CD8</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/shamozhongdanshengdemizhiwangguomadianshaleyizhi.html">沙漠中诞生的谜之王国~玛甸沙勒遗址 
+  沙特阿拉伯篇</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/xinlingdechujia.html">心灵的出家 
+  DVD版</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/womenweiheqiche.html">我们为何骑车 
+  BD1280高清</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/toushineimumeiguoyingzhaonvlang.html">透视内幕：美国应召女郎 
+  DVD版</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/angzangdezhanzheng.html">肮脏的战争 
+  BD1280高清</A></H2><SPAN>03-05</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/amusitelangdehuangyan.html">阿姆斯特朗的谎言 
+  BD1280高清</A></H2><SPAN>02-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/zaijianwodexinlang.html">再见，我的新郎 
+  BD1280高清</A></H2><SPAN>02-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/baitainiaosheng.html">百态鸟生 
+  CD1</A></H2><SPAN>02-23</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/jingzhuangzhuinvzi2004.html">精装追女仔2004 
+  DVD国语</A></H2><SPAN>02-21</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/kexuedegushi2012.html">科学的故事(2012) 
+  CD6</A></H2><SPAN>02-20</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/duliyouxidadianying.html">独立游戏大电影 
+  BD</A></H2><SPAN>02-20</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/taiyangxideqiji.html">太阳系的奇迹 
+  CD5</A></H2><SPAN>02-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/baobeijihua.html">宝贝计划 
+  BD国语</A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/heirenqishibang.html">黑人骑士帮 
+  HD1280高清</A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/ximenglifudechaoshengzhilv.html">西蒙.里夫的朝圣之旅 
+  CD3</A></H2><SPAN>02-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/beimeizhou.html">北美洲 
+  CD7</A></H2><SPAN>01-16</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/shuiguolieren.html">水果猎人 
+  BD1024超清</A></H2><SPAN>01-14</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/toushimeiguo.html">透视美国 
+  CD4</A></H2><SPAN>01-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/yatelandisi2011.html">亚特兰蒂斯(2011) 
+  BD</A></H2><SPAN>01-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/maochongzhe.html">冒充者 
+  BD版</A></H2><SPAN>01-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/huangyeshengcun.html">荒野生存/荒野伴我心/阿拉斯加之死 
+  BD版</A></H2><SPAN>01-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/BBCziranshijie.html">BBC自然世界 
+  语言大师草原犬鼠</A></H2><SPAN>01-09</SPAN> </LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
 
-      <div class="row-fluid">
-            <p><a href="/dongzuopian.html">更多动作片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in dzmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
+<!--
+<DIV class=all_money>
+横栏广告
+</DIV>
+-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>电影推荐<SPAN class=more><A href="http://www.guobianyu.com/dz/">动作片</A>|<A 
+href="http://www.guobianyu.com/jq/">剧情片</A>|<A 
+href="http://www.guobianyu.com/xj/">喜剧片</A>|<A 
+href="http://www.guobianyu.com/kb/">恐怖片</A>|<A 
+href="http://www.guobianyu.com/aq/">爱情片</A>|<A 
+href="http://www.guobianyu.com/war/">战争片</A>|<A 
+href="http://www.guobianyu.com/kh/">科幻片</A></SPAN></H3>
+<UL class=pic_list>
+  <LI><A class=pic href="http://www.guobianyu.com/kh/huobiteren.html"><IMG 
+  alt="霍比特人 意外之旅" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/kh/huobiteren.html">霍比特人 
+  意外之旅</A></STRONG><SPAN>BD国语</SPAN> </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/kh/jieyouxi2xinghuoliaoyuan.html"><IMG 
+  alt=饥饿游戏2星火燎原 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/kh/jieyouxi2xinghuoliaoyuan.html">饥饿游戏2星火燎原</A></STRONG><SPAN>BD1280高清</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/kb/wurenshenghuan2013.html"><IMG alt=无人生还(2013) 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/kb/wurenshenghuan2013.html">无人生还(2013)</A></STRONG><SPAN>BD1280高清</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dz/suduyujiqing6.html"><IMG 
+  alt=速度与激情6 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dz/suduyujiqing6.html">速度与激情6</A></STRONG><SPAN>BD1280高清</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/aq/xiaoshidai2qingmushidai.html"><IMG 
+  alt=小时代2青木时代 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/aq/xiaoshidai2qingmushidai.html">小时代2青木时代</A></STRONG><SPAN>BD版</SPAN> 
+  </LI></UL>
+<UL class=text_list>
+  <LI><A href="http://www.guobianyu.com/dz/leishen2heianshijie.html">雷神2 
+  黑暗世界</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dz/yadiannawujiandieju.html">雅典娜 
+  无间谍局</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dz/saodudianying.html">扫毒(电影)</A> </LI>
+  <LI><A href="http://www.guobianyu.com/xj/damingxing.html">大明猩</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dz/fuchunshanjutu.html">富春山居图</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/jq/beijingyushangxiyatu.html">北京遇上西雅图</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/zhongguohehuoren.html">中国合伙人</A> 
+</LI>
+  <LI><A 
+  href="http://www.guobianyu.com/xj/feijihuocheheqiche.html">飞机、火车和汽车/一路顺疯</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dz/dieyingzhongzhong4.html">谍影重重4</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/kb/renpikezhan3.html">人皮客栈3</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/kh/halibote4huoyanbei.html">哈利波特4:火焰杯</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/wanniang.html">晚娘</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/yiluxiangxi.html">一路向西</A> </LI>
+  <LI><A href="http://www.guobianyu.com/kb/guiwanren4.html">鬼玩人4</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dz/jingtianweiji.html">惊天危机</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dz/zhonglieyangjiajiang.html">忠烈杨家将</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/jq/baihu.html">白狐</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/jq/direnjiezhishendulongwang.html">狄仁杰之神都龙王</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/kh/gangtiexia3.html">钢铁侠3</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/woaideshiniaiwo.html">我爱的是你爱我</A> 
+  </LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>电影 
+<DIV class="tab hot_tab"><SPAN id=tab11 class=this 
+onmousemove="setTab('tab1','stab1',1,3)">周</SPAN><SPAN id=tab12 
+onmousemove="setTab('tab1','stab1',2,3)">月</SPAN><SPAN id=tab13 
+onmousemove="setTab('tab1','stab1',3,3)">总</SPAN></DIV></H3>
+<UL id=stab11>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/danaotiangong2011.html">西游记之大闹天宫 
+  HD1280清晰</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yiluxiangxi.html">一路向西 
+  BD</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xiaiyepu2.html">喜爱夜蒲2 
+  BD1280高清国语</A></H2><SPAN>07-04</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/jq/luomanshifaguodianying.html">罗曼史(法国电影) 
+  </A></H2><SPAN>08-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/sejie.html">色戒 
+  全集</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/tianxingseai.html">甜性涩爱 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yuwotongmian.html">与我同眠 
+  </A></H2><SPAN>07-21</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/qingzuowodenuli.html">请做我的奴隶 
+  BD</A></H2><SPAN>04-19</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html">北京爱情故事电影版 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xingaijinqu.html">性爱禁区 
+  DVD</A></H2><SPAN>12-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xiaiyepu3.html">喜爱夜蒲3 
+  BD1280高清粤语</A></H2><SPAN>02-19</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/siwahuisuo.html">丝袜会所 
+  BD</A></H2><SPAN>02-01</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/babaqunaerdianying.html">爸爸去哪儿(电影) 
+  BD</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/jinshipeiyu5nvlifashizhilian.html">禁室培欲5女理发师之恋 
+  全集</A></H2><SPAN>02-13</SPAN> </LI></UL>
+<UL id=stab12 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/danaotiangong2011.html">西游记之大闹天宫 
+  HD1280清晰</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yiluxiangxi.html">一路向西 
+  BD</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xiaiyepu2.html">喜爱夜蒲2 
+  BD1280高清国语</A></H2><SPAN>07-04</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/jq/luomanshifaguodianying.html">罗曼史(法国电影) 
+  </A></H2><SPAN>08-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/sejie.html">色戒 
+  全集</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yuwotongmian.html">与我同眠 
+  </A></H2><SPAN>07-21</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/tianxingseai.html">甜性涩爱 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/qingzuowodenuli.html">请做我的奴隶 
+  BD</A></H2><SPAN>04-19</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xingaijinqu.html">性爱禁区 
+  DVD</A></H2><SPAN>12-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/beijingaiqinggushidianyingban.html">北京爱情故事电影版 
+  BD</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/siwahuisuo.html">丝袜会所 
+  BD</A></H2><SPAN>02-01</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/jinshipeiyu5nvlifashizhilian.html">禁室培欲5女理发师之恋 
+  全集</A></H2><SPAN>02-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/xj/sejishikong.html">色即是空 
+  </A></H2><SPAN>02-04</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/toukuiwuzui.html">偷窥无罪 
+  DVD</A></H2><SPAN>04-14</SPAN> </LI></UL>
+<UL id=stab13 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yiluxiangxi.html">一路向西 
+  BD</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/qingzuowodenuli.html">请做我的奴隶 
+  BD</A></H2><SPAN>04-19</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/suduyujiqing6.html">速度与激情6 
+  BD1280高清</A></H2><SPAN>02-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/chengrenzhijian.html">成人之间 
+  </A></H2><SPAN>12-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/qingchunqi3.html">青春期3 
+  BD</A></H2><SPAN>03-19</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/tianxingseai.html">甜性涩爱 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/kh/shenghuaweiji5chengfa.html">生化危机5：惩罚 
+  DVD</A></H2><SPAN>03-14</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dz/zhushenzhizhan2zhushenzhinu.html">诸神之战2诸神之怒 
+  BD1280国语</A></H2><SPAN>01-06</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/aq/jinshipeiyu5nvlifashizhilian.html">禁室培欲5女理发师之恋 
+  全集</A></H2><SPAN>02-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/xingfunongzhuangDVD.html">性福农庄 
+  DVD</A></H2><SPAN>04-17</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/sejie.html">色戒 
+  全集</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/wanniang.html">晚娘 
+  DVD</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/beijingyushangxiyatu.html">北京遇上西雅图 
+  BD1280高清粤语</A></H2><SPAN>01-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/antasi.html">安塔芮丝 
+  </A></H2><SPAN>01-13</SPAN> 
+</LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>电视剧推荐<SPAN class=more><A href="http://www.guobianyu.com/Korea/">韩国电视剧</A>|<A 
+href="http://www.guobianyu.com/taiwan/">台湾电视剧</A>|<A 
+href="http://www.guobianyu.com/gc/">国产电视剧</A>|<A 
+href="http://www.guobianyu.com/om/">欧美电视剧</A>|<A 
+href="http://www.guobianyu.com/gt/">香港电视剧</A>|<A 
+href="http://www.guobianyu.com/rh/">日本电视剧</A>|<A 
+href="http://www.guobianyu.com/singapore/">东南亚剧集</A></SPAN></H3>
+<UL class=pic_list>
+  <LI><A class=pic href="http://www.guobianyu.com/Korea/wozhuwodeshou.html"><IMG 
+  alt=握住我的手 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/Korea/wozhuwodeshou.html">握住我的手</A></STRONG><SPAN>第114集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/gt/aihuijiaguoyu.html"><IMG 
+  alt=爱回家(国语版) 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/gt/aihuijiaguoyu.html">爱回家(国语版)</A></STRONG><SPAN>第467集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/gc/fumuaiqing.html"><IMG 
+  alt=父母爱情 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/gc/fumuaiqing.html">父母爱情</A></STRONG><SPAN>第45集大结局</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/taiwan/liumangdangaodian.html"><IMG alt=流氓蛋糕店 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/taiwan/liumangdangaodian.html">流氓蛋糕店</A></STRONG><SPAN>第9集</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/gc/xintianlongbabuzhong.html"><IMG 
+  alt=新天龙八部(钟汉良) 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/gc/xintianlongbabuzhong.html">新天龙八部(钟汉良)</A></STRONG><SPAN></SPAN> 
+  </LI></UL>
+<UL class=text_list>
+  <LI><A href="http://www.guobianyu.com/gc/sangenvqingnian.html">三个女青年/新闺蜜时代</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/yidaixiongdianshiju.html">一代枭雄(电视剧)</A> 
+</LI>
+  <LI><A 
+  href="http://www.guobianyu.com/om/shentanxialuokedisanji.html">神探夏洛克第三季</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/yingxionglianmengdianshiju.html">英雄联盟(电视剧)</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/fenghuojiarendianshiju.html">烽火佳人(电视剧)</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/om/xingshizouroudisanji.html">行尸走肉第三季</A> </LI>
+  <LI><A href="http://www.guobianyu.com/Korea/youling.html">韩剧幽灵</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/laoyousuoyi.html">老有所依</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/wanwanmeixiangdao.html">万万没想到</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gt/MyshengLadyyueyuban.html">My盛Lady(粤语版)</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/yinweiaiqingyouduomei.html">因为爱情有多美</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/gc/huakaibanxia.html">花开半夏</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/shentoudianshiju.html">渗透(电视剧)</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/gt/julunguoyuban.html">巨轮(国语版)</A> </LI>
+  <LI><A href="http://www.guobianyu.com/taiwan/zhenaiheibaipei.html">真爱黑白配</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/Korea/chouwenhanban.html">丑闻(韩版)</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/Korea/jiehundenvshen.html">结婚的女神</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/aiqingmianqianshuipashui.html">爱情面前谁怕谁</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/gc/lifashi.html">理发师</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/rensheng.html">璀璨人生</A> 
+</LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>电视剧 
+<DIV class="tab hot_tab"><SPAN id=tab21 class=this 
+onmousemove="setTab('tab2','stab2',1,3)">周</SPAN><SPAN id=tab22 
+onmousemove="setTab('tab2','stab2',2,3)">月</SPAN><SPAN id=tab23 
+onmousemove="setTab('tab2','stab2',3,3)">总</SPAN></DIV></H3>
+<UL id=stab21>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/dongbeiwangshizhiheidaofengyun20nian.html">东北往事之黑道风云20年 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/cuodianyuanyangxidianyuanyang.html">错点鸳鸯戏点鸳鸯 
+  第50集</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/xingshizouroudisiji.html">行尸走肉第四季 
+  第13集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/zhanchangsha.html">战长沙 
+  第12集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/aidefuchanke.html">爱的妇产科 
+  第6集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/weijibianyuandiyiji.html">危机边缘第一季 
+  全集</A></H2><SPAN>10-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/laobingdianshiju.html">老兵(电视剧) 
+  第38集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/laizixingxingdeni.html">来自星星的你 
+  花絮</A></H2><SPAN>03-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gt/liaozhaiyantanzhiyou.html">聊斋艳谭之幽媾 
+  DVD</A></H2><SPAN>12-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/rh/shenghuashoushi.html">生化寿尸 
+  </A></H2><SPAN>04-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/laoyoujidiyiji.html">老友记第一季 
+  全集</A></H2><SPAN>12-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wohewodechuanqinainai.html">我和我的传奇奶奶 
+  第38集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wanwanmeixiangdao.html">万万没想到 
+  第17集制作特辑</A></H2><SPAN>12-29</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/jiangnansidacaizi.html">江南四大才子 
+  第19集</A></H2><SPAN>03-13</SPAN> </LI></UL>
+<UL id=stab22 class=none>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/dongbeiwangshizhiheidaofengyun20nian.html">东北往事之黑道风云20年 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/cuodianyuanyangxidianyuanyang.html">错点鸳鸯戏点鸳鸯 
+  第50集</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wohewodechuanqinainai.html">我和我的传奇奶奶 
+  第38集预告片</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/wanwanmeixiangdao.html">万万没想到 
+  第17集制作特辑</A></H2><SPAN>12-29</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/xingshizouroudisiji.html">行尸走肉第四季 
+  第13集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gt/liaozhaiyantanzhiyou.html">聊斋艳谭之幽媾 
+  DVD</A></H2><SPAN>12-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/laoyoujidiyiji.html">老友记第一季 
+  全集</A></H2><SPAN>12-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/Korea/laizixingxingdeni.html">来自星星的你 
+  花絮</A></H2><SPAN>03-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/aidefuchanke.html">爱的妇产科 
+  第6集</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/om/weijibianyuandiyiji.html">危机边缘第一季 
+  全集</A></H2><SPAN>10-27</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/xintianlongbabuzhong.html">新天龙八部(钟汉良) 
+  </A></H2><SPAN>03-05</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/xiewendongdianshiju.html">谢文东(电视剧) 
+  预告片</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/zhanchangsha.html">战长沙 
+  第12集</A></H2><SPAN>03-13</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/wodekangzhanzhiliebaotuji.html">我的抗战之猎豹突击 
+  第40集DVD</A></H2><SPAN>08-15</SPAN> </LI></UL>
+<UL id=stab23 class=none>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/dongbeiwangshizhiheidaofengyun20nian.html">东北往事之黑道风云20年 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/hougongzhenchuan.html">后宫甄嬛传 
+  全集</A></H2><SPAN>01-24</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/luohunshidai.html">裸婚时代 
+  全集</A></H2><SPAN>01-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/yongbumomiedefanhao.html">永不磨灭的番号 
+  第34集</A></H2><SPAN>12-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/xinshuichuan.html">新水浒传 
+  全集</A></H2><SPAN>07-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/tianyamingyuedaodianshiju.html">天涯明月刀 
+  全集</A></H2><SPAN>01-03</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/nvzizhadanbudui2.html">女子炸弹部队2英雄使命 
+  全集</A></H2><SPAN>04-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/huijiadeyuwang.html">回家的欲望 
+  全集</A></H2><SPAN>06-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/xuanyuanjianzhitianzhihen.html">轩辕剑之天之痕 
+  全集</A></H2><SPAN>02-20</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/dangpopoyushangma.html">当婆婆遇上妈 
+  </A></H2><SPAN>10-22</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/xiangcunaiqingxiaoyequ.html">乡村爱情小夜曲/乡村爱情5 
+  </A></H2><SPAN>02-16</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/woshitezhongbing2guozhiliren.html">我是特种兵2国之利刃/利刃出鞘 
+  全集</A></H2><SPAN>12-20</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/taiwan/yuanlaishimeinanatai.html">原来是美男啊(台版) 
+  第13集</A></H2><SPAN>08-07</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/wodekangzhanzhiliebaotuji.html">我的抗战之猎豹突击 
+  第40集DVD</A></H2><SPAN>08-15</SPAN> </LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>动漫推荐<SPAN class=more><A 
+href="http://www.guobianyu.com/dh/">更多&gt;&gt;</A></SPAN></H3>
+<UL class=pic_list>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/dh/quanzhilieren2011.html"><IMG alt=全职猎人2011 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/quanzhilieren2011.html">全职猎人2011</A></STRONG><SPAN>第120集</SPAN> 
+  </LI>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/dh/shengdoushixingshioumi.html"><IMG alt=圣斗士星矢Ω 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/shengdoushixingshioumi.html">圣斗士星矢Ω</A></STRONG><SPAN>第94集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dh/shixiong.html"><IMG alt=尸兄 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/shixiong.html">尸兄</A></STRONG><SPAN>第19集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dh/huoyingrenzhe.html"><IMG 
+  alt=火影忍者 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/huoyingrenzhe.html">火影忍者</A></STRONG><SPAN>第574集</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dh/bingxueqiyuan.html"><IMG 
+  alt=冰雪奇缘 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/bingxueqiyuan.html">冰雪奇缘</A></STRONG><SPAN>BD1280高清国语</SPAN> 
+  </LI></UL>
+<UL class=text_list>
+  <LI><A href="http://www.guobianyu.com/dh/haizeiwang.html">海贼王</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/xiyangyangyuhuitailangzhifeimaqiyuji.html">喜羊羊与灰太狼之飞马奇遇记</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/guanlangaoshouzhongzhiban.html">灌篮高手重制版</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/xiongchumeizhiguonian.html">熊出没之过年</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/labixiaoxinzhongzhijihuaxinfanlianzai.html">蜡笔小新重制计划</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/xiongchumeizhiduobaoxiongbing.html">熊出没之夺宝熊兵</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/meishidefulu.html">美食的俘虏TorikoX海贼王</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dh/huojizongdongyuan.html">火鸡总动员</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dh/youxiwangZEXAL.html">游戏王ZEXAL</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dh/yinhun.html">银魂/银魂第三季</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dh/mingzhentankenan.html">名侦探柯南</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/dh/kuibazhidazhan.html">魁拔之大战元泱界</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dh/sishen.html">死神</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dh/wojiaoMT.html">我叫MT</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dh/yuehuidazuozhan.html">约会大作战</A> </LI>
+  <LI><A href="http://www.guobianyu.com/dh/woaihuitailang2.html">我爱灰太狼2</A> 
+</LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/yijizhijiandierji.html">学生会的一己之见第二季</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/dh/jinjidejuren.html">进击的巨人</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/fengkuangyuanshiren.html">疯狂原始人/古鲁家族</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dh/yaojingdeweiba.html">妖精的尾巴</A> 
+</LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>动漫 
+<DIV class="tab hot_tab"><SPAN id=tab31 class=this 
+onmousemove="setTab('tab3','stab3',1,3)">周</SPAN><SPAN id=tab32 
+onmousemove="setTab('tab3','stab3',2,3)">月</SPAN><SPAN id=tab33 
+onmousemove="setTab('tab3','stab3',3,3)">总</SPAN></DIV></H3>
+<UL id=stab31>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/qifengliao.html">起风了 
+  预告片</A></H2><SPAN>06-25</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/fuqichengchangriji.html">夫妻成长日记 
+  </A></H2><SPAN>08-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingxueqiyuan.html">冰雪奇缘 
+  BD1280高清国语</A></H2><SPAN>03-03</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/meishicongtianerjiang2.html">美食从天而降2/天降美食2 
+  BD1024高清</A></H2><SPAN>01-15</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/haizeiwang.html">海贼王 
+  第635集</A></H2><SPAN>03-03</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/huoyingrenzhe.html">火影忍者 
+  第574集</A></H2><SPAN>03-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shixiong.html">尸兄 
+  第19集</A></H2><SPAN>03-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/yuanzhikong.html">缘之空 
+  </A></H2><SPAN>10-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shentounaiba.html">神偷奶爸 
+  </A></H2><SPAN>10-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/diaojiaonvpu.html">调教女仆 
+  </A></H2><SPAN>07-23</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingheshiji4.html">冰河世纪4 
+  BD1280高清粤语</A></H2><SPAN>01-05</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingheshiji2.html">冰河世纪2 
+  </A></H2><SPAN>07-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/renyuantaishan.html">人猿泰山 
+  CD2</A></H2><SPAN>02-15</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/mingzhentankenan.html">名侦探柯南 
+  第736集</A></H2><SPAN>01-11</SPAN> </LI></UL>
+<UL id=stab32 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/qifengliao.html">起风了 
+  预告片</A></H2><SPAN>06-25</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/fuqichengchangriji.html">夫妻成长日记 
+  </A></H2><SPAN>08-06</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/meishicongtianerjiang2.html">美食从天而降2/天降美食2 
+  BD1024高清</A></H2><SPAN>01-15</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/huoyingrenzhe.html">火影忍者 
+  第574集</A></H2><SPAN>03-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingxueqiyuan.html">冰雪奇缘 
+  BD1280高清国语</A></H2><SPAN>03-03</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shentounaiba.html">神偷奶爸 
+  </A></H2><SPAN>10-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/haizeiwang.html">海贼王 
+  第635集</A></H2><SPAN>03-03</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/shixiong.html">尸兄 
+  第19集</A></H2><SPAN>03-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingheshiji4.html">冰河世纪4 
+  BD1280高清粤语</A></H2><SPAN>01-05</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingheshiji2.html">冰河世纪2 
+  </A></H2><SPAN>07-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/yuanzhikong.html">缘之空 
+  </A></H2><SPAN>10-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/diaojiaonvpu.html">调教女仆 
+  </A></H2><SPAN>07-23</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/renyuantaishan.html">人猿泰山 
+  CD2</A></H2><SPAN>02-15</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/huojizongdongyuan.html">火鸡总动员 
+  BD1280高清</A></H2><SPAN>02-04</SPAN> </LI></UL>
+<UL id=stab33 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/huoyingrenzhe.html">火影忍者 
+  第574集</A></H2><SPAN>03-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/haizeiwang.html">海贼王 
+  第635集</A></H2><SPAN>03-03</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/gongfuxiongmao2.html">功夫熊猫2 
+  BD英语</A></H2><SPAN>01-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/bingheshiji4.html">冰河世纪4 
+  BD1280高清粤语</A></H2><SPAN>01-05</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/huoyingrenzhejuchangban9renzhezhilu.html">火影忍者剧场版9忍者之路 
+  DVD</A></H2><SPAN>04-24</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/mingzhentankenan.html">名侦探柯南 
+  第736集</A></H2><SPAN>01-11</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/qinshimingyuezhiwanlichangcheng.html">秦时明月之万里长城 
+  第37集完</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/mingzhentankenanjuchangban.html">名侦探柯南剧场版17绝海的侦探 
+  BD1280高清</A></H2><SPAN>02-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/yaojingdeweiba.html">妖精的尾巴 
+  OAD07</A></H2><SPAN>08-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/fuqichengchangriji.html">夫妻成长日记 
+  </A></H2><SPAN>08-06</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/xiyangyangyuhuitailangzhikaixinchuanglongnian.html">喜羊羊与灰太狼之开心闯龙年 
+  HD</A></H2><SPAN>03-21</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/qifengliao.html">起风了 
+  预告片</A></H2><SPAN>06-25</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/sishen.html">死神 
+  第366集</A></H2><SPAN>12-29</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dh/kuibazhidazhan.html">魁拔之大战元泱界 
+  BD1280高清</A></H2><SPAN>01-02</SPAN> </LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>综艺纪录推荐<SPAN class=more><A href="http://www.guobianyu.com/zy/">综艺娱乐</A>|<A 
+href="http://www.guobianyu.com/yyjd/">纪录片</A></SPAN></H3>
+<UL class=pic_list>
+  <LI><A class=pic 
+  href="http://www.guobianyu.com/zy/junqingguanchashi.html"><IMG alt=军情观察室 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/zy/junqingguanchashi.html">军情观察室</A></STRONG><SPAN>20140312</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/zy/womenyuehuiba.html"><IMG 
+  alt=我们约会吧 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/zy/womenyuehuiba.html">我们约会吧</A></STRONG><SPAN>20140312</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/zy/aiqingbaoweizhan.html"><IMG 
+  alt=爱情保卫战 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/zy/aiqingbaoweizhan.html">爱情保卫战</A></STRONG><SPAN>20140312</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/zy/zongyidaremen.html"><IMG 
+  alt=综艺大热门 src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/zy/zongyidaremen.html">综艺大热门</A></STRONG><SPAN>20140312最强伪装术音痴也能变唱将</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/zy/kangxilailiao.html"><IMG 
+  alt=康熙来了 src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/zy/kangxilailiao.html">康熙来了</A></STRONG><SPAN>20140312 
+  超真实小三原配的对决</SPAN> </LI></UL>
+<UL class=text_list>
+  <LI><A 
+  href="http://www.guobianyu.com/zy/NBAchangguisai20132014.html">NBA常规赛2013-2014</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/woshigeshoudierji.html">我是歌手第二季</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/jiatingyoumoluxiang.html">家庭幽默录像</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/feichengwurao.html">非诚勿扰</A> </LI>
+  <LI><A href="http://www.guobianyu.com/zy/runningman.html">running man</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/zy/kuailedabenying.html">快乐大本营</A> </LI>
+  <LI><A href="http://www.guobianyu.com/zy/nanzuonvyou.html">男左女右</A> </LI>
+  <LI><A href="http://www.guobianyu.com/zy/tiantianxiangshang.html">天天向上</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/baibiandakaxiu.html">百变大咖秀</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/zy/jinwan80houtuokouxiu.html">今晚80后脱口秀</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/zy/yizhandaodi.html">一站到底</A> </LI>
+  <LI><A href="http://www.guobianyu.com/zy/yizhouliboxiu.html">壹周立波秀</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/zy/Mayjieyouqing2013.html">May姐有请2013</A> </LI>
+  <LI><A href="http://www.guobianyu.com/zy/zhuanshenyudaoTA.html">转身遇到TA</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/2013kuailenansheng.html">2013快乐男声</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/zhongguomengzhisheng.html">中国梦之声</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/woweigekuangzongyi.html">我为歌狂(综艺)</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/zy/wuchuworenshengzongyi.html">舞出我人生(综艺)</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/zy/zhongguozuiqiangyin.html">中国最强音</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/zy/zhongguomengxiangxiudiwuji.html">中国梦想秀第五季</A> 
+  </LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>综艺纪录 
+<DIV class="tab hot_tab"><SPAN id=tab41 class=this 
+onmousemove="setTab('tab4','stab4',1,3)">周</SPAN><SPAN id=tab42 
+onmousemove="setTab('tab4','stab4',2,3)">月</SPAN><SPAN id=tab43 
+onmousemove="setTab('tab4','stab4',3,3)">总</SPAN></DIV></H3>
+<UL id=stab41>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/babaniqunaer.html">爸爸你去哪儿 
+  20140309</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/womenjiehunliao.html">我们结婚了 
+  20140308</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/hanguoyanyiquanbeicanshijian.html">韩国演艺圈悲惨事件 
+  </A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/xingaiyuxingyu.html">性爱与性欲 
+  </A></H2><SPAN>09-22</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/qiangjianxianjingdian.html">强奸陷阱[经典] 
+  </A></H2><SPAN>02-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/runningman.html">running man 
+  20140309</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/woshigeshoudierji.html">我是歌手第二季 
+  20140307</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/chujimen.html">雏妓门 
+  </A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/tuoyiyouxi.html">脱衣游戏 
+  </A></H2><SPAN>01-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/tiantianxiangshang.html">天天向上 
+  20140307</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/kuailedabenying.html">快乐大本营 
+  20140308</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/baibiandakaxiudiwuji.html">百变大咖秀第五季 
+  20140306</A></H2><SPAN>03-07</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/toushineimumeiguoyingzhaonvlang.html">透视内幕：美国应召女郎 
+  DVD版</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/EXOsShowtime.html">EXO s Showtime 
+  20140206</A></H2><SPAN>02-08</SPAN> </LI></UL>
+<UL id=stab42 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/womenjiehunliao.html">我们结婚了 
+  20140308</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/hanguoyanyiquanbeicanshijian.html">韩国演艺圈悲惨事件 
+  </A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/xingaiyuxingyu.html">性爱与性欲 
+  </A></H2><SPAN>09-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/babaniqunaer.html">爸爸你去哪儿 
+  20140309</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/woshigeshoudierji.html">我是歌手第二季 
+  20140307</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/tiantianxiangshang.html">天天向上 
+  20140307</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/runningman.html">running man 
+  20140309</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/qiangjianxianjingdian.html">强奸陷阱[经典] 
+  </A></H2><SPAN>02-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/baibiandakaxiudiwuji.html">百变大咖秀第五季 
+  20140306</A></H2><SPAN>03-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/tuoyiyouxi.html">脱衣游戏 
+  </A></H2><SPAN>01-07</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/EXOsShowtime.html">EXO s Showtime 
+  20140206</A></H2><SPAN>02-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/kuailedabenying.html">快乐大本营 
+  20140308</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/babaqunaer.html">爸爸去哪儿 
+  20131227</A></H2><SPAN>12-28</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/chujimen.html">雏妓门 
+  </A></H2><SPAN>02-06</SPAN> </LI></UL>
+<UL id=stab43 class=none>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/kuailedabenying.html">快乐大本营 
+  20140308</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/runningman.html">running man 
+  20140309</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/xingaiyuxingyu.html">性爱与性欲 
+  </A></H2><SPAN>09-22</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/tiantianxiangshang.html">天天向上 
+  20140307</A></H2><SPAN>03-08</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/feichengwurao.html">非诚勿扰 
+  20140309</A></H2><SPAN>03-10</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/hanguoyanyiquanbeicanshijian.html">韩国演艺圈悲惨事件 
+  </A></H2><SPAN>02-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/babaniqunaer.html">爸爸你去哪儿 
+  20140309</A></H2><SPAN>03-11</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/qingshudi2ji.html">情书第二季 
+  </A></H2><SPAN>09-04</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/kangxilailiao.html">康熙来了 20140312 
+  超真实小三原配的对决</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/zhongguohaoshengyin.html">中国好声音 
+  20130705</A></H2><SPAN>07-06</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/yyjd/tuoyiyouxi.html">脱衣游戏 
+  </A></H2><SPAN>01-07</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/yyjd/qiangjianxianjingdian.html">强奸陷阱[经典] 
+  </A></H2><SPAN>02-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/womenjiehunliao.html">我们结婚了 
+  20140308</A></H2><SPAN>03-12</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/zy/baibiandakaxiu.html">百变大咖秀 
+  20140306</A></H2><SPAN>03-07</SPAN> </LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>新片/大片预告</H3>
+<UL class=pic_list>
+  <LI><A class=pic href="http://www.guobianyu.com/aq/tongzhuodeni.html"><IMG 
+  alt=同桌的你 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/aq/tongzhuodeni.html">同桌的你</A></STRONG><SPAN>预告片</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/dh/liudayingxiong.html"><IMG 
+  alt=六大英雄 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/dh/liudayingxiong.html">六大英雄</A></STRONG><SPAN>预告片</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/jq/yinghannaiba.html"><IMG 
+  alt=硬汉奶爸 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/jq/yinghannaiba.html">硬汉奶爸</A></STRONG><SPAN>预告片</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/xj/baibianairen.html"><IMG 
+  alt=百变爱人 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/xj/baibianairen.html">百变爱人</A></STRONG><SPAN>预告片</SPAN> 
+  </LI>
+  <LI><A class=pic href="http://www.guobianyu.com/aq/zhuiaidabuju.html"><IMG 
+  alt=追爱大布局 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  href="http://www.guobianyu.com/aq/zhuiaidabuju.html">追爱大布局</A></STRONG><SPAN>预告片</SPAN> 
+  </LI></UL>
+<UL class=text_list>
+  <LI><A href="http://www.guobianyu.com/dz/tegongaimila.html">特工艾米拉</A> </LI>
+  <LI><A href="http://www.guobianyu.com/kb/bixianjinghun3.html">笔仙惊魂3</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/dh/duolaAmeng3Djuchangban.html">哆啦A梦3D剧场版</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/gc/qianjinnvzei.html">千金女贼</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/qizidemimi.html">妻子的秘密</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/wozailushangzuiaini.html">我在路上最爱你</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dh/tiancaiyanjinggou.html">天才眼镜狗</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/kh/xinbadadiwucihangxing.html">辛巴达第五次航行</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/dz/qingchuzheT.html">清除者T</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/cuimiandashi.html">催眠大师</A> </LI>
+  <LI><A href="http://www.guobianyu.com/xj/zhengrongriji.html">整容日记</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/tianshideweixiaodianshiju.html">天使的微笑(电视剧)</A> 
+  </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/gc/baipaoxiadegaogenxie.html">白袍下的高跟鞋</A> </LI>
+  <LI><A href="http://www.guobianyu.com/gc/yipuerzhu.html">一仆二主</A> </LI>
+  <LI><A href="http://www.guobianyu.com/jq/Akadelu.html">A咖的路</A> </LI>
+  <LI><A href="http://www.guobianyu.com/xj/jinjisss.html">金鸡sss</A> </LI>
+  <LI><A 
+  href="http://www.guobianyu.com/weidianying/xiabanshengdexingfu.html">下半生的幸福</A> 
+  </LI>
+  <LI><A href="http://www.guobianyu.com/gc/nvwangjiadao.html">女王驾到</A> </LI>
+  <LI><A href="http://www.guobianyu.com/kh/bianxingjingang4.html">变形金刚4</A> 
+</LI>
+  <LI><A href="http://www.guobianyu.com/xj/huazhuangshi.html">化妆师</A> 
+</LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>评分最高</H3>
+<UL>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/yiluxiangxi.html">一路向西 
+  BD</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/aq/qingchunqi3.html">青春期3 
+  BD</A></H2><SPAN>03-19</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/dongbeiwangshizhiheidaofengyun20nian.html">东北往事之黑道风云20年 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/kh/shenghuaweiji5chengfa.html">生化危机5：惩罚 
+  DVD</A></H2><SPAN>03-14</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/suduyujiqing6.html">速度与激情6 
+  BD1280高清</A></H2><SPAN>02-22</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/taiwan/yuanlaishimeinanatai.html">原来是美男啊(台版) 
+  第13集</A></H2><SPAN>08-07</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/gc/xuanyuanjianzhitianzhihen.html">轩辕剑之天之痕 
+  全集</A></H2><SPAN>02-20</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/sejie.html">色戒 
+  全集</A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/dz/danaotiangong2011.html">西游记之大闹天宫 
+  HD1280清晰</A></H2><SPAN>02-26</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/nvzizhadanbudui2.html">女子炸弹部队2英雄使命 
+  全集</A></H2><SPAN>04-13</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/hougongzhenchuan.html">后宫甄嬛传 
+  全集</A></H2><SPAN>01-24</SPAN> </LI>
+  <LI>
+  <H2><A 
+  href="http://www.guobianyu.com/dh/huoyingrenzhejuchangban9renzhezhilu.html">火影忍者剧场版9忍者之路 
+  DVD</A></H2><SPAN>04-24</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/jq/tianxingseai.html">甜性涩爱 
+  </A></H2><SPAN>01-02</SPAN> </LI>
+  <LI>
+  <H2><A href="http://www.guobianyu.com/gc/tiantianyouxi.html">天天有喜 
+  第91集</A></H2><SPAN>08-16</SPAN> 
+</LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box--><!--最新资讯S-->
+<DIV class="box mb6">
+<DIV class="fl main">
+<DIV class="commend border1 mb6">
+<H3>娱乐八卦<SPAN class=more><A 
+href="http://www.guobianyu.com/ty/">更多&gt;&gt;</A></SPAN></H3>
+<UL class=pic_lists>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/tailameiyexion0606.html"><IMG 
+  alt="台辣妹粽叶胸罩泡温泉 性感似肉粽飞弹" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="台辣妹粽叶胸罩泡温泉 性感似肉粽飞弹" 
+  href="http://www.guobianyu.com/ty/tailameiyexion0606.html">台辣妹粽叶胸罩泡温泉 
+  性感似肉粽飞弹</A></STRONG> </LI>
+  <LI><A class=pics href="http://www.guobianyu.com/ty/guomeimeiza0530.html"><IMG 
+  alt="郭美美再炫富 晒银行卡余额51亿" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="郭美美再炫富 晒银行卡余额51亿" 
+  href="http://www.guobianyu.com/ty/guomeimeiza0530.html">郭美美再炫富 
+  晒银行卡余额51亿</A></STRONG> </LI>
+  <LI><A class=pics href="http://www.guobianyu.com/ty/sabeinings0530.html"><IMG 
+  alt="撒贝宁首谈恋情 没美到可以放弃一切" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="撒贝宁首谈恋情 没美到可以放弃一切" 
+  href="http://www.guobianyu.com/ty/sabeinings0530.html">撒贝宁首谈恋情 
+  没美到可以放弃一切</A></STRONG> </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/linzhilingbaoruj0530.html"><IMG 
+  alt=林志玲爆乳娇嗔代言游戏广告被指太A 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title=林志玲爆乳娇嗔代言游戏广告被指太A 
+  href="http://www.guobianyu.com/ty/linzhilingbaoruj0530.html">林志玲爆乳娇嗔代言游戏广告被指太A</A></STRONG> 
+  </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/tainvzhuboyan0529.html"><IMG 
+  alt=台女主播杨千霈与富商男友激情摸奶车吻 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title=台女主播杨千霈与富商男友激情摸奶车吻 
+  href="http://www.guobianyu.com/ty/tainvzhuboyan0529.html">台女主播杨千霈与富商男友激情摸奶车吻</A></STRONG> 
+  </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/Beyondxiongd0529.html"><IMG 
+  alt="Beyond兄弟闹不和 黄贯中愤怒爆粗黄家强" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="Beyond兄弟闹不和 黄贯中愤怒爆粗黄家强" 
+  href="http://www.guobianyu.com/ty/Beyondxiongd0529.html">Beyond兄弟闹不和 
+  黄贯中愤怒爆粗黄家强</A></STRONG> </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/wangfeiranjijinc0529.html"><IMG 
+  alt="王菲嫣然基金筹4432万 离港后将探望大女" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="王菲嫣然基金筹4432万 离港后将探望大女" 
+  href="http://www.guobianyu.com/ty/wangfeiranjijinc0529.html">王菲嫣然基金筹4432万 
+  离港后将探望大女</A></STRONG> </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/guojingjingdaish0529.html"><IMG 
+  alt="郭晶晶带身孕回老家 霍家豪华BB房动工" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="郭晶晶带身孕回老家 霍家豪华BB房动工" 
+  href="http://www.guobianyu.com/ty/guojingjingdaish0529.html">郭晶晶带身孕回老家 
+  霍家豪华BB房动工</A></STRONG> </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/meiguodianyin0529.html"><IMG 
+  alt="美国电影院染黄 3女1男午夜上演活春宫" 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title="美国电影院染黄 3女1男午夜上演活春宫" 
+  href="http://www.guobianyu.com/ty/meiguodianyin0529.html">美国电影院染黄 
+  3女1男午夜上演活春宫</A></STRONG> </LI>
+  <LI><A class=pics 
+  href="http://www.guobianyu.com/ty/ganlulusanmun0528.html"><IMG 
+  alt=干露露三母女吃香蕉拍写真超享受 
+  src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/2363.jpg"></A><STRONG><A
+  title=干露露三母女吃香蕉拍写真超享受 
+  href="http://www.guobianyu.com/ty/ganlulusanmun0528.html">干露露三母女吃香蕉拍写真超享受</A></STRONG> 
+  </LI></UL></DIV><!--/Commend--></DIV><!--/Main-->
+<DIV class="side fr">
+<DIV class="slist border1 mb6">
+<H3>娱乐 
+<DIV class="tab hot_tab"><SPAN id=tab81 class=this 
+onmousemove="setTab('tab8','stab8',1,3)">周</SPAN><SPAN id=tab82 
+onmousemove="setTab('tab8','stab8',2,3)">月</SPAN><SPAN id=tab83 
+onmousemove="setTab('tab8','stab8',3,3)">总</SPAN></DIV></H3>
+<UL id=stab81>
+  <LI>
+  <H1><A title=泷泽萝拉AV初体验 
+  href="http://www.guobianyu.com/ty/zeluolaAVchutiyan.html"><FONT 
+  color=#0000cc>泷泽萝拉AV初体验</FONT></A></H1></LI>
+  <LI>
+  <H1><A title="日本AKB女星全裸露毛写真 欲下海拍AV" 
+  href="http://www.guobianyu.com/ty/ribenAKBnvxin0502.html">日本AKB女星全裸露毛写真 
+  欲下海拍AV</A></H1></LI>
+  <LI>
+  <H1><A title="网络红人欲破性爱纪录 10小时睡251男" 
+  href="http://www.guobianyu.com/ty/wangluohong0225.html">网络红人欲破性爱纪录 
+  10小时睡251男</A></H1></LI>
+  <LI>
+  <H1><A title="美国电影院染黄 3女1男午夜上演活春宫" 
+  href="http://www.guobianyu.com/ty/meiguodianyin0529.html">美国电影院染黄 
+  3女1男午夜上演活春宫</A></H1></LI>
+  <LI>
+  <H1><A title=曝女模日本被骗拍AV遭施暴轮奸 
+  href="http://www.guobianyu.com/ty/punvmori0128.html">曝女模日本被骗拍AV遭施暴轮奸</A></H1></LI>
+  <LI>
+  <H1><A title="港情色片香艳花絮 男女下体安全罩曝光" 
+  href="http://www.guobianyu.com/ty/gangqingsep0110.html">港情色片香艳花絮 
+  男女下体安全罩曝光</A></H1></LI>
+  <LI>
+  <H1><A title=李宗瑞被曝迷奸继母令其怀孕 
+  href="http://www.guobianyu.com/ty/lizongruibei0104.html">李宗瑞被曝迷奸继母令其怀孕</A></H1></LI>
+  <LI>
+  <H1><A title="日本AV女优水手服抖E奶 耍骚露底裤" 
+  href="http://www.guobianyu.com/ty/ribenAVnvyous0527.html">日本AV女优水手服抖E奶 
+  耍骚露底裤</A></H1></LI>
+  <LI>
+  <H1><A title="淫魔歌手迷奸未成年少女 酒樽塞下体" 
+  href="http://www.guobianyu.com/ty/aixiati1025.html">淫魔歌手迷奸未成年少女 
+  酒樽塞下体</A></H1></LI>
+  <LI>
+  <H1><A title=日本AV女优波多野结衣亮相成人展引爆全场 
+  href="http://www.guobianyu.com/ty/ribenAVnvyo0415.html">日本AV女优波多野结衣亮相成人展引爆全场</A></H1></LI>
+  <LI>
+  <H1><A title="台淫少服食三种毒品 称迷奸女性皆自愿" 
+  href="http://www.guobianyu.com/ty/taiyinshaofushis1008.html">台淫少服食三种毒品 
+  称迷奸女性皆自愿</A></H1></LI>
+  <LI>
+  <H1><A title=传日本成人片女优泷泽萝拉转投风俗店 
+  href="http://www.guobianyu.com/ty/chuanribench0928.html">传日本成人片女优泷泽萝拉转投风俗店</A></H1></LI></UL>
+<UL id=stab82 class=none>
+  <LI>
+  <H1><A title=泷泽萝拉AV初体验 
+  href="http://www.guobianyu.com/ty/zeluolaAVchutiyan.html"><FONT 
+  color=#0000cc>泷泽萝拉AV初体验</FONT></A></H1></LI>
+  <LI>
+  <H1><A title="日本AKB女星全裸露毛写真 欲下海拍AV" 
+  href="http://www.guobianyu.com/ty/ribenAKBnvxin0502.html">日本AKB女星全裸露毛写真 
+  欲下海拍AV</A></H1></LI>
+  <LI>
+  <H1><A title="网络红人欲破性爱纪录 10小时睡251男" 
+  href="http://www.guobianyu.com/ty/wangluohong0225.html">网络红人欲破性爱纪录 
+  10小时睡251男</A></H1></LI>
+  <LI>
+  <H1><A title="美国电影院染黄 3女1男午夜上演活春宫" 
+  href="http://www.guobianyu.com/ty/meiguodianyin0529.html">美国电影院染黄 
+  3女1男午夜上演活春宫</A></H1></LI>
+  <LI>
+  <H1><A title="日本AV女优水手服抖E奶 耍骚露底裤" 
+  href="http://www.guobianyu.com/ty/ribenAVnvyous0527.html">日本AV女优水手服抖E奶 
+  耍骚露底裤</A></H1></LI>
+  <LI>
+  <H1><A title=曝女模日本被骗拍AV遭施暴轮奸 
+  href="http://www.guobianyu.com/ty/punvmori0128.html">曝女模日本被骗拍AV遭施暴轮奸</A></H1></LI>
+  <LI>
+  <H1><A title=李宗瑞被曝迷奸继母令其怀孕 
+  href="http://www.guobianyu.com/ty/lizongruibei0104.html">李宗瑞被曝迷奸继母令其怀孕</A></H1></LI>
+  <LI>
+  <H1><A title="港情色片香艳花絮 男女下体安全罩曝光" 
+  href="http://www.guobianyu.com/ty/gangqingsep0110.html">港情色片香艳花絮 
+  男女下体安全罩曝光</A></H1></LI>
+  <LI>
+  <H1><A title=传日本成人片女优泷泽萝拉转投风俗店 
+  href="http://www.guobianyu.com/ty/chuanribench0928.html">传日本成人片女优泷泽萝拉转投风俗店</A></H1></LI>
+  <LI>
+  <H1><A title=日本AV女优波多野结衣亮相成人展引爆全场 
+  href="http://www.guobianyu.com/ty/ribenAVnvyo0415.html">日本AV女优波多野结衣亮相成人展引爆全场</A></H1></LI>
+  <LI>
+  <H1><A title="淫魔歌手迷奸未成年少女 酒樽塞下体" 
+  href="http://www.guobianyu.com/ty/aixiati1025.html">淫魔歌手迷奸未成年少女 
+  酒樽塞下体</A></H1></LI>
+  <LI>
+  <H1><A title="台淫少服食三种毒品 称迷奸女性皆自愿" 
+  href="http://www.guobianyu.com/ty/taiyinshaofushis1008.html">台淫少服食三种毒品 
+  称迷奸女性皆自愿</A></H1></LI></UL>
+<UL id=stab83 class=none>
+  <LI>
+  <H1><A title=泷泽萝拉AV初体验 
+  href="http://www.guobianyu.com/ty/zeluolaAVchutiyan.html"><FONT 
+  color=#0000cc>泷泽萝拉AV初体验</FONT></A></H1></LI>
+  <LI>
+  <H1><A title=港成人片女星脱光拍戏任男主角抚摸 
+  href="http://www.guobianyu.com/ty/gangchen0925.html">港成人片女星脱光拍戏任男主角抚摸</A></H1></LI>
+  <LI>
+  <H1><A title="日巨乳娘豪放摸G奶 高清实拍青筋暴露" 
+  href="http://www.guobianyu.com/ty/rijuruniangha1217.html">日巨乳娘豪放摸G奶 
+  高清实拍青筋暴露</A></H1></LI>
+  <LI>
+  <H1><A title="苍井空将加盟《4D肉蒲团》拍摄 观影可感受椅震效果" 
+  href="http://www.guobianyu.com/ty/cangjingkongji0922.html">苍井空将加盟《4D肉蒲团》拍摄 
+  观影可感受椅震效果</A></H1></LI>
+  <LI>
+  <H1><A title="日本AKB女星全裸露毛写真 欲下海拍AV" 
+  href="http://www.guobianyu.com/ty/ribenAKBnvxin0502.html">日本AKB女星全裸露毛写真 
+  欲下海拍AV</A></H1></LI>
+  <LI>
+  <H1><A title="网络红人欲破性爱纪录 10小时睡251男" 
+  href="http://www.guobianyu.com/ty/wangluohong0225.html">网络红人欲破性爱纪录 
+  10小时睡251男</A></H1></LI>
+  <LI>
+  <H1><A title="港情色片香艳花絮 男女下体安全罩曝光" 
+  href="http://www.guobianyu.com/ty/gangqingsep0110.html">港情色片香艳花絮 
+  男女下体安全罩曝光</A></H1></LI>
+  <LI>
+  <H1><A title=23岁女老师曝艳照请全班看 
+  href="http://www.guobianyu.com/ty/23suinvla0201.html">23岁女老师曝艳照请全班看</A></H1></LI>
+  <LI>
+  <H1><A title=实拍马诺大曝初夜 
+  href="http://www.guobianyu.com/ty/zhouxingchidianying.html">实拍马诺大曝初夜</A></H1></LI>
+  <LI>
+  <H1><A title="王李丹妮宽衣解带大秀事业线 大尺度《一路向西》备受期待" 
+  href="http://www.guobianyu.com/ty/wanglidannikua0914.html">王李丹妮宽衣解带大秀事业线 
+  大尺度《一路向西》备受期待</A></H1></LI>
+  <LI>
+  <H1><A title="苍井空卖萌 欲零片酬上深圳卫视遭拒" 
+  href="http://www.guobianyu.com/ty/cangjingko1220.html">苍井空卖萌 
+  欲零片酬上深圳卫视遭拒</A></H1></LI>
+  <LI>
+  <H1><A title=女大学生的寂寞啊 
+  href="http://www.guobianyu.com/ty/16470.html">女大学生的寂寞啊</A></H1></LI></UL></DIV><!--/Slist--></DIV><!--/Side--></DIV><!--/Box-->
 
-             <ul class="thumbnails">
-               {% for mv in dzmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
+<!--最新资讯E-->
 
-      <hr/>
+<DIV class="flink mb6">
+<UL>
+  <LI><A href="http://www.guobianyu.com/">快播</A> </LI>
+  <LI><A href="http://www.guobianyu.com/">百度影音</A> </LI>
+  <LI><A href="http://www.51rrkan.com/">人人看电影</A> </LI>
+  <LI><A href="http://www.dage.cc/">大哥电影网</A> </LI>
+  <LI><A href="http://www.mianbao.com/">面包网</A> </LI>
+  <LI><A href="http://www.tom51.com/">快播电影</A> </LI>
+  <LI><A href="http://www.repian.com/">执片网</A> </LI>
+  <LI><A href="http://www.buka.cc/">土豆网电视剧</A> </LI>
+  <LI><A href="http://www.xlpu.cc/">下载电影</A> </LI>
+  <LI><A href="http://www.haokanzhan.com/">好看电影网</A> </LI>
+  <LI><A href="http://www.7060.com/">手机电影下载</A> </LI>
+  <LI><A href="http://www.ddoo.cc/">最新电视剧</A> </LI>
+  <LI><A href="http://www.52tian.net/">动画片大全</A> </LI>
+  <LI><A href="http://www.babakk.com/">巴巴影视</A> </LI>
+  <LI><A href="http://www.77vcd.com/">最新电视剧</A> </LI>
+  <LI><A href="http://www.piaohua.com/">电影下载</A> </LI>
+  <LI><A href="http://www.xigua110.com/">2012最新电影</A> </LI>
+  <LI><A href="http://www.3dllc.com/">官术</A> </LI>
+  <LI><A href="http://www.a67.com/">手机电影</A> </LI>
+  <LI><A href="http://www.baiy.net/">最新电影</A> </LI>
+  <LI><A href="http://www.5tps.com/">评书</A> </LI>
+  <LI><A href="http://www.66721.com/">吾读小说网</A> </LI>
+  <LI><A href="http://www.5u.cc/">热播电视剧</A> </LI>
+  <LI><A href="http://www.jokeji.cn/">爆笑笑话</A> </LI>
+  <LI><A href="http://www.xingzuo360.cn/">星座查询</A> </LI>
+  <LI><A href="http://www.qq190.com/">好听的歌</A> </LI>
+  <LI><A href="http://www.100shuai.com/">wwe</A> </LI>
+  <LI><A href="http://www.nba98.com/">NBA直播</A> </LI>
+  <LI><A href="http://www.4816.com/">4816快播电影</A> </LI>
+  <LI><A href="http://dy.hao360.cn/">hao360电影</A> </LI>
+  <LI><A href="http://www.shoubow.com/">首播网</A> </LI>
+  <LI><A href="http://www.ccv5.com/">好看的韩剧</A> </LI>
+  <LI><A href="http://www.jide123.com/">斗罗大陆漫画</A> </LI>
+  <LI><A href="http://www.2kk.cc/">第一放映室</A> </LI>
+  <LI><A href="http://www.90he.com/">飘零影院</A> </LI>
+  <LI><A href="http://www.xxdm.com/">动画片大全</A> </LI>
+  <LI><A href="http://www.dushe.net/">毒蛇影院</A> </LI>
+  <LI><A href="http://www.qiqibudy.com/">2013最新电影</A> </LI>
+  <LI><A href="http://www.7273.cc/">7273影视网</A> </LI>
+  <LI><A href="http://www.4000dy.com/">四千电影网</A> </LI>
+  <LI><A href="http://www.ziyuan5.com/">电影资源网</A> </LI>
+  <LI><A href="http://www.longbuluo.com/">电影下载</A> </LI>
+  <LI><A href="http://www.7tvb.com/">7tvb电影</A> </LI>
+  <LI><A href="http://www.jlgcyy.com/">好看的小说</A> </LI>
+  <LI><A href="http://www.9ku.com/">9酷音乐网</A> </LI>
+  <LI><A href="http://www.200.cc/">快速影视</A> </LI>
+  <LI><A href="http://www.8edy.com/">八亿手机电影</A> </LI>
+  <LI><A href="http://www.juqingba.cn/">剧情介绍</A> </LI>
+  <LI><A href="http://www.vkeke.com/">可可电影</A> </LI>
+  <LI><A href="http://www.ffdff.com/">手机电影</A> </LI></UL></DIV><!--/Flink-->
+<DIV id=footer>
+<P>Copyright © 2014 <A 
+href="http://www.guobianyu.com/"><SPAN>www.guobianyu.com</SPAN></A> <A 
+href="http://www.guobianyu.com/">锅边鱼</A> <A 
+href="http://www.guobianyu.com/sitemap.html">网站地图</A> <A 
+href="http://www.guobianyu.com/rss/index.xml">RSS订阅</A></P>
+<P>本网站提供的最新电视剧和电影资源均系收集于各大视频网站，本网站只提供web页面服务，并不提供影片资源存储，也不参与录制、上传</P>
+<P>若本站收录的节目无意侵犯了贵司版权，请给网页底部邮箱地址来信，我们会及时处理和回复，谢谢</P>
+<P>锅边鱼欢迎和各大公司进行内容及模式上合作。另外，本站暂不接受任何广告，谢谢</P>
+<P>goubianyudotcom#gmail.com</P></DIV></DIV></DIV>
+<DIV style="DISPLAY: none">
 
-     <div class="row-fluid">
-            <p><a href="/xijupian.html">更多喜剧片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in xjmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in xjmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-     <div class="row-fluid">
-            <p><a href="/zhanzhengpian.html">更多战争片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in warmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in warmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-     <div class="row-fluid">
-            <p><a href="/kehuanpian.html">更多科幻片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in khmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in khmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-
-      <div class="row-fluid">
-            <p><a href="/aiqingpian.html">更多爱情片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in aqmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in aqmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-     <div class="row-fluid">
-            <p><a href="/kongbupian.html">更多恐怖片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in kbmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in kbmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-      <div class="row-fluid">
-            <p><a href="/juqingpian.html">更多剧情片>></a></p>
-            <ul class="thumbnails">
-               {% for mv in jqmvs[0:6] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-
-             <ul class="thumbnails">
-               {% for mv in jqmvs[6:12] %}
-              <li class="span2">
-                <div class="thumbnail">
-                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
-                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
-                    </a>
-                     <div class="caption">
-                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
-                  </div>
-                </div>
-             </li>
-              {% endfor %}
-            </ul>
-          </div>
-      <hr/>
-
-
-{% endblock %}
+</DIV></FONT></FONT></BODY></HTML>

@@ -94,7 +94,7 @@ class Zhuzhudm:
 
     def main_run(self):
 
-        url = "http://www.zhuzhu.cc/dh/index.html"
+        url = "http://www.zhuzhu.cc/dh/index.html.bak"
         result = self.parseListHtml(url)
         print result
         #11 18,19,25,26

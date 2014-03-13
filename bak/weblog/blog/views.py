@@ -27,7 +27,7 @@ def index(pid = 1):
 
 
 
-    return render_template('admin/index.html',cats=cats,
+    return render_template('admin/index.html.bak',cats=cats,
         pid=pid,
         pagination=pagination[:10],
         last_page = pagination[-1],

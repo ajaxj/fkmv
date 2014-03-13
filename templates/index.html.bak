@@ -1,0 +1,301 @@
+{% extends "layout.html" %}
+{% block body %}
+      <div class="masthead">
+        <h3 class="muted">3tv3</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li class="active"><a href="/">首页</a></li>
+                <li><a href="/dongzuopian.html">动作片</a></li>
+                <li><a href="/xijupian.html">喜剧片</a></li>
+                <li><a href="/aiqingpian.html">爱情片</a></li>
+                <li><a href="/kehuanpian.html">科幻片</a></li>
+                <li><a href="/kongbupian.html">恐怖片</a></li>
+                <li><a href="/zhanzhengpian.html">战争片</a></li>
+                <li><a href="/juqingpian.html">剧情片</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <!-- Jumbotron -->
+{#      <div class="jumbotron">#}
+{#        <h1>Marketing stuff!</h1>#}
+{#        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>#}
+{#        <a class="btn btn-large btn-success" href="#">Get started today</a>#}
+{#      </div>#}
+
+
+
+      <!-- Example row of columns -->
+{#      <div class="row-fluid">#}
+{#        <div class="span3">#}
+{#          <h2>Heading</h2>#}
+{#          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>#}
+{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
+{#        </div>#}
+{#        <div class="span3">#}
+{#          <h2>Heading</h2>#}
+{#          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>#}
+{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
+{#       </div>#}
+{#        <div class="span3">#}
+{#          <h2>Heading</h2>#}
+{#          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>#}
+{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
+{#        </div>#}
+{#        <div class="span3">#}
+{#          <h2>Heading</h2>#}
+{#          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>#}
+{#          <p><a class="btn" href="#">View details &raquo;</a></p>#}
+{#        </div>#}
+{#      </div>#}
+
+      <hr/>
+
+
+
+      <div class="row-fluid">
+            <p><a href="/dongzuopian.html">更多动作片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in dzmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in dzmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/dongzuopian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/dongzuopian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/xijupian.html">更多喜剧片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in xjmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in xjmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/xijupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/xijupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/zhanzhengpian.html">更多战争片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in warmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in warmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/zhanzhengpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/zhanzhengpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/kehuanpian.html">更多科幻片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in khmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in khmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kehuanpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kehuanpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+
+      <div class="row-fluid">
+            <p><a href="/aiqingpian.html">更多爱情片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in aqmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in aqmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/aiqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/aiqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+     <div class="row-fluid">
+            <p><a href="/kongbupian.html">更多恐怖片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in kbmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in kbmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/kongbupian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/kongbupian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+      <div class="row-fluid">
+            <p><a href="/juqingpian.html">更多剧情片>></a></p>
+            <ul class="thumbnails">
+               {% for mv in jqmvs[0:6] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+
+             <ul class="thumbnails">
+               {% for mv in jqmvs[6:12] %}
+              <li class="span2">
+                <div class="thumbnail">
+                    <a class="thumbnail" href="/juqingpian/{{mv.name }}.html" target="_blank">
+                       <img alt="{{ mv.title }}" title="{{ mv.title }}" style="width: 160px; height: 200px;" src="{{ mv.img }}" onerror='javascript:this.src="http://tupian.guobianyu.com:8011/pic2/wzf/2013/622.jpg"' />
+                    </a>
+                     <div class="caption">
+                    <h5><a href="/juqingpian/{{mv.name }}.html" target="_blank">{{ mv.title }}</a></h5><h7>{{ mv.banben }}</h7>
+                  </div>
+                </div>
+             </li>
+              {% endfor %}
+            </ul>
+          </div>
+      <hr/>
+
+
+{% endblock %}

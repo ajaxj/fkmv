@@ -12,7 +12,7 @@ import re
 class Suku:
     #pwd = "273511"
     pwd = ""
-    url_dongzuo = "http://www.suku.cc/film17/index.html"
+    url_dongzuo = "http://www.suku.cc/film17/index.html.bak"
 
     #读取远程地址内容
     def readUrlToHtml(self,url):

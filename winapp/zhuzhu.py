@@ -204,37 +204,37 @@ class Zhuzhu:
         for i in range(pagenum):
             if category == "dongzuopian":
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/dz/index.html"
+                    url = "http://www.zhuzhu.cc/dz/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/dz/index" + str(i+1) +".html"
             elif category == 'xijupian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/xj/index.html"
+                    url = "http://www.zhuzhu.cc/xj/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/xj/index" + str(i+1) +".html"
             elif category == 'aiqingpian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/aq/index.html"
+                    url = "http://www.zhuzhu.cc/aq/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/aq/index" + str(i+1) +".html"
             elif category == 'kehuanpian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/kh/index.html"
+                    url = "http://www.zhuzhu.cc/kh/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/kh/index" + str(i+1) +".html"
             elif category == 'kongbupian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/kb/index.html"
+                    url = "http://www.zhuzhu.cc/kb/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/kb/index" + str(i+1) +".html"
             elif category == 'zhanzhengpian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/war/index.html"
+                    url = "http://www.zhuzhu.cc/war/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/war/index" + str(i+1) +".html"
             elif category == 'juqingpian':
                 if i == 0:
-                    url = "http://www.zhuzhu.cc/jq/index.html"
+                    url = "http://www.zhuzhu.cc/jq/index.html.bak"
                 else:
                     url = "http://www.zhuzhu.cc/jq/index" + str(i+1) +".html"
 
