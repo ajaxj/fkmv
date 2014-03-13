@@ -47,6 +47,17 @@ def index():
 def detail():
     return render_template("detail.html")
 
+
+@app.route("/itemlist")
+def itemlist():
+    return render_template("itemlist.html")
+
+@app.route("/player")
+def player():
+    return render_template("player.html")
+
+
+
 # @app.route("/")
 # @app.route("/<category>.html")
 # def index(category=""):
@@ -178,12 +189,12 @@ def juqingpian(name):
     _list = dw.get_list_by_id(_mv.id)
     return render_template("detail.html.bak",mv=_mv,title = _title,ls=_list)
 
-@app.route("/player/<id>.html")
-def player(id):
-    _url = dw.get_player_by_id(id)
-    #print _url.res
-    #return _url.res
-    return render_template("player.html",res = _url.res)
+# @app.route("/player/<id>.html")
+# def player(id):
+#     _url = dw.get_player_by_id(id)
+#     #print _url.res
+#     #return _url.res
+#     return render_template("player.html.bak",res = _url.res)
 #首页
 #@app.route("/")
 #@app.route("/<category>")

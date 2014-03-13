@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title> www.3tv3.com TV山</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Meta name="keywords" Content="百度影音,百度电影,快播,快播电影,电影网,在线影视">
+    <Meta name="description" Content="(www.3tv3.com) TV山 为大家提供百度影音在线观看,快播电影下载,发布最新电视剧,好看的百度影音电视剧为宗旨的在线影院-是电影迷的网上电影天堂">
+    <meta name="baidu-site-verification" content="Z2zMLQqUey" />
+    <meta name="author" content="ww.3tv3.com">
+  </head>
+ <body>
+
+
+<script language="javascript">
+//var v =unescape('%u767E%u5EA6%u5F71%u97F3%24%24DVD%u56FD%u8BED%u7248%24bdhd%3A//358274111%7C2061AED1951CEF8ACD495E9E818846AE%7C%5B%u9E92%u9E9F%u638C%5D.1973.DVD%u56FD%u8BED%u4E2D%u5B57.rmvb%24bdhd')
+var v = unescape('{{ res }}')
+var v1 = v.split('$')[3];
+
+var BdPlayer = new Array();
+BdPlayer['time'] = 8;//缓冲广告展示时间(如果设为0,则根据缓冲进度自动控制广告展示时间)
+BdPlayer['buffer'] = 'http://player.baidu.com/lib/show.html?buffer';//贴片广告网页地址
+BdPlayer['pause'] = 'http://player.baidu.com/lib/show.html?pause';//暂停广告网页地址
+BdPlayer['end'] = 'http://player.baidu.com/lib/show.html?end';//影片播放完成后加载的广告
+BdPlayer['tn'] = '12345678';//播放器下载地址渠道号
+BdPlayer['width'] = 800;//播放器宽度(只能为数字)
+BdPlayer['height'] = 550;//播放器高度(只能为数字)
+BdPlayer['showclient'] = 1;//是否显示拉起拖盘按钮(1为显示 0为隐藏)
+BdPlayer['url'] = v1;//当前播放任务播放地址
+{#BdPlayer['nextcacheurl'] = 'bdhd://258153089|948E0EB38A2DFA1AF7D1B488E86AFFDD|还珠格格之燕儿翩翩飞02.HDTV.rmvb';//下一集播放地址(没有请留空)#}
+{#BdPlayer['lastwebpage'] = 'http://player.baidu.com/lib/eg.html?1';//上一集网页地址(没有请留空)#}
+{#BdPlayer['nextwebpage'] = 'http://player.baidu.com/lib/eg.html?2';//下一集网页地址(没有请留空)#}
+</script>
+<script language="javascript" src="http://php.player.baidu.com/bdplayer/player.js" charset="utf-8"></script>
+
+</body></html>

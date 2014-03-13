@@ -1,0 +1,1 @@
+var VideoInfoList=unescape('qvod%24%24BD1280%u9AD8%u6E05%24qvod%3A//1104946677%7C2F0C814A5BEB38470E543F845EBACD31431AE710%7C%u8D85%u65F6%u7A7A%u5BA0%u7231BD1280%u9AD8%u6E05%u4E2D%u82F1%u53CC%u5B57%5Bwww.guobianyu.com%5D.rmvb%7C%24qvod'); var urlinfo='http://'+document.domain+'/jq/chaoshikongchongai-<from>-<pos>.html'
