@@ -1,110 +1,96 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+  <head>
     <meta charset="utf-8">
-    <title></title>
-     <link href="{{ url_for('static',filename='css/bootstrap.css') }}" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='ico/favicon.ico')}}">
+    <title> 后台管理</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static',filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
-      @media (max-width: 980px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
-        }
-      }
-    </style>
-    <link href="{{ url_for('static',filename='css/bootstrap-responsive.css') }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static',filename='admin/css/dashboard.css')}}" rel="stylesheet">
 
-</head>
-<body>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="{{ url_for('static',filename='lib/ie8-responsive-file-warning.js')}}"></script><![endif]-->
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{ url_for('static',filename='lib/html5shiv.js')}}"></script>
+      <script src="{{ url_for('static',filename='lib/respond.min.js')}}"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Project name</a>
-          <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              <a href="{{ url_for('admin.logout') }}">退出</a> | Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="#">后台管理</a>
+
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">你好!# | 退出登录</a></li>
+          	<li><a href="#">网站首页</a></li>
+			<li><a href="#">系统</a></li>
+			<li><a href="#">内容</a></li>
+			<li><a href="#">用户</a></li>
+			<li><a href="#">添加用户</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
         </div>
       </div>
     </div>
 
+
+
     <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span2">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-               <li class="nav-header">Movie</li>
-              <li class="active"><a href="{{ url_for('admin.movielist',catename='dongzuopian') }}">MovieList</a></li>
-              <li class="nav-header">Qvod</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="/admin/qvodzimv">Qvodzi Movies</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">hakyzy</li>
-              <li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian')}}">等待抓取</a></li>
-                <li><a href="{{ url_for('admin.hakuzyfetchlist',catename='dongzuopian')}}">已经抓取</a></li>
-              <li><a href="/admin/categories">分类</a></li>
-              <li><a href="{{ url_for('admin.hakuzyall')}}">HakuzyAll</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        <div class="span10">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian') }}">Hakuzy</a></li>
+            <li><a href="{{ url_for('admin.guobianyulist',catename='dongzuopian') }}">Guobianyu</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#">分类列表</a></li>
+            <li><a href="#">添加分类</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#">用户列表</a></li>
+            <li><a href="#">添加用户</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
 
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        	 {% block body %}{% endblock %}
+        </div>
 
-             {% block body %}{% endblock %}
+      </div>
+    </div>
 
-
-
-        </div><!--/span-->
-      </div><!--/row-->
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
-
-    </div><!--/.fluid-container-->
-
-
-
-
-
-
-    <!-- js -->
-    <script type="text/javascript" src="{{ url_for('static',filename='js/jquery-1.9.1.min.js')}}"></script>
-    <script type="text/javascript" src="{{ url_for('static',filename='js/bootstrap.js')}}"></script>
-
-
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ url_for('static',filename='lib/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='admin/js/docs.min.js')}}"></script>
+  </body>
 </html>

@@ -211,10 +211,10 @@ def hakuzysearch():
 #         # 支付模糊查询
 #         _title =  request.form['title']
 #         _hakuzylist = Hakuzy.query.filter(Hakuzy.title.like('%'+_title+'%')).all()
-#         return render_template('admin/hakuzylist.html',hakuzylist = _hakuzylist)
+#         return render_template('admin/hakuzylist.html.bak',hakuzylist = _hakuzylist)
 #     else:
 #         _hakuzylist  = Hakuzy.query.limit(10).all()
-#         return render_template('admin/hakuzylist.html',hakuzylist=_hakuzylist)
+#         return render_template('admin/hakuzylist.html.bak',hakuzylist=_hakuzylist)
 
 
 

@@ -18,52 +18,69 @@ def index():
     else:
         return render_template('admin/login.html')
 
-@admin.route('/movielist/<string:catename>')
-def movielist(catename='dongzuopian'):
-    movielist = dw.get_movielist_by_catename(catename)
-    return render_template('admin/movielist.html',movielist=movielist)
+# @admin.route('/movielist/<string:catename>')
+# def movielist(catename='dongzuopian'):
+#     movielist = dw.get_movielist_by_catename(catename)
+#     return render_template('admin/movielist.html',movielist=movielist)
 
 
-@admin.route('/guestbook')
-def guestbook():
-    if 'logined' in session:
-        return render_template('admin/guestbook.html')
-    else:
-        return render_template('admin/login.html')
+# @admin.route('/guestbook')
+# def guestbook():
+#     if 'logined' in session:
+#         return render_template('admin/guestbook.html')
+#     else:
+#         return render_template('admin/login.html')
 
 #删除
-@admin.route('/delgbook')
-def delgbook():
-    if 'logined' in session:
-        return "pass"
-    else:
-        return render_template('admin/login.html')
+# @admin.route('/delgbook')
+# def delgbook():
+#     if 'logined' in session:
+#         return "pass"
+#     else:
+#         return render_template('admin/login.html')
 
 #回复
-@admin.route('/replygbook')
-def replygbook():
-    if 'logined' in session:
-        return 'pass'
-    else:
-        return render_template('admin/login.html')
+# @admin.route('/replygbook')
+# def replygbook():
+#     if 'logined' in session:
+#         return 'pass'
+#     else:
+#         return render_template('admin/login.html')
 
 
 
 #hakuzy全列表
 
 
-#通过分类名取得没有抓取的10条
+#通过分类名hakuzy取得的10条
 @admin.route('/hakuzylist/<string:catename>')
 def hakuzylist(catename='dongzuopian'):
-    hakuzylist = dw.get_hakuzy_urllist_by_catename(catename)
+    hakuzylist = dw.get_hakuzy_urllist_by_catename(catename,10)
     return render_template("admin/hakuzylist.html",hakuzylist=hakuzylist)
+
+#通过分类名取得guobianyu的10条
+@admin.route('/guobianyulist/<string:catename>')
+def guobianyulist(catename='dongzuopian'):
+    guobianyulist = dw.get_guobianyu_urllist_by_catename(catename,10)
+    return render_template("admin/guobianyulist.html",guobianyulist=guobianyulist)
+
+
+#编辑
+@admin.route("/guobianyuedit/")
+def guobianyuedit():
+    _id = request.args.get("id",'0')
+    guobianyu = dw.get_guobianyu_by_id(_id)
+    return render_template("admin/guobianyuedit.html",guobianyu=guobianyu)
+
+
+
 
 #抓取并更新数据库
 @admin.route('/hakuzyurlfetch/')
 def hakuzyurlfetch():
     _id = request.args.get('id','')
     hakuzy = dw.get_hakuzy_by_id(_id)
-    url =  hakuzy.url
+    url = "http://www.hakuzy.com" +  hakuzy.url
     try:
         res = urllib2.urlopen(url,timeout=50)
         s = res.read()
@@ -91,9 +108,9 @@ def hakuzyurlfetch():
         hakuzy.lang = _lang
         hakuzy.location = _location
         hakuzy.state = _status
-        hakuzy.year = _year
+        hakuzy.pubyear = _year
         hakuzy.content = _content
-        hakuzy.lists = _lists
+        hakuzy.list = _lists
         hakuzy.status = 1   #抓取成功了
         hakuzy.img = _img
         dw.update_hakuzy(hakuzy)

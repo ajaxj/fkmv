@@ -1,0 +1,30 @@
+{% extends "admin/layout.html" %}
+{% block body %}
+<ul class="breadcrumb">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">Guobianyu</a></li>
+    <li class="active">等待抓取列表</li>
+</ul>
+<h4 class="sub-header">Section title</h4>
+<div class="table-responsive">
+<table class="table table-striped">
+<thead>
+<tr>
+<th>编号</th><th>分类名称</th><th>标题</th><th>URL</th><th>状态</th><th>管理</th>
+</tr>
+</thead>
+<tbody>
+ {% for guobianyu in guobianyulist %}
+    <tr>
+        <td>{{ guobianyu.id }}</td>
+         <td>{{ guobianyu.catecn }}</td>
+        <td>{{ guobianyu.title }}</td>
+         <td>{{ guobianyu.url }}</td>
+         <td>{{ guobianyu.status }}</td>
+         <td><a href="{{ url_for('admin.guobianyuedit',id=guobianyu.id)}}">edit</a></td>
+    </tr>
+    {% endfor %}
+</tbody>
+</table>
+</div>
+{%  endblock %}
