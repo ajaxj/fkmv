@@ -58,28 +58,27 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-1 col-md-1 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview</a></li>
-            <li><a href="{{ url_for('admin.hakuzylist',catename='dongzuopian') }}">Hakuzy</a></li>
-            <li><a href="{{ url_for('admin.guobianyulist',catename='dongzuopian') }}">Guobianyu</a></li>
+            <li><a href="{{ url_for('admin.hakuzylist',cateen='dongzuopian') }}">Hakuzy</a></li>
+            <li><a href="{{ url_for('admin.guobianyulist') }}">最新抓取</a></li>
+              <li><a href="{{ url_for('admin.guobianyulist1') }}">已经解析</a></li>
             <li><a href="#">Export</a></li>
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="#">分类列表</a></li>
             <li><a href="#">添加分类</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
+
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="#">用户列表</a></li>
             <li><a href="#">添加用户</a></li>
-            <li><a href="">Another nav item</a></li>
+
           </ul>
         </div>
 
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-11 col-sm-offset-1 col-md-11 col-md-offset-1 main">
         	 {% block body %}{% endblock %}
         </div>
 

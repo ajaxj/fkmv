@@ -40,8 +40,9 @@ CREATE TABLE  `3tv3`.`guobianyu_mv` (
   `status` tinyint(3) unsigned DEFAULT '0' COMMENT '状态0初始1抓取补全2修正',
   `img` varchar(255) DEFAULT NULL COMMENT '图片地址',
   `pubyear` varchar(45) DEFAULT NULL COMMENT '出品年',
+  `dc` varchar(100) DEFAULT NULL COMMENT '导演',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=169 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='guobianyu.com';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='guobianyu.com';
 
 DROP TABLE IF EXISTS `3tv3`.`suku_page`;
 CREATE TABLE  `3tv3`.`suku_page` (

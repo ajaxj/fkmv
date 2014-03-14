@@ -2,6 +2,7 @@
 import urllib2
 from BeautifulSoup import BeautifulSoup
 from flask import Blueprint, render_template, request, redirect, session, url_for
+from flask.ext.paginate import Pagination
 from forms.account import LoginForm
 from models.data_wrapper import DataWrapper
 from models.model import Movie
@@ -14,7 +15,7 @@ admin = Blueprint('admin',__name__,template_folder='templates')
 @admin.route('/')
 def index():
     if 'logined' in session:
-        return render_template('admin/index.html.bak')
+        return render_template('admin/index.html')
     else:
         return render_template('admin/login.html')
 
@@ -53,16 +54,66 @@ def index():
 
 
 #通过分类名hakuzy取得的10条
-@admin.route('/hakuzylist/<string:catename>')
-def hakuzylist(catename='dongzuopian'):
-    hakuzylist = dw.get_hakuzy_urllist_by_catename(catename,10)
+@admin.route('/hakuzylist/<string:cateen>')
+def hakuzylist(cateen='dongzuopian'):
+    hakuzylist = dw.get_hakuzy_urllist_by_cateen(cateen,10)
     return render_template("admin/hakuzylist.html",hakuzylist=hakuzylist)
 
-#通过分类名取得guobianyu的10条
-@admin.route('/guobianyulist/<string:catename>')
-def guobianyulist(catename='dongzuopian'):
-    guobianyulist = dw.get_guobianyu_urllist_by_catename(catename,10)
-    return render_template("admin/guobianyulist.html",guobianyulist=guobianyulist)
+# #通过分类名取得guobianyu的10条
+# @admin.route('/guobianyulist/<string:cateen>')
+# def guobianyulist(cateen='dongzuopian'):
+#     guobianyulist = dw.get_guobianyu_urllist_by_cateen(cateen,10)
+#     return render_template("admin/guobianyulist.html",guobianyulist=guobianyulist)
+
+#调用所有的片子
+@admin.route('/guobianyulist')
+@admin.route('/guobianyulist/<string:cateen>')
+def guobianyulist(cateen=''):
+    pagesize = 10
+    page = int(request.args.get('page',0)) #获取当前页面页数
+    _guobianyulist ,_count = dw.get_guobianyu_by_cateen_page(cateen,page, pagesize)
+    pagination = Pagination(css_framework='bootstrap3',total=_count,prev_label=u"上一页",next_label=u"下一页",inner_window=8,per_page=pagesize, page=page)
+    return render_template('admin/guobianyulist.html',guobianyulist = _guobianyulist,pagination=pagination)
+
+
+#已经解析完成的 status=1的
+@admin.route('/guobianyulist1')
+@admin.route('/guobianyulist1/<string:cateen>')
+def guobianyulist1(cateen=''):
+    pagesize = 10
+    page = int(request.args.get('page',0)) #获取当前页面页数
+    _guobianyulist ,_count = dw.get_guobianyu_by_cateen_page1(cateen,page, pagesize)
+    pagination = Pagination(css_framework='bootstrap3',total=_count,prev_label=u"上一页",next_label=u"下一页",inner_window=8,per_page=pagesize, page=page)
+    return render_template('admin/guobianyulist1.html',guobianyulist = _guobianyulist,pagination=pagination)
+
+
+
+
+# def guobianyulist():
+#     pagesize = 10
+#     page = int(request.args.get("page",0))  #获取当前页号如果没有为0
+#     _guobianyulist,_count = dw.get_gu
+
+# # 所有分类和分页
+# @admin.route('/categories')
+# @admin.route('/categories/page/<int:pageid>')
+# def categories(pageid = 1):
+#     per_page = 10       #每页十个
+#
+#     p = dw.get_category_by_page(pageid,per_page)
+#     _categories = p.items
+#     if not p.total:
+#         pagination = [0]
+#     elif p.total % per_page:
+#         pagination = range(1,p.total/per_page + 2)
+#     else:
+#         pagination = range(1,p.total/per_page + 1)
+#     return render_template('admin/categories.html',
+#                            categories = _categories,
+#                            pageid = pageid,
+#                            pagination=pagination[:10],
+#                            last_page = pagination[-1],
+#                            nav_current="index")
 
 
 #编辑
@@ -286,26 +337,6 @@ def qvodzimv():
 
 
 
-# 所有分类和分页
-@admin.route('/categories')
-@admin.route('/categories/page/<int:pageid>')
-def categories(pageid = 1):
-    per_page = 10       #每页十个
-
-    p = dw.get_category_by_page(pageid,per_page)
-    _categories = p.items
-    if not p.total:
-        pagination = [0]
-    elif p.total % per_page:
-        pagination = range(1,p.total/per_page + 2)
-    else:
-        pagination = range(1,p.total/per_page + 1)
-    return render_template('admin/categories.html',
-                           categories = _categories,
-                           pageid = pageid,
-                           pagination=pagination[:10],
-                           last_page = pagination[-1],
-                           nav_current="index")
 
 
 def movies(pageid = 1):
