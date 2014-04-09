@@ -65,7 +65,7 @@ def hakuzylist(cateen='dongzuopian'):
 #     guobianyulist = dw.get_guobianyu_urllist_by_cateen(cateen,10)
 #     return render_template("admin/guobianyulist.html",guobianyulist=guobianyulist)
 
-#调用所有的片子
+#调用锅边鱼最新抓取的所有的片子
 @admin.route('/guobianyulist')
 @admin.route('/guobianyulist/<string:cateen>')
 def guobianyulist(cateen=''):

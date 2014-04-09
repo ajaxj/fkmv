@@ -1,5 +1,8 @@
 # -*- coding:utf-8 -*-
 
+
+#用到的models
+
 from flask.ext.sqlalchemy import SQLAlchemy
 from myapp import app
 

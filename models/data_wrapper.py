@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 from model import Movie,MovieList,Hahuzy_mv,Guobianyu_mv,db
 
+
+# 包装了一个类。用于处理 model
+
 class DataWrapper(object):
 
     #取出hakuzy 一种类型下的一定数量的mv

@@ -6,3 +6,17 @@ Flask 官网
 http://flask.pocoo.org/
 
 http://www.bootcss.com/
+
+
+用到插件
+http://flask.pocoo.org/extensions/
+
+flask.ext.wtf 
+https://pypi.python.org/pypi/Flask-WTF
+
+
+from flask.ext.paginate import Pagination
+http://pythonhosted.org/Flask-paginate/
+
+
+
