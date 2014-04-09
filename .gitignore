@@ -2,3 +2,7 @@
 *.log
 .idea/*
 static/image/3tv3/qvod/
+win.sublime-project
+win.sublime-workspace
+ub.sublime-project
+ub.sublime-workspace
